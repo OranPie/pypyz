@@ -1,0 +1,9 @@
+{
+  "id": "snow_pea",
+  "name": "Snow Pea Projectile",
+  "speed": 3.8,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 160,
+  "status_effects": ["pvz.base:status_effects:chilled"]
+}

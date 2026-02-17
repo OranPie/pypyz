@@ -1,0 +1,8 @@
+{
+  "id": "day_survival_easy",
+  "name": "Survival: Day (Easy)",
+  "stage": "day",
+  "rounds": 5,
+  "level_ref": "pvz.base:levels:day_1",
+  "modifiers": ["shuffle_lanes"]
+}

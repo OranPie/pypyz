@@ -1,0 +1,12 @@
+{
+  "id": "default",
+  "currency": "coins",
+  "start_amount": 0,
+  "max_amount": 999999,
+  "income_sources": [
+    {"source": "zombie_kill", "value": 1},
+    {"source": "level_clear", "value": 250},
+    {"source": "achievement_complete", "value": 300},
+    {"source": "minigame_clear", "value": 200}
+  ]
+}

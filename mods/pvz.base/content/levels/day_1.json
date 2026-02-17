@@ -3,9 +3,12 @@
   "name": "Day 1",
   "lawns": 5,
   "sun_start": 150,
+  "mode": "adventure",
+  "fog": false,
   "waves": [
     {"tick": 3, "zombie_id": "pvz.base:zombies:basic", "count": 1, "lane": 2},
     {"tick": 8, "zombie_id": "pvz.base:zombies:basic", "count": 2, "lane": 1},
     {"tick": 13, "zombie_id": "pvz.base:zombies:conehead", "count": 1, "lane": 3}
-  ]
+  ],
+  "unlock_rules": ["pvz.base:unlock_rules:unlock_wallnut"]
 }

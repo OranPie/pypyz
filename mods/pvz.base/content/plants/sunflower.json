@@ -5,5 +5,7 @@
   "cooldown": 7.5,
   "max_hp": 300,
   "damage": 0,
-  "tags": ["economy"]
+  "family": "economy",
+  "tags": ["economy"],
+  "abilities": ["sun_producer"]
 }

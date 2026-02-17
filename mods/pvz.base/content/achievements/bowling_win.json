@@ -1,0 +1,11 @@
+{
+  "id": "bowling_win",
+  "title": "Rolling Thunder",
+  "description": "Win Wall-nut Bowling once.",
+  "conditions": [
+    {"metric": "minigame_wins", "mode": "wallnut_bowling", "count": 1}
+  ],
+  "reward": {
+    "coins": 500
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "main_menu",
+  "title": "Main Menu",
+  "layout": "vertical_stack",
+  "widgets": [
+    {"id": "play_btn", "kind": "button", "bind": "action.start_adventure"},
+    {"id": "almanac_btn", "kind": "button", "bind": "action.open_almanac"}
+  ]
+}

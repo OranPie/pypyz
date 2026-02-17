@@ -1,0 +1,8 @@
+{
+  "id": "unlock_night_survival",
+  "kind": "mode",
+  "target_id": "pvz.base:survival_levels:night_survival_easy",
+  "conditions": [
+    {"metric": "levels_completed", "operator": ">=", "value": "3"}
+  ]
+}

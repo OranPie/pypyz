@@ -1,0 +1,11 @@
+{
+  "id": "buckethead",
+  "name": "Buckethead Zombie",
+  "speed": 0.2,
+  "max_hp": 1200,
+  "damage": 100,
+  "reward": 75,
+  "tier": "elite",
+  "abilities": ["heavy_armor"],
+  "resists": ["knockback"]
+}

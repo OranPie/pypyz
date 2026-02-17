@@ -1,0 +1,12 @@
+{
+  "id": "snow_pea",
+  "name": "Snow Pea",
+  "cost": 175,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 20,
+  "family": "shooter",
+  "tags": ["offense", "control"],
+  "abilities": ["single_target", "apply_chilled"],
+  "projectile_id": "pvz.base:projectiles:snow_pea"
+}

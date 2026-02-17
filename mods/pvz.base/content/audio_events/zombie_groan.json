@@ -1,0 +1,8 @@
+{
+  "id": "zombie_groan",
+  "event": "combat.zombie_spawn",
+  "bus": "sfx",
+  "asset": "assets/audio/zombie_groan.ogg",
+  "volume": 0.9,
+  "tags": ["combat", "zombie"]
+}

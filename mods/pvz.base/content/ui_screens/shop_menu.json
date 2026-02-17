@@ -1,0 +1,9 @@
+{
+  "id": "shop_menu",
+  "title": "Crazy Dave's Shop",
+  "layout": "shop_grid",
+  "widgets": [
+    {"id": "item_grid", "kind": "grid", "bind": "shop.items"},
+    {"id": "buy_btn", "kind": "button", "bind": "action.shop_buy"}
+  ]
+}

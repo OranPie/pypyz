@@ -4,5 +4,7 @@
   "speed": 0.21,
   "max_hp": 640,
   "damage": 100,
-  "reward": 40
+  "reward": 40,
+  "tier": "elite",
+  "abilities": ["extra_armor"]
 }

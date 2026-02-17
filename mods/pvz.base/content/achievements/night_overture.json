@@ -1,0 +1,11 @@
+{
+  "id": "night_overture",
+  "title": "Night Overture",
+  "description": "Clear Night 1 for the first time.",
+  "conditions": [
+    {"metric": "levels_cleared", "mode": "night", "count": 1}
+  ],
+  "reward": {
+    "coins": 800
+  }
+}

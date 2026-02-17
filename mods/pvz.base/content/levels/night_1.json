@@ -1,0 +1,14 @@
+{
+  "id": "night_1",
+  "name": "Night 1",
+  "lawns": 5,
+  "sun_start": 50,
+  "mode": "adventure_night",
+  "fog": false,
+  "waves": [
+    {"tick": 5, "zombie_id": "pvz.base:zombies:basic", "count": 2, "lane": 2},
+    {"tick": 11, "zombie_id": "pvz.base:zombies:conehead", "count": 2, "lane": 3},
+    {"tick": 17, "zombie_id": "pvz.base:zombies:buckethead", "count": 1, "lane": 4}
+  ],
+  "unlock_rules": ["pvz.base:unlock_rules:unlock_night_survival"]
+}

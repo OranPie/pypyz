@@ -1,0 +1,10 @@
+{
+  "id": "chilled",
+  "name": "Chilled",
+  "duration_ticks": 120,
+  "stack_limit": 1,
+  "kind": "slow",
+  "modifiers": {
+    "speed_multiplier": 0.5
+  }
+}

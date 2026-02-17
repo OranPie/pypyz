@@ -1,0 +1,8 @@
+{
+  "id": "unlock_snow_pea",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:snow_pea",
+  "conditions": [
+    {"metric": "levels_completed", "operator": ">=", "value": "2"}
+  ]
+}

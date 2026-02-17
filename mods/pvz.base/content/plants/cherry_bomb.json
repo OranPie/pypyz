@@ -1,0 +1,11 @@
+{
+  "id": "cherry_bomb",
+  "name": "Cherry Bomb",
+  "cost": 150,
+  "cooldown": 50,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "explosive",
+  "tags": ["offense", "instant"],
+  "abilities": ["area_burst"]
+}

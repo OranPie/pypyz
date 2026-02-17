@@ -1,0 +1,15 @@
+{
+  "id": "day_2",
+  "name": "Day 2",
+  "lawns": 5,
+  "sun_start": 100,
+  "mode": "adventure",
+  "fog": false,
+  "waves": [
+    {"tick": 4, "zombie_id": "pvz.base:zombies:basic", "count": 2, "lane": 1},
+    {"tick": 9, "zombie_id": "pvz.base:zombies:conehead", "count": 1, "lane": 3},
+    {"tick": 14, "zombie_id": "pvz.base:zombies:basic", "count": 2, "lane": 4},
+    {"tick": 19, "zombie_id": "pvz.base:zombies:buckethead", "count": 1, "lane": 2}
+  ],
+  "unlock_rules": ["pvz.base:unlock_rules:unlock_snow_pea"]
+}

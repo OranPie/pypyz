@@ -1,0 +1,9 @@
+{
+  "id": "wallnut_bowling",
+  "name": "Wall-nut Bowling",
+  "ruleset": "bowling",
+  "starting_loadout": ["pvz.base:plants:wallnut"],
+  "seed": 1001,
+  "difficulty": "normal",
+  "rewards": ["pvz.base:achievements:bowling_win"]
+}

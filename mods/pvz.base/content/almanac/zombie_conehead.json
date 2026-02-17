@@ -1,0 +1,7 @@
+{
+  "id": "zombie_conehead",
+  "title": "Conehead Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:conehead",
+  "description": "Wears a traffic cone for extra protection."
+}

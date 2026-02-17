@@ -4,5 +4,7 @@
   "speed": 0.23,
   "max_hp": 270,
   "damage": 100,
-  "reward": 25
+  "reward": 25,
+  "tier": "common",
+  "abilities": []
 }

@@ -1,5 +1,20 @@
 {
   "game.title": "PvZ Mod Engine",
   "menu.start": "Start Adventure",
-  "menu.almanac": "Almanac"
+  "menu.almanac": "Almanac",
+  "menu.shop": "Crazy Dave's Shop",
+  "menu.mini_games": "Mini-games",
+  "menu.puzzle": "Puzzle",
+  "menu.survival": "Survival",
+  "plant.peashooter": "Peashooter",
+  "plant.sunflower": "Sunflower",
+  "plant.wallnut": "Wall-nut",
+  "plant.snow_pea": "Snow Pea",
+  "plant.cherry_bomb": "Cherry Bomb",
+  "zombie.basic": "Regular Zombie",
+  "zombie.conehead": "Conehead Zombie",
+  "zombie.buckethead": "Buckethead Zombie",
+  "level.day_1": "Day 1",
+  "level.day_2": "Day 2",
+  "level.night_1": "Night 1"
 }

@@ -1,0 +1,6 @@
+{
+  "id": "fertilizer",
+  "name": "Fertilizer",
+  "price": 75,
+  "grants": "zen_growth_boost"
+}

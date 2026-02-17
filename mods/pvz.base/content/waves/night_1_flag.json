@@ -1,0 +1,8 @@
+{
+  "id": "night_1_flag",
+  "tick": 24,
+  "entries": [
+    {"zombie_id": "pvz.base:zombies:conehead", "count": 3, "lane": 2},
+    {"zombie_id": "pvz.base:zombies:buckethead", "count": 2, "lane": 3}
+  ]
+}

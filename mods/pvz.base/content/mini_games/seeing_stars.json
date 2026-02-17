@@ -1,0 +1,13 @@
+{
+  "id": "seeing_stars",
+  "name": "Seeing Stars",
+  "ruleset": "pattern_fill",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 2024,
+  "difficulty": "normal",
+  "rewards": ["pvz.base:achievements:night_overture"]
+}
