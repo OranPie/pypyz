@@ -5,5 +5,7 @@
   "damage": 20,
   "pierce": 0,
   "lifetime_ticks": 160,
-  "status_effects": ["pvz.base:status_effects:chilled"]
+  "status_effects": [
+    "pvz.base:status_effects:chilled"
+  ]
 }

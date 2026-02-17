@@ -1,0 +1,7 @@
+{
+  "id": "plant_spikeweed",
+  "title": "Spikeweed",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:spikeweed",
+  "description": "Spikeweed entry from base content."
+}

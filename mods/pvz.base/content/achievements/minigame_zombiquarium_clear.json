@@ -1,0 +1,15 @@
+{
+  "id": "minigame_zombiquarium_clear",
+  "title": "Zombiquarium Clear",
+  "description": "Clear mini-game: Zombiquarium.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "zombiquarium",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 470
+  }
+}

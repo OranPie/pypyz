@@ -1,0 +1,16 @@
+{
+  "id": "garlic",
+  "name": "Garlic",
+  "cost": 50,
+  "cooldown": 7.5,
+  "max_hp": 400,
+  "damage": 0,
+  "family": "utility",
+  "tags": [
+    "control",
+    "lane"
+  ],
+  "abilities": [
+    "redirect_zombies"
+  ]
+}

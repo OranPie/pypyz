@@ -1,0 +1,7 @@
+{
+  "id": "plant_lily_pad",
+  "title": "Lily Pad",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:lily_pad",
+  "description": "Lily Pad entry from base content."
+}

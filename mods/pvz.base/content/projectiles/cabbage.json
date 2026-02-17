@@ -1,0 +1,9 @@
+{
+  "id": "cabbage",
+  "name": "Cabbage",
+  "speed": 3.0,
+  "damage": 40,
+  "pierce": 0,
+  "lifetime_ticks": 140,
+  "status_effects": []
+}

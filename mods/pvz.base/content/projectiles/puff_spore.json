@@ -1,0 +1,9 @@
+{
+  "id": "puff_spore",
+  "name": "Puff Spore",
+  "speed": 2.2,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 65,
+  "status_effects": []
+}

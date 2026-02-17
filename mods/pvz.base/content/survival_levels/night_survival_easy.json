@@ -3,6 +3,8 @@
   "name": "Survival: Night (Easy)",
   "stage": "night",
   "rounds": 5,
-  "level_ref": "pvz.base:levels:night_1",
-  "modifiers": ["graveyard_spawn"]
+  "level_ref": "pvz.base:levels:night_3",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
 }

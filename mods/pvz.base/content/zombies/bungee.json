@@ -1,0 +1,12 @@
+{
+  "id": "bungee",
+  "name": "Bungee Zombie",
+  "speed": 0.0,
+  "max_hp": 400,
+  "damage": 100,
+  "reward": 80,
+  "tier": "special",
+  "abilities": [
+    "steal_plant"
+  ]
+}

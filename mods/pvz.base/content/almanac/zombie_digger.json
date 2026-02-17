@@ -1,0 +1,7 @@
+{
+  "id": "zombie_digger",
+  "title": "Digger Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:digger",
+  "description": "Digger Zombie entry from base content."
+}

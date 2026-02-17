@@ -1,0 +1,17 @@
+{
+  "id": "vasebreaker_2",
+  "name": "Vasebreaker 2",
+  "puzzle_type": "vasebreaker",
+  "slots": 10,
+  "target": "clear_all_vases",
+  "layout": [
+    {
+      "lane": 3,
+      "contains": "pvz.base:plants:peashooter"
+    },
+    {
+      "lane": 4,
+      "contains": "pvz.base:zombies:conehead"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "zombie_dolphin_rider",
+  "title": "Dolphin Rider Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:dolphin_rider",
+  "description": "Dolphin Rider Zombie entry from base content."
+}

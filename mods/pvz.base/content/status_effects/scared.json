@@ -1,0 +1,10 @@
+{
+  "id": "scared",
+  "name": "Scared",
+  "duration_ticks": 80,
+  "stack_limit": 1,
+  "kind": "retreat",
+  "modifiers": {
+    "move_direction": -1
+  }
+}

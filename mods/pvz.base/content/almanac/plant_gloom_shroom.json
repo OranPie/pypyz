@@ -1,0 +1,7 @@
+{
+  "id": "plant_gloom_shroom",
+  "title": "Gloom-shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:gloom_shroom",
+  "description": "Gloom-shroom entry from base content."
+}

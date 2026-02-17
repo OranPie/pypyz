@@ -1,0 +1,17 @@
+{
+  "id": "gatling_pea",
+  "name": "Gatling Pea",
+  "cost": 250,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 80,
+  "family": "shooter",
+  "tags": [
+    "offense",
+    "upgrade"
+  ],
+  "abilities": [
+    "quad_shot"
+  ],
+  "projectile_id": "pvz.base:projectiles:gatling_pea"
+}

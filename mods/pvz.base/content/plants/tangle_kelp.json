@@ -1,0 +1,16 @@
+{
+  "id": "tangle_kelp",
+  "name": "Tangle Kelp",
+  "cost": 25,
+  "cooldown": 30.0,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "pool",
+  "tags": [
+    "pool",
+    "instant"
+  ],
+  "abilities": [
+    "drag_underwater"
+  ]
+}

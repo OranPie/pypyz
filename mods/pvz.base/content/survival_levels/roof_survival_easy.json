@@ -1,0 +1,10 @@
+{
+  "id": "roof_survival_easy",
+  "name": "Survival: Roof (Easy)",
+  "stage": "roof",
+  "rounds": 5,
+  "level_ref": "pvz.base:levels:roof_3",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "unlock_fog_8",
+  "kind": "level",
+  "target_id": "pvz.base:levels:fog_8",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "37"
+    }
+  ]
+}

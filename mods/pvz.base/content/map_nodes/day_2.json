@@ -3,6 +3,8 @@
   "name": "Day 2",
   "kind": "adventure",
   "level_ref": "pvz.base:levels:day_2",
-  "next": ["pvz.base:map_nodes:night_1"],
+  "next": [
+    "pvz.base:map_nodes:day_3"
+  ],
   "unlock_rule_id": "pvz.base:unlock_rules:unlock_day_2"
 }

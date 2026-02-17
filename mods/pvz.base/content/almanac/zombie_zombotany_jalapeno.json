@@ -1,0 +1,7 @@
+{
+  "id": "zombie_zombotany_jalapeno",
+  "title": "ZomBotany Jalapeno Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:zombotany_jalapeno",
+  "description": "ZomBotany Jalapeno Zombie entry from base content."
+}

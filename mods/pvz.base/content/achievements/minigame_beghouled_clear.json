@@ -1,0 +1,15 @@
+{
+  "id": "minigame_beghouled_clear",
+  "title": "Beghouled Clear",
+  "description": "Clear mini-game: Beghouled.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "beghouled",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 440
+  }
+}

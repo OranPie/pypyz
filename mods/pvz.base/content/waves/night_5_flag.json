@@ -1,0 +1,16 @@
+{
+  "id": "night_5_flag",
+  "tick": 32,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 3,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 4
+    }
+  ]
+}

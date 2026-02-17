@@ -1,0 +1,7 @@
+{
+  "id": "plant_marigold",
+  "title": "Marigold",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:marigold",
+  "description": "Marigold entry from base content."
+}

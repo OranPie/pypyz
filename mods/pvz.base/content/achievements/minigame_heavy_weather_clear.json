@@ -1,0 +1,15 @@
+{
+  "id": "minigame_heavy_weather_clear",
+  "title": "Heavy Weather Clear",
+  "description": "Clear mini-game: Heavy Weather.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "heavy_weather",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 650
+  }
+}

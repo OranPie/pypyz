@@ -1,0 +1,7 @@
+{
+  "id": "plant_cactus",
+  "title": "Cactus",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cactus",
+  "description": "Cactus entry from base content."
+}

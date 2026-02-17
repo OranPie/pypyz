@@ -1,0 +1,15 @@
+{
+  "id": "roof_conqueror",
+  "title": "Roof Conqueror",
+  "description": "Clear all roof levels.",
+  "conditions": [
+    {
+      "metric": "stage_cleared",
+      "stage": "roof",
+      "count": 10
+    }
+  ],
+  "reward": {
+    "coins": 1200
+  }
+}

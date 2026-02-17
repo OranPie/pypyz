@@ -1,0 +1,7 @@
+{
+  "id": "zombie_zombotany_squash",
+  "title": "ZomBotany Squash Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:zombotany_squash",
+  "description": "ZomBotany Squash Zombie entry from base content."
+}

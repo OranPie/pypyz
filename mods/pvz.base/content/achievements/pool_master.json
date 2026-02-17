@@ -1,0 +1,15 @@
+{
+  "id": "pool_master",
+  "title": "Pool Master",
+  "description": "Clear Pool 1 without losing a mower.",
+  "conditions": [
+    {
+      "metric": "level_perfect_clear",
+      "level": "pool_1",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 900
+  }
+}

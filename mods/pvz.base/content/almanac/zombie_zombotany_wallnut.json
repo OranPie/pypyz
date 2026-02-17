@@ -1,0 +1,7 @@
+{
+  "id": "zombie_zombotany_wallnut",
+  "title": "ZomBotany Wall-nut Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:zombotany_wallnut",
+  "description": "ZomBotany Wall-nut Zombie entry from base content."
+}

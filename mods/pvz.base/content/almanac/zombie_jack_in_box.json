@@ -1,0 +1,7 @@
+{
+  "id": "zombie_jack_in_box",
+  "title": "Jack-in-the-Box Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:jack_in_box",
+  "description": "Jack-in-the-Box Zombie entry from base content."
+}

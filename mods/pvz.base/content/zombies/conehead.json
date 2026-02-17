@@ -6,5 +6,7 @@
   "damage": 100,
   "reward": 40,
   "tier": "elite",
-  "abilities": ["extra_armor"]
+  "abilities": [
+    "extra_armor"
+  ]
 }

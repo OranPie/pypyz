@@ -1,0 +1,12 @@
+{
+  "id": "unlock_night_2",
+  "kind": "level",
+  "target_id": "pvz.base:levels:night_2",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "11"
+    }
+  ]
+}

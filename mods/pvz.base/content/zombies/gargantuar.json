@@ -1,0 +1,16 @@
+{
+  "id": "gargantuar",
+  "name": "Gargantuar",
+  "speed": 0.12,
+  "max_hp": 3000,
+  "damage": 300,
+  "reward": 250,
+  "tier": "boss",
+  "abilities": [
+    "smash",
+    "throw_imp"
+  ],
+  "resists": [
+    "knockback"
+  ]
+}

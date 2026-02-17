@@ -1,0 +1,10 @@
+{
+  "id": "fog_survival_hard",
+  "name": "Survival: Fog (Hard)",
+  "stage": "fog",
+  "rounds": 5,
+  "level_ref": "pvz.base:levels:fog_8",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
+}

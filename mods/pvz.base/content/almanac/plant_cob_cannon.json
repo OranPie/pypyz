@@ -1,0 +1,7 @@
+{
+  "id": "plant_cob_cannon",
+  "title": "Cob Cannon",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cob_cannon",
+  "description": "Cob Cannon entry from base content."
+}

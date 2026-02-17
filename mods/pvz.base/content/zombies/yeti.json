@@ -1,0 +1,13 @@
+{
+  "id": "yeti",
+  "name": "Zombie Yeti",
+  "speed": 0.24,
+  "max_hp": 1500,
+  "damage": 100,
+  "reward": 200,
+  "tier": "special",
+  "abilities": [
+    "rare_spawn",
+    "retreat"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "jack_in_box",
+  "name": "Jack-in-the-Box Zombie",
+  "speed": 0.23,
+  "max_hp": 500,
+  "damage": 100,
+  "reward": 90,
+  "tier": "elite",
+  "abilities": [
+    "random_explosion"
+  ]
+}

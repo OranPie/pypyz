@@ -1,0 +1,7 @@
+{
+  "id": "plant_chomper",
+  "title": "Chomper",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:chomper",
+  "description": "Chomper entry from base content."
+}

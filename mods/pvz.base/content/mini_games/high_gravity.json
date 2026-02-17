@@ -1,0 +1,15 @@
+{
+  "id": "high_gravity",
+  "name": "High Gravity",
+  "ruleset": "high_gravity",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1022,
+  "difficulty": "hard",
+  "rewards": [
+    "pvz.base:achievements:minigame_high_gravity_clear"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "unlock_winter_melon",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:winter_melon",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "44"
+    }
+  ]
+}

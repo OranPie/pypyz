@@ -1,0 +1,42 @@
+{
+  "id": "fog_9",
+  "name": "Fog 9",
+  "lawns": 6,
+  "sun_start": 102,
+  "mode": "adventure_fog",
+  "fog": true,
+  "waves": [
+    {
+      "tick": 4,
+      "zombie_id": "pvz.base:zombies:balloon",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 16,
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 3,
+      "lane": 6
+    },
+    {
+      "tick": 22,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 4,
+      "lane": 1
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_fog_10",
+    "pvz.base:unlock_rules:unlock_melon_pult"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

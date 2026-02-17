@@ -1,0 +1,6 @@
+{
+  "id": "golden_watering_can",
+  "name": "Golden Watering Can",
+  "price": 10000,
+  "grants": "zen_watering_upgrade"
+}

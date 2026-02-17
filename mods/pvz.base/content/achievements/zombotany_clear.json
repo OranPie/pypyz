@@ -1,0 +1,15 @@
+{
+  "id": "zombotany_clear",
+  "title": "Mutant Botanist",
+  "description": "Win the ZomBotany mini-game.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "zombotany",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 600
+  }
+}

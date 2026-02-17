@@ -1,0 +1,15 @@
+{
+  "id": "minigame_zombotany_clear",
+  "title": "Zombotany Clear",
+  "description": "Clear mini-game: Zombotany.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "zombotany",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 560
+  }
+}

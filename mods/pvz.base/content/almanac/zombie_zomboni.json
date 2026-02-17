@@ -1,0 +1,7 @@
+{
+  "id": "zombie_zomboni",
+  "title": "Zomboni",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:zomboni",
+  "description": "Zomboni entry from base content."
+}

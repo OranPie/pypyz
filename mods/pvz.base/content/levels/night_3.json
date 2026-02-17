@@ -1,0 +1,38 @@
+{
+  "id": "night_3",
+  "name": "Night 3",
+  "lawns": 5,
+  "sun_start": 154,
+  "mode": "adventure_night",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 4,
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:dancing",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 16,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 22,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 2,
+      "lane": 2
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_night_4",
+    "pvz.base:unlock_rules:unlock_scaredy_shroom"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "unlock_sea_shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:sea_shroom",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "24"
+    }
+  ]
+}

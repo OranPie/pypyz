@@ -1,0 +1,16 @@
+{
+  "id": "torchwood",
+  "name": "Torchwood",
+  "cost": 175,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 0,
+  "family": "support",
+  "tags": [
+    "offense",
+    "synergy"
+  ],
+  "abilities": [
+    "ignite_peas"
+  ]
+}

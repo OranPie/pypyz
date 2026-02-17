@@ -1,0 +1,17 @@
+{
+  "id": "sea_shroom",
+  "name": "Sea-shroom",
+  "cost": 0,
+  "cooldown": 30.0,
+  "max_hp": 300,
+  "damage": 20,
+  "family": "mushroom",
+  "tags": [
+    "pool",
+    "night"
+  ],
+  "abilities": [
+    "short_range"
+  ],
+  "projectile_id": "pvz.base:projectiles:sea_spore"
+}

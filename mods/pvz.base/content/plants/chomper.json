@@ -1,0 +1,16 @@
+{
+  "id": "chomper",
+  "name": "Chomper",
+  "cost": 150,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "melee",
+  "tags": [
+    "offense",
+    "control"
+  ],
+  "abilities": [
+    "devour_target"
+  ]
+}

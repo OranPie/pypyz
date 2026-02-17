@@ -1,0 +1,10 @@
+{
+  "id": "hypnotized",
+  "name": "Hypnotized",
+  "duration_ticks": 300,
+  "stack_limit": 1,
+  "kind": "mind_control",
+  "modifiers": {
+    "faction": "plants"
+  }
+}

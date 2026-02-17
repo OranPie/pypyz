@@ -1,0 +1,10 @@
+{
+  "id": "night_survival_hard",
+  "name": "Survival: Night (Hard)",
+  "stage": "night",
+  "rounds": 5,
+  "level_ref": "pvz.base:levels:night_8",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
+}

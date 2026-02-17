@@ -1,0 +1,9 @@
+{
+  "id": "cactus_spike",
+  "name": "Cactus Spike",
+  "speed": 4.0,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 170,
+  "status_effects": []
+}

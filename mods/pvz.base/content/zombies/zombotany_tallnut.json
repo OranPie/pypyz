@@ -1,0 +1,12 @@
+{
+  "id": "zombotany_tallnut",
+  "name": "ZomBotany Tall-nut Zombie",
+  "speed": 0.18,
+  "max_hp": 2200,
+  "damage": 120,
+  "reward": 130,
+  "tier": "special",
+  "abilities": [
+    "hybrid_tank"
+  ]
+}

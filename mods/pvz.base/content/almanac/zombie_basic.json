@@ -3,5 +3,5 @@
   "title": "Regular Zombie",
   "kind": "zombie",
   "target_id": "pvz.base:zombies:basic",
-  "description": "Slow and steady, but never alone for long."
+  "description": "Regular Zombie entry from base content."
 }

@@ -1,0 +1,12 @@
+{
+  "id": "football",
+  "name": "Football Zombie",
+  "speed": 0.32,
+  "max_hp": 1400,
+  "damage": 100,
+  "reward": 90,
+  "tier": "elite",
+  "abilities": [
+    "rush"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "catapult",
+  "name": "Catapult Zombie",
+  "speed": 0.15,
+  "max_hp": 1500,
+  "damage": 100,
+  "reward": 120,
+  "tier": "elite",
+  "abilities": [
+    "ranged_attack"
+  ]
+}

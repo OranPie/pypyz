@@ -1,0 +1,7 @@
+{
+  "id": "plant_kernel_pult",
+  "title": "Kernel-pult",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:kernel_pult",
+  "description": "Kernel-pult entry from base content."
+}

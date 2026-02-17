@@ -1,0 +1,7 @@
+{
+  "id": "plant_potato_mine",
+  "title": "Potato Mine",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:potato_mine",
+  "description": "Potato Mine entry from base content."
+}

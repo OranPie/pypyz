@@ -1,0 +1,15 @@
+{
+  "id": "minigame_zombie_nimble_zombie_quick_clear",
+  "title": "Zombie Nimble Zombie Quick Clear",
+  "description": "Clear mini-game: Zombie Nimble Zombie Quick.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "zombie_nimble_zombie_quick",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 530
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "plant_grave_buster",
+  "title": "Grave Buster",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:grave_buster",
+  "description": "Grave Buster entry from base content."
+}

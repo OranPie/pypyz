@@ -1,0 +1,12 @@
+{
+  "id": "snorkel",
+  "name": "Snorkel Zombie",
+  "speed": 0.25,
+  "max_hp": 500,
+  "damage": 100,
+  "reward": 70,
+  "tier": "elite",
+  "abilities": [
+    "submerge"
+  ]
+}

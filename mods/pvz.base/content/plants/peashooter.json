@@ -6,7 +6,12 @@
   "max_hp": 300,
   "damage": 20,
   "family": "shooter",
-  "tags": ["offense", "starter"],
-  "abilities": ["single_target"],
+  "tags": [
+    "offense",
+    "starter"
+  ],
+  "abilities": [
+    "single_target"
+  ],
   "projectile_id": "pvz.base:projectiles:pea"
 }

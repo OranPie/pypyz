@@ -1,0 +1,15 @@
+{
+  "id": "pogo_party",
+  "name": "Pogo Party",
+  "ruleset": "pogo_party",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1018,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_pogo_party_clear"
+  ]
+}

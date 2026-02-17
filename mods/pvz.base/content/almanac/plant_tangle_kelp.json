@@ -1,0 +1,7 @@
+{
+  "id": "plant_tangle_kelp",
+  "title": "Tangle Kelp",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:tangle_kelp",
+  "description": "Tangle Kelp entry from base content."
+}

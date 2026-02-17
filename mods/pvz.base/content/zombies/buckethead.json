@@ -6,6 +6,10 @@
   "damage": 100,
   "reward": 75,
   "tier": "elite",
-  "abilities": ["heavy_armor"],
-  "resists": ["knockback"]
+  "abilities": [
+    "heavy_armor"
+  ],
+  "resists": [
+    "knockback"
+  ]
 }

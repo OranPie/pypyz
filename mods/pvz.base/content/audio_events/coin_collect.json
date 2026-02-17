@@ -1,0 +1,11 @@
+{
+  "id": "coin_collect",
+  "event": "meta.coin_collect",
+  "bus": "sfx",
+  "asset": "assets/audio/coin_collect.ogg",
+  "volume": 0.75,
+  "tags": [
+    "meta",
+    "economy"
+  ]
+}

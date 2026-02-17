@@ -1,0 +1,15 @@
+{
+  "id": "air_raid",
+  "name": "Air Raid",
+  "ruleset": "air_raid",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1020,
+  "difficulty": "hard",
+  "rewards": [
+    "pvz.base:achievements:minigame_air_raid_clear"
+  ]
+}

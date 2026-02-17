@@ -1,0 +1,22 @@
+{
+  "id": "almanac_index",
+  "title": "Almanac",
+  "layout": "tabbed_index",
+  "widgets": [
+    {
+      "id": "plant_tab",
+      "kind": "tab",
+      "bind": "almanac.plants"
+    },
+    {
+      "id": "zombie_tab",
+      "kind": "tab",
+      "bind": "almanac.zombies"
+    },
+    {
+      "id": "entry_panel",
+      "kind": "panel",
+      "bind": "almanac.selection"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "minigame_art_challenge_wallnut_clear",
+  "title": "Art Challenge Wallnut Clear",
+  "description": "Clear mini-game: Art Challenge Wallnut.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "art_challenge_wallnut",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 630
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "last_stand_1",
+  "name": "Last Stand 1",
+  "puzzle_type": "last_stand",
+  "slots": 11,
+  "target": "survive_all_waves",
+  "layout": [
+    {
+      "lane": 2,
+      "contains": "pvz.base:plants:repeater"
+    },
+    {
+      "lane": 3,
+      "contains": "pvz.base:plants:tall_nut"
+    }
+  ]
+}

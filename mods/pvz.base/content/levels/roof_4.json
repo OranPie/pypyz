@@ -1,0 +1,38 @@
+{
+  "id": "roof_4",
+  "name": "Roof 4",
+  "lawns": 5,
+  "sun_start": 92,
+  "mode": "adventure_roof",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:gargantuar",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:imp",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:ladder",
+      "count": 2,
+      "lane": 3
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_roof_5",
+    "pvz.base:unlock_rules:unlock_winter_melon"
+  ]
+}

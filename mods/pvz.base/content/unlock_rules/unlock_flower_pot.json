@@ -1,0 +1,12 @@
+{
+  "id": "unlock_flower_pot",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:flower_pot",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "33"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "snail",
+  "name": "Stinky the Snail",
+  "price": 3000,
+  "grants": "zen_snail_helper"
+}

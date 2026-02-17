@@ -1,0 +1,7 @@
+{
+  "id": "plant_squash",
+  "title": "Squash",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:squash",
+  "description": "Squash entry from base content."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "little_trouble",
+  "name": "Little Trouble",
+  "ruleset": "little_trouble",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1009,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_little_trouble_clear"
+  ]
+}

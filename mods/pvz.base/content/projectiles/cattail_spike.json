@@ -1,0 +1,9 @@
+{
+  "id": "cattail_spike",
+  "name": "Cattail Spike",
+  "speed": 4.6,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 220,
+  "status_effects": []
+}

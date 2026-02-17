@@ -3,6 +3,8 @@
   "name": "Survival: Day (Easy)",
   "stage": "day",
   "rounds": 5,
-  "level_ref": "pvz.base:levels:day_1",
-  "modifiers": ["shuffle_lanes"]
+  "level_ref": "pvz.base:levels:day_3",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
 }

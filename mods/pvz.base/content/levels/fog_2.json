@@ -1,0 +1,42 @@
+{
+  "id": "fog_2",
+  "name": "Fog 2",
+  "lawns": 6,
+  "sun_start": 116,
+  "mode": "adventure_fog",
+  "fog": true,
+  "waves": [
+    {
+      "tick": 6,
+      "zombie_id": "pvz.base:zombies:balloon",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "tick": 12,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "tick": 18,
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 24,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 2,
+      "lane": 6
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_fog_3",
+    "pvz.base:unlock_rules:unlock_cabbage_pult"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

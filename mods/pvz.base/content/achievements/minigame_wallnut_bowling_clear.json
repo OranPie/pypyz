@@ -1,0 +1,15 @@
+{
+  "id": "minigame_wallnut_bowling_clear",
+  "title": "Wallnut Bowling Clear",
+  "description": "Clear mini-game: Wallnut Bowling.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "wallnut_bowling",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 410
+  }
+}

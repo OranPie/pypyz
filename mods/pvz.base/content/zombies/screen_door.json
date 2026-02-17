@@ -1,0 +1,15 @@
+{
+  "id": "screen_door",
+  "name": "Screen Door Zombie",
+  "speed": 0.2,
+  "max_hp": 1100,
+  "damage": 100,
+  "reward": 70,
+  "tier": "elite",
+  "abilities": [
+    "front_shield"
+  ],
+  "resists": [
+    "knockback"
+  ]
+}

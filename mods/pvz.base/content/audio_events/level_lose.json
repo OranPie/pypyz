@@ -1,0 +1,11 @@
+{
+  "id": "level_lose",
+  "event": "meta.level_lose",
+  "bus": "music",
+  "asset": "assets/audio/level_lose.ogg",
+  "volume": 0.95,
+  "tags": [
+    "meta",
+    "fail"
+  ]
+}

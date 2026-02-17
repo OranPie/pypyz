@@ -1,0 +1,38 @@
+{
+  "id": "roof_1",
+  "name": "Roof 1",
+  "lawns": 5,
+  "sun_start": 98,
+  "mode": "adventure_roof",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:catapult",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:gargantuar",
+      "count": 2,
+      "lane": 5
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_roof_2",
+    "pvz.base:unlock_rules:unlock_twin_sunflower"
+  ]
+}

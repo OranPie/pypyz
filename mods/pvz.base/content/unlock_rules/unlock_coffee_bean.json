@@ -1,0 +1,12 @@
+{
+  "id": "unlock_coffee_bean",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:coffee_bean",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "35"
+    }
+  ]
+}

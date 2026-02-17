@@ -1,0 +1,12 @@
+{
+  "id": "unlock_survival_pool",
+  "kind": "mode",
+  "target_id": "pvz.base:survival_levels:pool_survival_easy",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "5"
+    }
+  ]
+}

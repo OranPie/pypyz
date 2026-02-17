@@ -1,0 +1,12 @@
+{
+  "id": "pogo",
+  "name": "Pogo Zombie",
+  "speed": 0.31,
+  "max_hp": 700,
+  "damage": 100,
+  "reward": 95,
+  "tier": "elite",
+  "abilities": [
+    "jump_repeatedly"
+  ]
+}

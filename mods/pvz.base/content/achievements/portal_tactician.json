@@ -1,0 +1,15 @@
+{
+  "id": "portal_tactician",
+  "title": "Portal Tactician",
+  "description": "Win Portal Combat without a lawn breach.",
+  "conditions": [
+    {
+      "metric": "minigame_perfect_clear",
+      "mode": "portal_combat",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 650
+  }
+}

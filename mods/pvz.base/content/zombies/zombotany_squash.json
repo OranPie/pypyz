@@ -1,0 +1,12 @@
+{
+  "id": "zombotany_squash",
+  "name": "ZomBotany Squash Zombie",
+  "speed": 0.25,
+  "max_hp": 750,
+  "damage": 140,
+  "reward": 125,
+  "tier": "special",
+  "abilities": [
+    "jump_smash"
+  ]
+}

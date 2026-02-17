@@ -1,0 +1,7 @@
+{
+  "id": "zombie_gargantuar",
+  "title": "Gargantuar",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:gargantuar",
+  "description": "Gargantuar entry from base content."
+}

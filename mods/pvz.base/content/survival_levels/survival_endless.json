@@ -1,0 +1,10 @@
+{
+  "id": "survival_endless",
+  "name": "Survival: Endless",
+  "stage": "endless",
+  "rounds": 999,
+  "level_ref": "pvz.base:levels:roof_10",
+  "modifiers": [
+    "infinite_waves"
+  ]
+}

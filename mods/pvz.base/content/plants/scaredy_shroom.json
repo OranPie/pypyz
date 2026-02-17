@@ -1,0 +1,18 @@
+{
+  "id": "scaredy_shroom",
+  "name": "Scaredy-shroom",
+  "cost": 25,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 20,
+  "family": "mushroom",
+  "tags": [
+    "offense",
+    "night"
+  ],
+  "abilities": [
+    "long_range",
+    "hide_when_close"
+  ],
+  "projectile_id": "pvz.base:projectiles:scaredy_spore"
+}

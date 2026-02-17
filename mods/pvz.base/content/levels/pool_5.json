@@ -1,0 +1,42 @@
+{
+  "id": "pool_5",
+  "name": "Pool 5",
+  "lawns": 6,
+  "sun_start": 130,
+  "mode": "adventure_pool",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 6,
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 2,
+      "lane": 6
+    },
+    {
+      "tick": 12,
+      "zombie_id": "pvz.base:zombies:dolphin_rider",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 18,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 24,
+      "zombie_id": "pvz.base:zombies:conehead_ducky",
+      "count": 3,
+      "lane": 3
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_pool_6",
+    "pvz.base:unlock_rules:unlock_plantern"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

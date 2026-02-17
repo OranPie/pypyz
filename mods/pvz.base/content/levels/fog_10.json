@@ -1,0 +1,42 @@
+{
+  "id": "fog_10",
+  "name": "Fog 10",
+  "lawns": 6,
+  "sun_start": 100,
+  "mode": "adventure_fog",
+  "fog": true,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 3,
+      "lane": 6
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 4,
+      "lane": 1
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:yeti",
+      "count": 4,
+      "lane": 2
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_roof_1",
+    "pvz.base:unlock_rules:unlock_gatling_pea"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

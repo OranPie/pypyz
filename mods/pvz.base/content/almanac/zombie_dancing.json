@@ -1,0 +1,7 @@
+{
+  "id": "zombie_dancing",
+  "title": "Dancing Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:dancing",
+  "description": "Dancing Zombie entry from base content."
+}

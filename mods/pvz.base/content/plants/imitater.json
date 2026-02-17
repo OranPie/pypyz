@@ -1,0 +1,15 @@
+{
+  "id": "imitater",
+  "name": "Imitater",
+  "cost": 0,
+  "cooldown": 0.0,
+  "max_hp": 300,
+  "damage": 0,
+  "family": "utility",
+  "tags": [
+    "utility"
+  ],
+  "abilities": [
+    "copy_other_seed"
+  ]
+}

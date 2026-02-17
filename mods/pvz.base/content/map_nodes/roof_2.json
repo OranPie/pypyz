@@ -1,0 +1,10 @@
+{
+  "id": "roof_2",
+  "name": "Roof 2",
+  "kind": "adventure",
+  "level_ref": "pvz.base:levels:roof_2",
+  "next": [
+    "pvz.base:map_nodes:roof_3"
+  ],
+  "unlock_rule_id": "pvz.base:unlock_rules:unlock_roof_2"
+}

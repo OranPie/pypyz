@@ -1,0 +1,15 @@
+{
+  "id": "roof_guardian",
+  "title": "Roof Guardian",
+  "description": "Defeat a Gargantuar on the roof.",
+  "conditions": [
+    {
+      "metric": "zombie_defeats",
+      "zombie": "gargantuar",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 1200
+  }
+}

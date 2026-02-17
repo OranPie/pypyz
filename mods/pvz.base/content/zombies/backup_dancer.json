@@ -1,0 +1,10 @@
+{
+  "id": "backup_dancer",
+  "name": "Backup Dancer",
+  "speed": 0.24,
+  "max_hp": 270,
+  "damage": 100,
+  "reward": 35,
+  "tier": "common",
+  "abilities": []
+}

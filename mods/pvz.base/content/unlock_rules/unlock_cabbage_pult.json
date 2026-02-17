@@ -1,0 +1,12 @@
+{
+  "id": "unlock_cabbage_pult",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cabbage_pult",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "32"
+    }
+  ]
+}

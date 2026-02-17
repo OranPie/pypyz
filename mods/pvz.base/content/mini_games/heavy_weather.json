@@ -1,0 +1,15 @@
+{
+  "id": "heavy_weather",
+  "name": "Heavy Weather",
+  "ruleset": "heavy_weather",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1025,
+  "difficulty": "hard",
+  "rewards": [
+    "pvz.base:achievements:minigame_heavy_weather_clear"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "its_raining_seeds",
+  "name": "Its Raining Seeds",
+  "ruleset": "its_raining_seeds",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1003,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_its_raining_seeds_clear"
+  ]
+}

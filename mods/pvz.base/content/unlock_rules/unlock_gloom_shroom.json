@@ -1,0 +1,12 @@
+{
+  "id": "unlock_gloom_shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:gloom_shroom",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "42"
+    }
+  ]
+}

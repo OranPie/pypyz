@@ -1,0 +1,12 @@
+{
+  "id": "newspaper",
+  "name": "Newspaper Zombie",
+  "speed": 0.18,
+  "max_hp": 550,
+  "damage": 100,
+  "reward": 65,
+  "tier": "elite",
+  "abilities": [
+    "rage_on_break"
+  ]
+}

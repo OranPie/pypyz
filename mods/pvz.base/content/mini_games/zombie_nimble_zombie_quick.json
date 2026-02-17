@@ -1,0 +1,15 @@
+{
+  "id": "zombie_nimble_zombie_quick",
+  "name": "Zombie Nimble Zombie Quick",
+  "ruleset": "zombie_nimble_zombie_quick",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1013,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_zombie_nimble_zombie_quick_clear"
+  ]
+}

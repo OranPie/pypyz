@@ -1,0 +1,15 @@
+{
+  "id": "zombotany",
+  "name": "Zombotany",
+  "ruleset": "zombotany",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1016,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_zombotany_clear"
+  ]
+}

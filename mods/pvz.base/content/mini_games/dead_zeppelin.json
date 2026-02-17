@@ -1,0 +1,15 @@
+{
+  "id": "dead_zeppelin",
+  "name": "Dead Zeppelin",
+  "ruleset": "dead_zeppelin",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1026,
+  "difficulty": "hard",
+  "rewards": [
+    "pvz.base:achievements:minigame_dead_zeppelin_clear"
+  ]
+}

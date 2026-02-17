@@ -1,0 +1,11 @@
+{
+  "id": "kernel",
+  "name": "Kernel",
+  "speed": 2.8,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 140,
+  "status_effects": [
+    "pvz.base:status_effects:buttered"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "jalapeno",
+  "name": "Jalapeno",
+  "cost": 125,
+  "cooldown": 50.0,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "explosive",
+  "tags": [
+    "offense",
+    "instant"
+  ],
+  "abilities": [
+    "clear_lane_fire"
+  ]
+}

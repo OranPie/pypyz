@@ -1,0 +1,7 @@
+{
+  "id": "zombie_pole_vaulting",
+  "title": "Pole Vaulting Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:pole_vaulting",
+  "description": "Pole Vaulting Zombie entry from base content."
+}

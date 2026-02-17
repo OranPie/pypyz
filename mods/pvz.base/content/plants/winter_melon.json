@@ -1,0 +1,18 @@
+{
+  "id": "winter_melon",
+  "name": "Winter Melon",
+  "cost": 500,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 80,
+  "family": "lobber",
+  "tags": [
+    "offense",
+    "control"
+  ],
+  "abilities": [
+    "lobbed_splash",
+    "apply_chilled"
+  ],
+  "projectile_id": "pvz.base:projectiles:winter_melon"
+}

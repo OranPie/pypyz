@@ -1,0 +1,15 @@
+{
+  "id": "minigame_invisighoul_clear",
+  "title": "Invisighoul Clear",
+  "description": "Clear mini-game: Invisighoul.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "invisighoul",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 450
+  }
+}

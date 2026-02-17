@@ -1,0 +1,16 @@
+{
+  "id": "umbrella_leaf",
+  "name": "Umbrella Leaf",
+  "cost": 100,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 0,
+  "family": "support",
+  "tags": [
+    "defense",
+    "roof"
+  ],
+  "abilities": [
+    "blocks_bungee_catapult"
+  ]
+}

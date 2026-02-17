@@ -1,0 +1,7 @@
+{
+  "id": "zombie_zombotany_peashooter",
+  "title": "ZomBotany Peashooter Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:zombotany_peashooter",
+  "description": "ZomBotany Peashooter Zombie entry from base content."
+}

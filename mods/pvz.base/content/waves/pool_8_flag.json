@@ -1,0 +1,16 @@
+{
+  "id": "pool_8_flag",
+  "tick": 32,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:buckethead_ducky",
+      "count": 4,
+      "lane": 4
+    },
+    {
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 3,
+      "lane": 6
+    }
+  ]
+}

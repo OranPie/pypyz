@@ -1,0 +1,9 @@
+{
+  "id": "repeat_pea",
+  "name": "Repeat Pea",
+  "speed": 4.0,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 160,
+  "status_effects": []
+}

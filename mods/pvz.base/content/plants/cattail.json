@@ -1,0 +1,17 @@
+{
+  "id": "cattail",
+  "name": "Cattail",
+  "cost": 225,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 20,
+  "family": "shooter",
+  "tags": [
+    "pool",
+    "anti_air"
+  ],
+  "abilities": [
+    "homing_projectile"
+  ],
+  "projectile_id": "pvz.base:projectiles:cattail_spike"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "survival_veteran",
+  "title": "Survival Veteran",
+  "description": "Clear 5 survival entries.",
+  "conditions": [
+    {
+      "metric": "survival_clears",
+      "count": 5
+    }
+  ],
+  "reward": {
+    "coins": 1500
+  }
+}

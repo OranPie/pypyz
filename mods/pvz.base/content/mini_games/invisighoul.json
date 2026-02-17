@@ -1,0 +1,15 @@
+{
+  "id": "invisighoul",
+  "name": "Invisighoul",
+  "ruleset": "invisighoul",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1005,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_invisighoul_clear"
+  ]
+}

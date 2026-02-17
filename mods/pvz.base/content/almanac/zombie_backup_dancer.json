@@ -1,0 +1,7 @@
+{
+  "id": "zombie_backup_dancer",
+  "title": "Backup Dancer",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:backup_dancer",
+  "description": "Backup Dancer entry from base content."
+}

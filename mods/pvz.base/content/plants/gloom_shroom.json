@@ -1,0 +1,17 @@
+{
+  "id": "gloom_shroom",
+  "name": "Gloom-shroom",
+  "cost": 150,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 40,
+  "family": "mushroom",
+  "tags": [
+    "offense",
+    "upgrade"
+  ],
+  "abilities": [
+    "area_fume"
+  ],
+  "projectile_id": "pvz.base:projectiles:gloom_cloud"
+}

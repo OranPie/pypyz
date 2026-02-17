@@ -1,0 +1,15 @@
+{
+  "id": "art_challenge_wallnut",
+  "name": "Art Challenge Wallnut",
+  "ruleset": "art_challenge_wallnut",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1023,
+  "difficulty": "hard",
+  "rewards": [
+    "pvz.base:achievements:minigame_art_challenge_wallnut_clear"
+  ]
+}

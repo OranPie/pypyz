@@ -1,0 +1,15 @@
+{
+  "id": "minigame_high_gravity_clear",
+  "title": "High Gravity Clear",
+  "description": "Clear mini-game: High Gravity.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "high_gravity",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 620
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "fog_8",
+  "name": "Fog 8",
+  "lawns": 6,
+  "sun_start": 104,
+  "mode": "adventure_fog",
+  "fog": true,
+  "waves": [
+    {
+      "tick": 6,
+      "zombie_id": "pvz.base:zombies:dolphin_rider",
+      "count": 3,
+      "lane": 3
+    },
+    {
+      "tick": 12,
+      "zombie_id": "pvz.base:zombies:balloon",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 18,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 24,
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 3,
+      "lane": 6
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_fog_9",
+    "pvz.base:unlock_rules:unlock_marigold"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

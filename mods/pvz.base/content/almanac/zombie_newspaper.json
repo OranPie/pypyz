@@ -1,0 +1,7 @@
+{
+  "id": "zombie_newspaper",
+  "title": "Newspaper Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:newspaper",
+  "description": "Newspaper Zombie entry from base content."
+}

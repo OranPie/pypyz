@@ -1,0 +1,9 @@
+{
+  "id": "sea_spore",
+  "name": "Sea Spore",
+  "speed": 2.2,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 70,
+  "status_effects": []
+}

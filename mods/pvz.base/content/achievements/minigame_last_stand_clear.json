@@ -1,0 +1,15 @@
+{
+  "id": "minigame_last_stand_clear",
+  "title": "Last Stand Clear",
+  "description": "Clear mini-game: Last Stand.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "last_stand",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 550
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "plant_umbrella_leaf",
+  "title": "Umbrella Leaf",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:umbrella_leaf",
+  "description": "Umbrella Leaf entry from base content."
+}

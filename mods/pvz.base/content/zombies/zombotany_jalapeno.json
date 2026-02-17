@@ -1,0 +1,12 @@
+{
+  "id": "zombotany_jalapeno",
+  "name": "ZomBotany Jalapeno Zombie",
+  "speed": 0.24,
+  "max_hp": 700,
+  "damage": 120,
+  "reward": 115,
+  "tier": "special",
+  "abilities": [
+    "lane_burst"
+  ]
+}

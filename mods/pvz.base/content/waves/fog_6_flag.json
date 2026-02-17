@@ -1,0 +1,16 @@
+{
+  "id": "fog_6_flag",
+  "tick": 30,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 4,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:dolphin_rider",
+      "count": 2,
+      "lane": 4
+    }
+  ]
+}

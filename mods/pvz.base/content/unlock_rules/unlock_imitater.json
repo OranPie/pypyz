@@ -1,0 +1,12 @@
+{
+  "id": "unlock_imitater",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:imitater",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "48"
+    }
+  ]
+}

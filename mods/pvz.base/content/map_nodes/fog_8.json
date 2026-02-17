@@ -1,0 +1,10 @@
+{
+  "id": "fog_8",
+  "name": "Fog 8",
+  "kind": "adventure",
+  "level_ref": "pvz.base:levels:fog_8",
+  "next": [
+    "pvz.base:map_nodes:fog_9"
+  ],
+  "unlock_rule_id": "pvz.base:unlock_rules:unlock_fog_8"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "twin_sunflower",
+  "name": "Twin Sunflower",
+  "cost": 150,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 0,
+  "family": "economy",
+  "tags": [
+    "economy",
+    "upgrade"
+  ],
+  "abilities": [
+    "double_sun_producer"
+  ]
+}

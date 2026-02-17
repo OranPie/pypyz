@@ -1,0 +1,7 @@
+{
+  "id": "zombie_zombotany_tallnut",
+  "title": "ZomBotany Tall-nut Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:zombotany_tallnut",
+  "description": "ZomBotany Tall-nut Zombie entry from base content."
+}

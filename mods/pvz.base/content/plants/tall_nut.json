@@ -1,0 +1,16 @@
+{
+  "id": "tall_nut",
+  "name": "Tall-nut",
+  "cost": 125,
+  "cooldown": 30.0,
+  "max_hp": 8000,
+  "damage": 0,
+  "family": "defense",
+  "tags": [
+    "defense",
+    "fortified"
+  ],
+  "abilities": [
+    "blocks_jumpers"
+  ]
+}

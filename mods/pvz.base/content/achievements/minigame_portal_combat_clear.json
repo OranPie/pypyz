@@ -1,0 +1,15 @@
+{
+  "id": "minigame_portal_combat_clear",
+  "title": "Portal Combat Clear",
+  "description": "Clear mini-game: Portal Combat.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "portal_combat",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 500
+  }
+}

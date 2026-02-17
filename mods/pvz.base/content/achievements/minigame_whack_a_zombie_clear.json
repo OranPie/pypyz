@@ -1,0 +1,15 @@
+{
+  "id": "minigame_whack_a_zombie_clear",
+  "title": "Whack A Zombie Clear",
+  "description": "Clear mini-game: Whack A Zombie.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "whack_a_zombie",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 540
+  }
+}

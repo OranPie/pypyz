@@ -1,0 +1,7 @@
+{
+  "id": "zombie_balloon",
+  "title": "Balloon Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:balloon",
+  "description": "Balloon Zombie entry from base content."
+}

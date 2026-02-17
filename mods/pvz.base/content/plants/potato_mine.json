@@ -1,0 +1,17 @@
+{
+  "id": "potato_mine",
+  "name": "Potato Mine",
+  "cost": 25,
+  "cooldown": 30.0,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "trap",
+  "tags": [
+    "offense",
+    "instant"
+  ],
+  "abilities": [
+    "arm_delay",
+    "single_use"
+  ]
+}

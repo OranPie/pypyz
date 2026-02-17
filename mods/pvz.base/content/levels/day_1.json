@@ -2,13 +2,37 @@
   "id": "day_1",
   "name": "Day 1",
   "lawns": 5,
-  "sun_start": 150,
-  "mode": "adventure",
+  "sun_start": 178,
+  "mode": "adventure_day",
   "fog": false,
   "waves": [
-    {"tick": 3, "zombie_id": "pvz.base:zombies:basic", "count": 1, "lane": 2},
-    {"tick": 8, "zombie_id": "pvz.base:zombies:basic", "count": 2, "lane": 1},
-    {"tick": 13, "zombie_id": "pvz.base:zombies:conehead", "count": 1, "lane": 3}
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 2,
+      "lane": 5
+    }
   ],
-  "unlock_rules": ["pvz.base:unlock_rules:unlock_wallnut"]
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_day_2",
+    "pvz.base:unlock_rules:unlock_sunflower"
+  ]
 }

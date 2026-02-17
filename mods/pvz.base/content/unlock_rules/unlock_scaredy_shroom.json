@@ -1,0 +1,12 @@
+{
+  "id": "unlock_scaredy_shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:scaredy_shroom",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "13"
+    }
+  ]
+}

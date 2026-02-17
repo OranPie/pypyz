@@ -1,0 +1,15 @@
+{
+  "id": "minigame_dr_zomboss_revenge_clear",
+  "title": "Dr Zomboss Revenge Clear",
+  "description": "Clear mini-game: Dr Zomboss Revenge.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "dr_zomboss_revenge",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 590
+  }
+}

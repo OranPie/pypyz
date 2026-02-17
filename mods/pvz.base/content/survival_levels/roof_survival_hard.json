@@ -1,0 +1,10 @@
+{
+  "id": "roof_survival_hard",
+  "name": "Survival: Roof (Hard)",
+  "stage": "roof",
+  "rounds": 5,
+  "level_ref": "pvz.base:levels:roof_8",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
+}

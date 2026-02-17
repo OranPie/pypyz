@@ -1,0 +1,9 @@
+{
+  "id": "fume_cloud",
+  "name": "Fume Cloud",
+  "speed": 0.0,
+  "damage": 20,
+  "pierce": 6,
+  "lifetime_ticks": 24,
+  "status_effects": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "zombie_ducky_tube",
+  "title": "Ducky Tube Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:ducky_tube",
+  "description": "Ducky Tube Zombie entry from base content."
+}

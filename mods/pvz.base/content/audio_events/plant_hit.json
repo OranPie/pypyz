@@ -1,0 +1,11 @@
+{
+  "id": "plant_hit",
+  "event": "combat.plant_hit",
+  "bus": "sfx",
+  "asset": "assets/audio/plant_hit.ogg",
+  "volume": 0.8,
+  "tags": [
+    "combat",
+    "impact"
+  ]
+}

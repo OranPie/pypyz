@@ -1,0 +1,38 @@
+{
+  "id": "day_9",
+  "name": "Day 9",
+  "lawns": 5,
+  "sun_start": 162,
+  "mode": "adventure_day",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 4,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 3,
+      "lane": 1
+    },
+    {
+      "tick": 16,
+      "zombie_id": "pvz.base:zombies:newspaper",
+      "count": 3,
+      "lane": 2
+    },
+    {
+      "tick": 22,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 4,
+      "lane": 3
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_day_10",
+    "pvz.base:unlock_rules:unlock_sun_shroom"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "minigame_air_raid_clear",
+  "title": "Air Raid Clear",
+  "description": "Clear mini-game: Air Raid.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "air_raid",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 600
+  }
+}

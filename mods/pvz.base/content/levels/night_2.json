@@ -1,0 +1,38 @@
+{
+  "id": "night_2",
+  "name": "Night 2",
+  "lawns": 5,
+  "sun_start": 156,
+  "mode": "adventure_night",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 6,
+      "zombie_id": "pvz.base:zombies:screen_door",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "tick": 12,
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "tick": 18,
+      "zombie_id": "pvz.base:zombies:dancing",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 24,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 2,
+      "lane": 1
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_night_3",
+    "pvz.base:unlock_rules:unlock_hypno_shroom"
+  ]
+}

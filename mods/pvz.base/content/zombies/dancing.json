@@ -1,0 +1,12 @@
+{
+  "id": "dancing",
+  "name": "Dancing Zombie",
+  "speed": 0.23,
+  "max_hp": 500,
+  "damage": 100,
+  "reward": 95,
+  "tier": "elite",
+  "abilities": [
+    "summon_backup"
+  ]
+}

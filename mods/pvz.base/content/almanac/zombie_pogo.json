@@ -1,0 +1,7 @@
+{
+  "id": "zombie_pogo",
+  "title": "Pogo Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:pogo",
+  "description": "Pogo Zombie entry from base content."
+}

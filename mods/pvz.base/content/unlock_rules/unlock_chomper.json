@@ -1,0 +1,12 @@
+{
+  "id": "unlock_chomper",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:chomper",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "6"
+    }
+  ]
+}

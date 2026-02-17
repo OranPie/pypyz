@@ -1,0 +1,17 @@
+{
+  "id": "threepeater",
+  "name": "Threepeater",
+  "cost": 325,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 20,
+  "family": "shooter",
+  "tags": [
+    "offense",
+    "lane_control"
+  ],
+  "abilities": [
+    "three_lane_fire"
+  ],
+  "projectile_id": "pvz.base:projectiles:three_pea"
+}

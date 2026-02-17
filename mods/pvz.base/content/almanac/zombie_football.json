@@ -1,0 +1,7 @@
+{
+  "id": "zombie_football",
+  "title": "Football Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:football",
+  "description": "Football Zombie entry from base content."
+}

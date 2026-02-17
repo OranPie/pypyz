@@ -1,0 +1,16 @@
+{
+  "id": "day_6_flag",
+  "tick": 30,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 4,
+      "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 2,
+      "lane": 5
+    }
+  ]
+}

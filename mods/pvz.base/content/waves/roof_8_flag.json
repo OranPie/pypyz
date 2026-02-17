@@ -1,0 +1,16 @@
+{
+  "id": "roof_8_flag",
+  "tick": 32,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 4,
+      "lane": 5
+    },
+    {
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 3,
+      "lane": 2
+    }
+  ]
+}

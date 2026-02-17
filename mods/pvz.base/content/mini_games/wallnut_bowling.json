@@ -1,9 +1,15 @@
 {
   "id": "wallnut_bowling",
-  "name": "Wall-nut Bowling",
-  "ruleset": "bowling",
-  "starting_loadout": ["pvz.base:plants:wallnut"],
+  "name": "Wallnut Bowling",
+  "ruleset": "wallnut_bowling",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
   "seed": 1001,
   "difficulty": "normal",
-  "rewards": ["pvz.base:achievements:bowling_win"]
+  "rewards": [
+    "pvz.base:achievements:minigame_wallnut_bowling_clear"
+  ]
 }

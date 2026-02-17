@@ -1,0 +1,16 @@
+{
+  "id": "day_9_flag",
+  "tick": 30,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 5,
+      "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:newspaper",
+      "count": 3,
+      "lane": 3
+    }
+  ]
+}

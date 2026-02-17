@@ -1,0 +1,12 @@
+{
+  "id": "unlock_split_pea",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:split_pea",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "28"
+    }
+  ]
+}

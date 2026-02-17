@@ -1,0 +1,15 @@
+{
+  "id": "minigame_bobsled_bonanza_clear",
+  "title": "Bobsled Bonanza Clear",
+  "description": "Clear mini-game: Bobsled Bonanza.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "bobsled_bonanza",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 520
+  }
+}

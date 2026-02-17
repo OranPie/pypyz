@@ -1,0 +1,12 @@
+{
+  "id": "unlock_lily_pad",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:lily_pad",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "16"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "unlock_threepeater",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:threepeater",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "18"
+    }
+  ]
+}

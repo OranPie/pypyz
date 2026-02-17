@@ -1,0 +1,15 @@
+{
+  "id": "minigame_ice_lane_survival_clear",
+  "title": "Ice Lane Survival Clear",
+  "description": "Clear mini-game: Ice Lane Survival.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "ice_lane_survival",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 680
+  }
+}

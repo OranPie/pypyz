@@ -1,0 +1,15 @@
+{
+  "id": "minigame_pogo_party_clear",
+  "title": "Pogo Party Clear",
+  "description": "Clear mini-game: Pogo Party.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "pogo_party",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 580
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "zombie_hit",
+  "event": "combat.zombie_hit",
+  "bus": "sfx",
+  "asset": "assets/audio/zombie_hit.ogg",
+  "volume": 0.8,
+  "tags": [
+    "combat",
+    "impact"
+  ]
+}

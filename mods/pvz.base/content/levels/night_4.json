@@ -1,0 +1,38 @@
+{
+  "id": "night_4",
+  "name": "Night 4",
+  "lawns": 5,
+  "sun_start": 152,
+  "mode": "adventure_night",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:dancing",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 3
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_night_5",
+    "pvz.base:unlock_rules:unlock_ice_shroom"
+  ]
+}

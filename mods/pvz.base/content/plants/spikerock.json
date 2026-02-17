@@ -1,0 +1,16 @@
+{
+  "id": "spikerock",
+  "name": "Spikerock",
+  "cost": 125,
+  "cooldown": 7.5,
+  "max_hp": 500,
+  "damage": 40,
+  "family": "trap",
+  "tags": [
+    "offense",
+    "upgrade"
+  ],
+  "abilities": [
+    "enhanced_step_damage"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "night_5",
+  "name": "Night 5",
+  "lawns": 5,
+  "sun_start": 150,
+  "mode": "adventure_night",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 6,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 12,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 18,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 24,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 4
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_night_6",
+    "pvz.base:unlock_rules:unlock_doom_shroom"
+  ]
+}

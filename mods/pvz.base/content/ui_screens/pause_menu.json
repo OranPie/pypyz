@@ -1,0 +1,22 @@
+{
+  "id": "pause_menu",
+  "title": "Paused",
+  "layout": "vertical_stack",
+  "widgets": [
+    {
+      "id": "resume_btn",
+      "kind": "button",
+      "bind": "action.resume"
+    },
+    {
+      "id": "restart_btn",
+      "kind": "button",
+      "bind": "action.restart"
+    },
+    {
+      "id": "quit_btn",
+      "kind": "button",
+      "bind": "action.quit"
+    }
+  ]
+}

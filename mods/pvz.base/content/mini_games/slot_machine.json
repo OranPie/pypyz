@@ -1,0 +1,15 @@
+{
+  "id": "slot_machine",
+  "name": "Slot Machine",
+  "ruleset": "slot_machine",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1002,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_slot_machine_clear"
+  ]
+}

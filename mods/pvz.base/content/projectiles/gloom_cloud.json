@@ -1,0 +1,9 @@
+{
+  "id": "gloom_cloud",
+  "name": "Gloom Cloud",
+  "speed": 0.0,
+  "damage": 40,
+  "pierce": 8,
+  "lifetime_ticks": 18,
+  "status_effects": []
+}

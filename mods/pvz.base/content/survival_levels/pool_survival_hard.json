@@ -1,0 +1,10 @@
+{
+  "id": "pool_survival_hard",
+  "name": "Survival: Pool (Hard)",
+  "stage": "pool",
+  "rounds": 5,
+  "level_ref": "pvz.base:levels:pool_8",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "plant_tall_nut",
+  "title": "Tall-nut",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:tall_nut",
+  "description": "Tall-nut entry from base content."
+}

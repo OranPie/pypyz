@@ -1,0 +1,7 @@
+{
+  "id": "plant_hypno_shroom",
+  "title": "Hypno-shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:hypno_shroom",
+  "description": "Hypno-shroom entry from base content."
+}

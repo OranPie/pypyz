@@ -1,0 +1,12 @@
+{
+  "id": "unlock_garlic",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:garlic",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "36"
+    }
+  ]
+}

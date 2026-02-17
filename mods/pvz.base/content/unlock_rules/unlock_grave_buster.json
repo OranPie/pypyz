@@ -1,0 +1,12 @@
+{
+  "id": "unlock_grave_buster",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:grave_buster",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "11"
+    }
+  ]
+}

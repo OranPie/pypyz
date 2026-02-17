@@ -1,0 +1,16 @@
+{
+  "id": "plantern",
+  "name": "Plantern",
+  "cost": 25,
+  "cooldown": 30.0,
+  "max_hp": 300,
+  "damage": 0,
+  "family": "utility",
+  "tags": [
+    "fog",
+    "utility"
+  ],
+  "abilities": [
+    "reveal_fog"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cob",
+  "name": "Cob Missile",
+  "speed": 3.2,
+  "damage": 1800,
+  "pierce": 0,
+  "lifetime_ticks": 120,
+  "status_effects": [
+    "pvz.base:status_effects:burning"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "zombotany_peashooter",
+  "name": "ZomBotany Peashooter Zombie",
+  "speed": 0.24,
+  "max_hp": 600,
+  "damage": 100,
+  "reward": 95,
+  "tier": "special",
+  "abilities": [
+    "hybrid_ranged"
+  ]
+}

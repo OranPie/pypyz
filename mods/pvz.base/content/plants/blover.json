@@ -1,0 +1,16 @@
+{
+  "id": "blover",
+  "name": "Blover",
+  "cost": 100,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 0,
+  "family": "utility",
+  "tags": [
+    "fog",
+    "anti_air"
+  ],
+  "abilities": [
+    "blow_away_fog_and_balloon"
+  ]
+}

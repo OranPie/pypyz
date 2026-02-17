@@ -1,0 +1,12 @@
+{
+  "id": "balloon",
+  "name": "Balloon Zombie",
+  "speed": 0.28,
+  "max_hp": 500,
+  "damage": 100,
+  "reward": 85,
+  "tier": "elite",
+  "abilities": [
+    "airborne"
+  ]
+}

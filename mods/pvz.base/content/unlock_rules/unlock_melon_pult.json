@@ -1,0 +1,12 @@
+{
+  "id": "unlock_melon_pult",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:melon_pult",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "39"
+    }
+  ]
+}

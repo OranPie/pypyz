@@ -1,0 +1,11 @@
+{
+  "id": "menu_theme",
+  "event": "meta.menu_theme",
+  "bus": "music",
+  "asset": "assets/audio/menu_theme.ogg",
+  "volume": 0.65,
+  "tags": [
+    "meta",
+    "theme"
+  ]
+}

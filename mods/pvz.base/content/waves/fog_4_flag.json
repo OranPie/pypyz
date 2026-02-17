@@ -1,0 +1,16 @@
+{
+  "id": "fog_4_flag",
+  "tick": 31,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 3,
+      "lane": 6
+    },
+    {
+      "zombie_id": "pvz.base:zombies:yeti",
+      "count": 2,
+      "lane": 2
+    }
+  ]
+}

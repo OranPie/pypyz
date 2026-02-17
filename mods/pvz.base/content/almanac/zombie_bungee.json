@@ -1,0 +1,7 @@
+{
+  "id": "zombie_bungee",
+  "title": "Bungee Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:bungee",
+  "description": "Bungee Zombie entry from base content."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "unlock_cattail",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cattail",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "43"
+    }
+  ]
+}

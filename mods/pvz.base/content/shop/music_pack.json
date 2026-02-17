@@ -1,0 +1,6 @@
+{
+  "id": "music_pack",
+  "name": "Zen Music Pack",
+  "price": 1500,
+  "grants": "zen_music_tracks"
+}

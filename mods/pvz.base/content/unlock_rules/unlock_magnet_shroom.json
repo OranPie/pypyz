@@ -1,0 +1,12 @@
+{
+  "id": "unlock_magnet_shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:magnet_shroom",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "31"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "melon",
+  "name": "Melon",
+  "speed": 2.6,
+  "damage": 80,
+  "pierce": 0,
+  "lifetime_ticks": 150,
+  "status_effects": []
+}

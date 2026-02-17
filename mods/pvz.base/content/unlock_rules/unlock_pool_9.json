@@ -1,0 +1,12 @@
+{
+  "id": "unlock_pool_9",
+  "kind": "level",
+  "target_id": "pvz.base:levels:pool_9",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "28"
+    }
+  ]
+}

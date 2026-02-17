@@ -3,6 +3,10 @@
   "kind": "level",
   "target_id": "pvz.base:levels:night_1",
   "conditions": [
-    {"metric": "levels_completed", "operator": ">=", "value": "2"}
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "10"
+    }
   ]
 }

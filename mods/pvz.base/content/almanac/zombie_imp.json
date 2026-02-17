@@ -1,0 +1,7 @@
+{
+  "id": "zombie_imp",
+  "title": "Imp",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:imp",
+  "description": "Imp entry from base content."
+}

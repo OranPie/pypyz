@@ -1,0 +1,15 @@
+{
+  "id": "minigame_slot_machine_clear",
+  "title": "Slot Machine Clear",
+  "description": "Clear mini-game: Slot Machine.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "slot_machine",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 420
+  }
+}

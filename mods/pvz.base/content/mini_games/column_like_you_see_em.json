@@ -1,0 +1,15 @@
+{
+  "id": "column_like_you_see_em",
+  "name": "Column Like You See Em",
+  "ruleset": "column_like_you_see_em",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1011,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_column_like_you_see_em_clear"
+  ]
+}

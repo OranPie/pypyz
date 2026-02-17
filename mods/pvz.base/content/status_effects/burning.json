@@ -1,0 +1,10 @@
+{
+  "id": "burning",
+  "name": "Burning",
+  "duration_ticks": 90,
+  "stack_limit": 3,
+  "kind": "dot",
+  "modifiers": {
+    "damage_per_tick": 2
+  }
+}

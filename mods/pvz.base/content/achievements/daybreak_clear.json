@@ -1,0 +1,15 @@
+{
+  "id": "daybreak_clear",
+  "title": "Daybreak Defender",
+  "description": "Clear the full Day sequence.",
+  "conditions": [
+    {
+      "metric": "levels_cleared",
+      "stage": "day",
+      "count": 3
+    }
+  ],
+  "reward": {
+    "coins": 700
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "unlock_twin_sunflower",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:twin_sunflower",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "41"
+    }
+  ]
+}

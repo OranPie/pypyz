@@ -1,0 +1,15 @@
+{
+  "id": "minigame_beghouled_twist_clear",
+  "title": "Beghouled Twist Clear",
+  "description": "Clear mini-game: Beghouled Twist.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "beghouled_twist",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 480
+  }
+}

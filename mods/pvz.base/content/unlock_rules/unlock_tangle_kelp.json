@@ -1,0 +1,12 @@
+{
+  "id": "unlock_tangle_kelp",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:tangle_kelp",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "19"
+    }
+  ]
+}

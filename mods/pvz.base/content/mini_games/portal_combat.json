@@ -1,0 +1,15 @@
+{
+  "id": "portal_combat",
+  "name": "Portal Combat",
+  "ruleset": "portal_combat",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1010,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_portal_combat_clear"
+  ]
+}

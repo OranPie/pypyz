@@ -1,0 +1,12 @@
+{
+  "id": "unlock_spikerock",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:spikerock",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "46"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "wheelbarrow",
+  "name": "Wheelbarrow",
+  "price": 1200,
+  "grants": "zen_move_plants"
+}

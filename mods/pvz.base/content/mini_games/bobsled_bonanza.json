@@ -1,0 +1,15 @@
+{
+  "id": "bobsled_bonanza",
+  "name": "Bobsled Bonanza",
+  "ruleset": "bobsled_bonanza",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1012,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_bobsled_bonanza_clear"
+  ]
+}

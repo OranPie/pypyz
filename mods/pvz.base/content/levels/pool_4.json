@@ -1,0 +1,42 @@
+{
+  "id": "pool_4",
+  "name": "Pool 4",
+  "lawns": 6,
+  "sun_start": 132,
+  "mode": "adventure_pool",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:zomboni",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 2,
+      "lane": 6
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:dolphin_rider",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 2,
+      "lane": 2
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_pool_5",
+    "pvz.base:unlock_rules:unlock_sea_shroom"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

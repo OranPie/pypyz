@@ -1,0 +1,10 @@
+{
+  "id": "frozen",
+  "name": "Frozen",
+  "duration_ticks": 60,
+  "stack_limit": 1,
+  "kind": "stun",
+  "modifiers": {
+    "can_move": 0
+  }
+}

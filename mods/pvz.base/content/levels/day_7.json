@@ -1,0 +1,38 @@
+{
+  "id": "day_7",
+  "name": "Day 7",
+  "lawns": 5,
+  "sun_start": 166,
+  "mode": "adventure_day",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 3,
+      "lane": 1
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_day_8",
+    "pvz.base:unlock_rules:unlock_repeater"
+  ]
+}

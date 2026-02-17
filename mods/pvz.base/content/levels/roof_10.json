@@ -1,0 +1,35 @@
+{
+  "id": "roof_10",
+  "name": "Roof 10",
+  "lawns": 5,
+  "sun_start": 80,
+  "mode": "adventure_roof",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 3,
+      "lane": 1
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:gargantuar",
+      "count": 3,
+      "lane": 2
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:imp",
+      "count": 4,
+      "lane": 3
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 4,
+      "lane": 4
+    }
+  ],
+  "unlock_rules": []
+}

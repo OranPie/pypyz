@@ -1,0 +1,16 @@
+{
+  "id": "roof_9_flag",
+  "tick": 30,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 5,
+      "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:gargantuar",
+      "count": 3,
+      "lane": 3
+    }
+  ]
+}

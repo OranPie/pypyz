@@ -1,0 +1,16 @@
+{
+  "id": "pool_6_flag",
+  "tick": 30,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 4,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:conehead_ducky",
+      "count": 2,
+      "lane": 4
+    }
+  ]
+}

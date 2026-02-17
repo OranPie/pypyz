@@ -1,0 +1,12 @@
+{
+  "id": "conehead_ducky",
+  "name": "Conehead Ducky Tube Zombie",
+  "speed": 0.21,
+  "max_hp": 640,
+  "damage": 100,
+  "reward": 55,
+  "tier": "elite",
+  "abilities": [
+    "water_only"
+  ]
+}

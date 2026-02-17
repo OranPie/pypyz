@@ -1,0 +1,22 @@
+{
+  "id": "zen_garden",
+  "title": "Zen Garden",
+  "layout": "garden_grid",
+  "widgets": [
+    {
+      "id": "plant_slots",
+      "kind": "grid",
+      "bind": "zen.plants"
+    },
+    {
+      "id": "fertilize_btn",
+      "kind": "button",
+      "bind": "action.zen_fertilize"
+    },
+    {
+      "id": "sell_btn",
+      "kind": "button",
+      "bind": "action.zen_sell"
+    }
+  ]
+}

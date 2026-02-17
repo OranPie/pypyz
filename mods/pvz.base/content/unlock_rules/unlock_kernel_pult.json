@@ -1,0 +1,12 @@
+{
+  "id": "unlock_kernel_pult",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:kernel_pult",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "34"
+    }
+  ]
+}

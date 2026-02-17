@@ -1,0 +1,12 @@
+{
+  "id": "zomboni",
+  "name": "Zomboni",
+  "speed": 0.35,
+  "max_hp": 1300,
+  "damage": 100,
+  "reward": 120,
+  "tier": "elite",
+  "abilities": [
+    "spawn_ice"
+  ]
+}

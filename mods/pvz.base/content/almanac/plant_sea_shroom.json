@@ -1,0 +1,7 @@
+{
+  "id": "plant_sea_shroom",
+  "title": "Sea-shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:sea_shroom",
+  "description": "Sea-shroom entry from base content."
+}

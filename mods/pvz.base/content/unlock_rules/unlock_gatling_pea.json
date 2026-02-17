@@ -1,0 +1,12 @@
+{
+  "id": "unlock_gatling_pea",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:gatling_pea",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "40"
+    }
+  ]
+}

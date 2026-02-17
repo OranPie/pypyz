@@ -1,0 +1,14 @@
+{
+  "id": "adventure_clear",
+  "title": "Adventure Cleared",
+  "description": "Clear all 50 adventure levels.",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "count": 50
+    }
+  ],
+  "reward": {
+    "coins": 3000
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "zombie_catapult",
+  "title": "Catapult Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:catapult",
+  "description": "Catapult Zombie entry from base content."
+}

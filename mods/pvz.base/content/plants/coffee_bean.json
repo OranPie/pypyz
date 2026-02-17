@@ -1,0 +1,16 @@
+{
+  "id": "coffee_bean",
+  "name": "Coffee Bean",
+  "cost": 75,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 0,
+  "family": "utility",
+  "tags": [
+    "night",
+    "utility"
+  ],
+  "abilities": [
+    "wake_mushroom"
+  ]
+}

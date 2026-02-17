@@ -1,0 +1,42 @@
+{
+  "id": "pool_7",
+  "name": "Pool 7",
+  "lawns": 6,
+  "sun_start": 126,
+  "mode": "adventure_pool",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:conehead_ducky",
+      "count": 3,
+      "lane": 3
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:buckethead_ducky",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 3,
+      "lane": 5
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_pool_8",
+    "pvz.base:unlock_rules:unlock_blover"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

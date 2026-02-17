@@ -1,0 +1,12 @@
+{
+  "id": "unlock_roof_2",
+  "kind": "level",
+  "target_id": "pvz.base:levels:roof_2",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "41"
+    }
+  ]
+}

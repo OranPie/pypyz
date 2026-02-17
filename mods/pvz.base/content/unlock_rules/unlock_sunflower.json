@@ -1,0 +1,12 @@
+{
+  "id": "unlock_sunflower",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:sunflower",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "1"
+    }
+  ]
+}

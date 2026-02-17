@@ -1,0 +1,42 @@
+{
+  "id": "fog_1",
+  "name": "Fog 1",
+  "lawns": 6,
+  "sun_start": 118,
+  "mode": "adventure_fog",
+  "fog": true,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:dolphin_rider",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:balloon",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 2,
+      "lane": 5
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_fog_2",
+    "pvz.base:unlock_rules:unlock_magnet_shroom"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

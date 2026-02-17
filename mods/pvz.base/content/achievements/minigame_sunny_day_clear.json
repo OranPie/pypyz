@@ -1,0 +1,15 @@
+{
+  "id": "minigame_sunny_day_clear",
+  "title": "Sunny Day Clear",
+  "description": "Clear mini-game: Sunny Day.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "sunny_day",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 640
+  }
+}

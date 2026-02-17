@@ -1,0 +1,6 @@
+{
+  "id": "bug_spray",
+  "name": "Bug Spray",
+  "price": 50,
+  "grants": "zen_pest_control"
+}

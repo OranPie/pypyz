@@ -3,5 +3,7 @@
   "name": "Day 1",
   "kind": "adventure",
   "level_ref": "pvz.base:levels:day_1",
-  "next": ["pvz.base:map_nodes:day_2"]
+  "next": [
+    "pvz.base:map_nodes:day_2"
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "id": "unlock_plantern",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:plantern",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "25"
+    }
+  ]
+}

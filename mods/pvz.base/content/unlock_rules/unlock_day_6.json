@@ -1,0 +1,12 @@
+{
+  "id": "unlock_day_6",
+  "kind": "level",
+  "target_id": "pvz.base:levels:day_6",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "5"
+    }
+  ]
+}

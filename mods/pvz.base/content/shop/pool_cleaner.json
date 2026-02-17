@@ -1,0 +1,6 @@
+{
+  "id": "pool_cleaner",
+  "name": "Pool Cleaner",
+  "price": 400,
+  "grants": "pool_lawn_mower"
+}

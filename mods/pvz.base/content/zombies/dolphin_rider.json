@@ -1,0 +1,12 @@
+{
+  "id": "dolphin_rider",
+  "name": "Dolphin Rider Zombie",
+  "speed": 0.32,
+  "max_hp": 500,
+  "damage": 100,
+  "reward": 80,
+  "tier": "elite",
+  "abilities": [
+    "water_jump"
+  ]
+}

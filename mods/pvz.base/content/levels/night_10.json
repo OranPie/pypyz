@@ -1,0 +1,38 @@
+{
+  "id": "night_10",
+  "name": "Night 10",
+  "lawns": 5,
+  "sun_start": 140,
+  "mode": "adventure_night",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 3,
+      "lane": 1
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:dancing",
+      "count": 3,
+      "lane": 2
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 4,
+      "lane": 3
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 4,
+      "lane": 4
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_pool_1",
+    "pvz.base:unlock_rules:unlock_jalapeno"
+  ]
+}

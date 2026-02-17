@@ -1,0 +1,16 @@
+{
+  "id": "pool_10_flag",
+  "tick": 31,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:zomboni",
+      "count": 5,
+      "lane": 6
+    },
+    {
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 3,
+      "lane": 2
+    }
+  ]
+}

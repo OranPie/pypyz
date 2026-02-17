@@ -1,0 +1,9 @@
+{
+  "id": "scaredy_spore",
+  "name": "Scaredy Spore",
+  "speed": 4.2,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 180,
+  "status_effects": []
+}

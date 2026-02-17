@@ -1,0 +1,17 @@
+{
+  "id": "achievement_screen",
+  "title": "Achievements",
+  "layout": "list_detail",
+  "widgets": [
+    {
+      "id": "achievement_list",
+      "kind": "list",
+      "bind": "achievements.items"
+    },
+    {
+      "id": "detail_panel",
+      "kind": "panel",
+      "bind": "achievements.selection"
+    }
+  ]
+}

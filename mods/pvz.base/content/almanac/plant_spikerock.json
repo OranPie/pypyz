@@ -1,0 +1,7 @@
+{
+  "id": "plant_spikerock",
+  "title": "Spikerock",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:spikerock",
+  "description": "Spikerock entry from base content."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "roof_5_flag",
+  "tick": 32,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 3,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:ladder",
+      "count": 2,
+      "lane": 4
+    }
+  ]
+}

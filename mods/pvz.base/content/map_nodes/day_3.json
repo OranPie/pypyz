@@ -1,0 +1,10 @@
+{
+  "id": "day_3",
+  "name": "Day 3",
+  "kind": "adventure",
+  "level_ref": "pvz.base:levels:day_3",
+  "next": [
+    "pvz.base:map_nodes:day_4"
+  ],
+  "unlock_rule_id": "pvz.base:unlock_rules:unlock_day_3"
+}

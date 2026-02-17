@@ -1,0 +1,38 @@
+{
+  "id": "night_8",
+  "name": "Night 8",
+  "lawns": 5,
+  "sun_start": 144,
+  "mode": "adventure_night",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 6,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 12,
+      "zombie_id": "pvz.base:zombies:screen_door",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 18,
+      "zombie_id": "pvz.base:zombies:football",
+      "count": 3,
+      "lane": 1
+    },
+    {
+      "tick": 24,
+      "zombie_id": "pvz.base:zombies:dancing",
+      "count": 3,
+      "lane": 2
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_night_9",
+    "pvz.base:unlock_rules:unlock_threepeater"
+  ]
+}

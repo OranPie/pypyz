@@ -1,0 +1,12 @@
+{
+  "id": "digger",
+  "name": "Digger Zombie",
+  "speed": 0.3,
+  "max_hp": 700,
+  "damage": 100,
+  "reward": 90,
+  "tier": "elite",
+  "abilities": [
+    "tunnel"
+  ]
+}

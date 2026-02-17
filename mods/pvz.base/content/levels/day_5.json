@@ -1,0 +1,38 @@
+{
+  "id": "day_5",
+  "name": "Day 5",
+  "lawns": 5,
+  "sun_start": 170,
+  "mode": "adventure_day",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 6,
+      "zombie_id": "pvz.base:zombies:newspaper",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 12,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 18,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 24,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 4
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_day_6",
+    "pvz.base:unlock_rules:unlock_snow_pea"
+  ]
+}

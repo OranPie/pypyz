@@ -1,0 +1,17 @@
+{
+  "id": "cob_cannon",
+  "name": "Cob Cannon",
+  "cost": 500,
+  "cooldown": 50.0,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "artillery",
+  "tags": [
+    "offense",
+    "upgrade"
+  ],
+  "abilities": [
+    "targeted_nuke"
+  ],
+  "projectile_id": "pvz.base:projectiles:cob"
+}

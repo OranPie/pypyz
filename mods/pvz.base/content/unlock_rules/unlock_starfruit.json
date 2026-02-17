@@ -1,0 +1,12 @@
+{
+  "id": "unlock_starfruit",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:starfruit",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "29"
+    }
+  ]
+}

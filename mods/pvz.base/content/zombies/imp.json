@@ -1,0 +1,12 @@
+{
+  "id": "imp",
+  "name": "Imp",
+  "speed": 0.38,
+  "max_hp": 300,
+  "damage": 100,
+  "reward": 60,
+  "tier": "common",
+  "abilities": [
+    "thrown_by_gargantuar"
+  ]
+}

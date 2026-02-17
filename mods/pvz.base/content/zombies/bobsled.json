@@ -1,0 +1,12 @@
+{
+  "id": "bobsled",
+  "name": "Bobsled Team",
+  "speed": 0.34,
+  "max_hp": 1000,
+  "damage": 100,
+  "reward": 130,
+  "tier": "elite",
+  "abilities": [
+    "team_unit"
+  ]
+}

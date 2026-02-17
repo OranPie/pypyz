@@ -1,0 +1,7 @@
+{
+  "id": "zombie_ladder",
+  "title": "Ladder Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:ladder",
+  "description": "Ladder Zombie entry from base content."
+}

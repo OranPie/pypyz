@@ -1,0 +1,27 @@
+{
+  "id": "mode_select",
+  "title": "Choose Mode",
+  "layout": "mode_tiles",
+  "widgets": [
+    {
+      "id": "adventure_tile",
+      "kind": "tile",
+      "bind": "action.mode_adventure"
+    },
+    {
+      "id": "mini_game_tile",
+      "kind": "tile",
+      "bind": "action.mode_minigame"
+    },
+    {
+      "id": "puzzle_tile",
+      "kind": "tile",
+      "bind": "action.mode_puzzle"
+    },
+    {
+      "id": "survival_tile",
+      "kind": "tile",
+      "bind": "action.mode_survival"
+    }
+  ]
+}

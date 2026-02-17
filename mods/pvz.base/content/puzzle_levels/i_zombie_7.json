@@ -1,0 +1,17 @@
+{
+  "id": "i_zombie_7",
+  "name": "I, Zombie 7",
+  "puzzle_type": "i_zombie",
+  "slots": 13,
+  "target": "eat_all_brains",
+  "layout": [
+    {
+      "lane": 3,
+      "contains": "pvz.base:plants:sunflower"
+    },
+    {
+      "lane": 5,
+      "contains": "pvz.base:plants:wallnut"
+    }
+  ]
+}

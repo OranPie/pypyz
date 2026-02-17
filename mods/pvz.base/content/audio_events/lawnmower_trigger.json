@@ -1,0 +1,11 @@
+{
+  "id": "lawnmower_trigger",
+  "event": "combat.lawnmower",
+  "bus": "sfx",
+  "asset": "assets/audio/lawnmower.ogg",
+  "volume": 0.95,
+  "tags": [
+    "combat",
+    "mower"
+  ]
+}

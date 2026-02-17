@@ -1,0 +1,12 @@
+{
+  "id": "zombotany_wallnut",
+  "name": "ZomBotany Wall-nut Zombie",
+  "speed": 0.2,
+  "max_hp": 1600,
+  "damage": 100,
+  "reward": 110,
+  "tier": "special",
+  "abilities": [
+    "hybrid_tank"
+  ]
+}

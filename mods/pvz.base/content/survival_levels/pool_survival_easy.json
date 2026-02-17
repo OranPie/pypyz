@@ -1,0 +1,10 @@
+{
+  "id": "pool_survival_easy",
+  "name": "Survival: Pool (Easy)",
+  "stage": "pool",
+  "rounds": 5,
+  "level_ref": "pvz.base:levels:pool_3",
+  "modifiers": [
+    "escalating_difficulty"
+  ]
+}

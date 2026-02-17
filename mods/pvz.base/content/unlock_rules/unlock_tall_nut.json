@@ -1,0 +1,12 @@
+{
+  "id": "unlock_tall_nut",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:tall_nut",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "23"
+    }
+  ]
+}

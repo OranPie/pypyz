@@ -1,0 +1,7 @@
+{
+  "id": "plant_cabbage_pult",
+  "title": "Cabbage-pult",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cabbage_pult",
+  "description": "Cabbage-pult entry from base content."
+}

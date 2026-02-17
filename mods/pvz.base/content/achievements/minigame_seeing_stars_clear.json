@@ -1,0 +1,15 @@
+{
+  "id": "minigame_seeing_stars_clear",
+  "title": "Seeing Stars Clear",
+  "description": "Clear mini-game: Seeing Stars.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "seeing_stars",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 460
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "day_6",
+  "name": "Day 6",
+  "lawns": 5,
+  "sun_start": 168,
+  "mode": "adventure_day",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 4,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 16,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 22,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 3,
+      "lane": 5
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_day_7",
+    "pvz.base:unlock_rules:unlock_chomper"
+  ]
+}

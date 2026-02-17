@@ -1,0 +1,7 @@
+{
+  "id": "zombie_screen_door",
+  "title": "Screen Door Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:screen_door",
+  "description": "Screen Door Zombie entry from base content."
+}

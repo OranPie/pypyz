@@ -1,0 +1,12 @@
+{
+  "id": "unlock_squash",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:squash",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "17"
+    }
+  ]
+}

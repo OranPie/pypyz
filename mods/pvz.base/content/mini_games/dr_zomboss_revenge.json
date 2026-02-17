@@ -1,0 +1,15 @@
+{
+  "id": "dr_zomboss_revenge",
+  "name": "Dr Zomboss Revenge",
+  "ruleset": "dr_zomboss_revenge",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1019,
+  "difficulty": "hard",
+  "rewards": [
+    "pvz.base:achievements:minigame_dr_zomboss_revenge_clear"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "star",
+  "name": "Star Shot",
+  "speed": 3.4,
+  "damage": 20,
+  "pierce": 0,
+  "lifetime_ticks": 170,
+  "status_effects": []
+}

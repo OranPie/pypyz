@@ -1,0 +1,16 @@
+{
+  "id": "squash",
+  "name": "Squash",
+  "cost": 50,
+  "cooldown": 30.0,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "instant",
+  "tags": [
+    "offense",
+    "instant"
+  ],
+  "abilities": [
+    "leap_crush"
+  ]
+}

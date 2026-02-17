@@ -1,0 +1,12 @@
+{
+  "id": "pole_vaulting",
+  "name": "Pole Vaulting Zombie",
+  "speed": 0.35,
+  "max_hp": 340,
+  "damage": 100,
+  "reward": 60,
+  "tier": "elite",
+  "abilities": [
+    "vault_first_plant"
+  ]
+}

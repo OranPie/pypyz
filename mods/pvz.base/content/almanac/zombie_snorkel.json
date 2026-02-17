@@ -1,0 +1,7 @@
+{
+  "id": "zombie_snorkel",
+  "title": "Snorkel Zombie",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:snorkel",
+  "description": "Snorkel Zombie entry from base content."
+}

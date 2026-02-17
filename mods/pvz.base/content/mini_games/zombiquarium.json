@@ -1,0 +1,15 @@
+{
+  "id": "zombiquarium",
+  "name": "Zombiquarium",
+  "ruleset": "zombiquarium",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1007,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_zombiquarium_clear"
+  ]
+}

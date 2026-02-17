@@ -1,0 +1,6 @@
+{
+  "id": "tree_food",
+  "name": "Tree Food",
+  "price": 2500,
+  "grants": "wisdom_tree_growth"
+}

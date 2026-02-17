@@ -1,0 +1,12 @@
+{
+  "id": "unlock_cherry_bomb",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cherry_bomb",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "2"
+    }
+  ]
+}

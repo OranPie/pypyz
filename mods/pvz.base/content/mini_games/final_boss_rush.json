@@ -1,0 +1,15 @@
+{
+  "id": "final_boss_rush",
+  "name": "Final Boss Rush",
+  "ruleset": "final_boss_rush",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1027,
+  "difficulty": "hard",
+  "rewards": [
+    "pvz.base:achievements:minigame_final_boss_rush_clear"
+  ]
+}

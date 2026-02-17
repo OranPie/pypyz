@@ -1,0 +1,12 @@
+{
+  "id": "unlock_cactus",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cactus",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "26"
+    }
+  ]
+}

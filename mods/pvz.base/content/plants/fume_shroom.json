@@ -1,0 +1,17 @@
+{
+  "id": "fume_shroom",
+  "name": "Fume-shroom",
+  "cost": 75,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 20,
+  "family": "mushroom",
+  "tags": [
+    "offense",
+    "night"
+  ],
+  "abilities": [
+    "line_pierce"
+  ],
+  "projectile_id": "pvz.base:projectiles:fume_cloud"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "pool_10",
+  "name": "Pool 10",
+  "lawns": 6,
+  "sun_start": 120,
+  "mode": "adventure_pool",
+  "fog": false,
+  "waves": [
+    {
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 11,
+      "zombie_id": "pvz.base:zombies:zomboni",
+      "count": 3,
+      "lane": 6
+    },
+    {
+      "tick": 17,
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 4,
+      "lane": 1
+    },
+    {
+      "tick": 23,
+      "zombie_id": "pvz.base:zombies:dolphin_rider",
+      "count": 4,
+      "lane": 2
+    }
+  ],
+  "unlock_rules": [
+    "pvz.base:unlock_rules:unlock_fog_1",
+    "pvz.base:unlock_rules:unlock_pumpkin"
+  ],
+  "pool_lanes": [
+    3,
+    4
+  ]
+}

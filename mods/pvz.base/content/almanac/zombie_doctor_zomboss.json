@@ -1,0 +1,7 @@
+{
+  "id": "zombie_doctor_zomboss",
+  "title": "Dr. Zomboss",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:doctor_zomboss",
+  "description": "Dr. Zomboss entry from base content."
+}

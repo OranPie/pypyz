@@ -1,0 +1,16 @@
+{
+  "id": "fog_2_flag",
+  "tick": 32,
+  "entries": [
+    {
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 2,
+      "lane": 4
+    },
+    {
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 1,
+      "lane": 6
+    }
+  ]
+}

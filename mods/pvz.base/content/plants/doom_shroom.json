@@ -1,0 +1,16 @@
+{
+  "id": "doom_shroom",
+  "name": "Doom-shroom",
+  "cost": 125,
+  "cooldown": 50.0,
+  "max_hp": 300,
+  "damage": 1800,
+  "family": "mushroom",
+  "tags": [
+    "offense",
+    "night"
+  ],
+  "abilities": [
+    "massive_area_burst"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "zombie_bobsled",
+  "title": "Bobsled Team",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:bobsled",
+  "description": "Bobsled Team entry from base content."
+}

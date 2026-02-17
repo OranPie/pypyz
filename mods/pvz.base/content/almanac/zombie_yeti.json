@@ -1,0 +1,7 @@
+{
+  "id": "zombie_yeti",
+  "title": "Zombie Yeti",
+  "kind": "zombie",
+  "target_id": "pvz.base:zombies:yeti",
+  "description": "Zombie Yeti entry from base content."
+}

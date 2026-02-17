@@ -1,0 +1,10 @@
+{
+  "id": "night_6",
+  "name": "Night 6",
+  "kind": "adventure",
+  "level_ref": "pvz.base:levels:night_6",
+  "next": [
+    "pvz.base:map_nodes:night_7"
+  ],
+  "unlock_rule_id": "pvz.base:unlock_rules:unlock_night_6"
+}

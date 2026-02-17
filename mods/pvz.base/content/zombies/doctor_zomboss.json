@@ -1,0 +1,12 @@
+{
+  "id": "doctor_zomboss",
+  "name": "Dr. Zomboss",
+  "speed": 0.1,
+  "max_hp": 5000,
+  "damage": 400,
+  "reward": 500,
+  "tier": "boss",
+  "abilities": [
+    "boss_patterns"
+  ]
+}

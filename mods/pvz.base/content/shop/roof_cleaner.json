@@ -1,0 +1,6 @@
+{
+  "id": "roof_cleaner",
+  "name": "Roof Cleaner",
+  "price": 450,
+  "grants": "roof_lawn_mower"
+}

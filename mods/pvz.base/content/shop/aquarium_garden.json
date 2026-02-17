@@ -1,0 +1,6 @@
+{
+  "id": "aquarium_garden",
+  "name": "Aquarium Garden",
+  "price": 25000,
+  "grants": "zen_aquarium_unlock"
+}

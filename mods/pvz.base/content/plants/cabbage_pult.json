@@ -1,0 +1,17 @@
+{
+  "id": "cabbage_pult",
+  "name": "Cabbage-pult",
+  "cost": 100,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 40,
+  "family": "lobber",
+  "tags": [
+    "offense",
+    "roof"
+  ],
+  "abilities": [
+    "lobbed_projectile"
+  ],
+  "projectile_id": "pvz.base:projectiles:cabbage"
+}

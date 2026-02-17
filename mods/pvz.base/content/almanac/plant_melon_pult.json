@@ -1,0 +1,7 @@
+{
+  "id": "plant_melon_pult",
+  "title": "Melon-pult",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:melon_pult",
+  "description": "Melon-pult entry from base content."
+}

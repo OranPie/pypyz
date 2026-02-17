@@ -4,5 +4,8 @@
   "bus": "sfx",
   "asset": "assets/audio/seed_pick.ogg",
   "volume": 0.8,
-  "tags": ["ui", "seedbank"]
+  "tags": [
+    "ui",
+    "seedbank"
+  ]
 }

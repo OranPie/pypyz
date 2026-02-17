@@ -1,0 +1,12 @@
+{
+  "id": "unlock_cob_cannon",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:cob_cannon",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "47"
+    }
+  ]
+}

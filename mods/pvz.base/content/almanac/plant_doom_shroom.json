@@ -1,0 +1,7 @@
+{
+  "id": "plant_doom_shroom",
+  "title": "Doom-shroom",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:doom_shroom",
+  "description": "Doom-shroom entry from base content."
+}

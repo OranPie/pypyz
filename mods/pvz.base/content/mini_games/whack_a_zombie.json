@@ -1,0 +1,15 @@
+{
+  "id": "whack_a_zombie",
+  "name": "Whack A Zombie",
+  "ruleset": "whack_a_zombie",
+  "starting_loadout": [
+    "pvz.base:plants:peashooter",
+    "pvz.base:plants:sunflower",
+    "pvz.base:plants:wallnut"
+  ],
+  "seed": 1014,
+  "difficulty": "normal",
+  "rewards": [
+    "pvz.base:achievements:minigame_whack_a_zombie_clear"
+  ]
+}

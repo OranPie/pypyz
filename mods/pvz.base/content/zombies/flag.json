@@ -1,0 +1,12 @@
+{
+  "id": "flag",
+  "name": "Flag Zombie",
+  "speed": 0.26,
+  "max_hp": 270,
+  "damage": 100,
+  "reward": 30,
+  "tier": "common",
+  "abilities": [
+    "wave_leader"
+  ]
+}

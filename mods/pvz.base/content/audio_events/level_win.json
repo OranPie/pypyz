@@ -1,0 +1,11 @@
+{
+  "id": "level_win",
+  "event": "meta.level_win",
+  "bus": "music",
+  "asset": "assets/audio/level_win.ogg",
+  "volume": 0.95,
+  "tags": [
+    "meta",
+    "reward"
+  ]
+}

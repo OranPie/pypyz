@@ -1,0 +1,7 @@
+{
+  "id": "plant_torchwood",
+  "title": "Torchwood",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:torchwood",
+  "description": "Torchwood entry from base content."
+}

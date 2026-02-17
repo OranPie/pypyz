@@ -1,0 +1,10 @@
+{
+  "id": "pool_6",
+  "name": "Pool 6",
+  "kind": "adventure",
+  "level_ref": "pvz.base:levels:pool_6",
+  "next": [
+    "pvz.base:map_nodes:pool_7"
+  ],
+  "unlock_rule_id": "pvz.base:unlock_rules:unlock_pool_6"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sun_collect",
+  "event": "combat.sun_collect",
+  "bus": "sfx",
+  "asset": "assets/audio/sun_collect.ogg",
+  "volume": 0.75,
+  "tags": [
+    "combat",
+    "economy"
+  ]
+}

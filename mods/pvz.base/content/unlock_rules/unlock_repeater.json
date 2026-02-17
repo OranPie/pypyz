@@ -1,0 +1,12 @@
+{
+  "id": "unlock_repeater",
+  "kind": "plant",
+  "target_id": "pvz.base:plants:repeater",
+  "conditions": [
+    {
+      "metric": "levels_completed",
+      "operator": ">=",
+      "value": "7"
+    }
+  ]
+}

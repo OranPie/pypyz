@@ -5,7 +5,13 @@
   "slots": 9,
   "target": "clear_all_vases",
   "layout": [
-    {"lane": 1, "contains": "pvz.base:plants:peashooter"},
-    {"lane": 3, "contains": "pvz.base:zombies:basic"}
+    {
+      "lane": 2,
+      "contains": "pvz.base:plants:peashooter"
+    },
+    {
+      "lane": 3,
+      "contains": "pvz.base:zombies:conehead"
+    }
   ]
 }
