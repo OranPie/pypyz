@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": ["id", "name", "speed", "max_hp", "damage", "reward", "tier"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "speed": {"type": "number"},
+    "max_hp": {"type": "integer"},
+    "damage": {"type": "integer"},
+    "reward": {"type": "integer"},
+    "tier": {"type": "string"},
+    "abilities": {"type": "array", "items": {"type": "string"}},
+    "resists": {"type": "array", "items": {"type": "string"}}
+  }
+}

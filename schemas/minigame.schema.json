@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "required": ["id", "name", "ruleset", "starting_loadout", "seed", "difficulty"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "ruleset": {"type": "string"},
+    "starting_loadout": {"type": "array", "items": {"type": "string"}},
+    "seed": {"type": "integer"},
+    "difficulty": {"type": "string"},
+    "rewards": {"type": "array", "items": {"type": "string"}}
+  }
+}

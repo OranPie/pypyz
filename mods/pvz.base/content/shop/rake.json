@@ -1,0 +1,6 @@
+{
+  "id": "rake",
+  "name": "Rake",
+  "price": 200,
+  "grants": "starting_rake"
+}

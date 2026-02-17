@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["id", "name", "duration_ticks", "stack_limit", "kind", "modifiers"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "duration_ticks": {"type": "integer"},
+    "stack_limit": {"type": "integer"},
+    "kind": {"type": "string"},
+    "modifiers": {"type": "object"}
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pvz.base",
+  "version": "1.0.0",
+  "title": "PVZ Base Content",
+  "engine_api": "1.0",
+  "requires": [],
+  "conflicts": [],
+  "load_before": [],
+  "load_after": [],
+  "capabilities": ["events.emit"],
+  "entrypoints": {
+    "startup": "scripts/startup.py"
+  }
+}

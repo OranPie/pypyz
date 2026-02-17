@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["id", "event", "bus", "asset", "volume"],
+  "properties": {
+    "id": {"type": "string"},
+    "event": {"type": "string"},
+    "bus": {"type": "string"},
+    "asset": {"type": "string"},
+    "volume": {"type": "number"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}

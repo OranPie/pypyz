@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "required": ["id", "name", "cost", "cooldown", "max_hp", "damage", "family", "tags"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "cost": {"type": "integer"},
+    "cooldown": {"type": "number"},
+    "max_hp": {"type": "integer"},
+    "damage": {"type": "integer"},
+    "family": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "abilities": {"type": "array", "items": {"type": "string"}},
+    "projectile_id": {"type": "string"}
+  }
+}

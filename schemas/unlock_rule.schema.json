@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": ["id", "kind", "target_id", "conditions"],
+  "properties": {
+    "id": {"type": "string"},
+    "kind": {"type": "string", "enum": ["level", "plant", "shop", "mode"]},
+    "target_id": {"type": "string"},
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["metric", "operator", "value"],
+        "properties": {
+          "metric": {"type": "string"},
+          "operator": {"type": "string", "enum": [">=", "==", "contains"]},
+          "value": {"type": "string"}
+        }
+      }
+    }
+  }
+}

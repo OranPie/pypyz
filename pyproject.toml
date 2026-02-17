@@ -1,0 +1,17 @@
+[project]
+name = "pvz-mod-engine"
+version = "0.1.0"
+description = "Mod-driven PvZ-like prototype with required pvz.base content"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+pvz = "pvz.__main__:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

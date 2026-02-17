@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": ["id", "title", "layout", "widgets"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "layout": {"type": "string"},
+    "widgets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "bind"],
+        "properties": {
+          "id": {"type": "string"},
+          "kind": {"type": "string"},
+          "bind": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "required": ["id", "name", "lawns", "sun_start", "mode", "waves"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "lawns": {"type": "integer"},
+    "sun_start": {"type": "integer"},
+    "mode": {"type": "string"},
+    "fog": {"type": "boolean"},
+    "pool_lanes": {"type": "array", "items": {"type": "integer"}},
+    "waves": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tick", "zombie_id", "count", "lane"],
+        "properties": {
+          "tick": {"type": "integer"},
+          "zombie_id": {"type": "string"},
+          "count": {"type": "integer"},
+          "lane": {"type": "integer"},
+          "flags": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "unlock_rules": {"type": "array", "items": {"type": "string"}
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "id": "seed_slot",
+  "name": "Extra Seed Slot",
+  "price": 750,
+  "grants": "extra_seed_slot"
+}

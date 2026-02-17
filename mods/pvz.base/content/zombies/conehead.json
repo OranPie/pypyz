@@ -1,0 +1,8 @@
+{
+  "id": "conehead",
+  "name": "Conehead Zombie",
+  "speed": 0.21,
+  "max_hp": 640,
+  "damage": 100,
+  "reward": 40
+}

@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "required": ["id", "name", "speed", "damage", "pierce", "lifetime_ticks"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "speed": {"type": "number"},
+    "damage": {"type": "integer"},
+    "pierce": {"type": "integer"},
+    "lifetime_ticks": {"type": "integer"},
+    "status_effects": {"type": "array", "items": {"type": "string"}}
+  }
+}

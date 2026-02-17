@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["id", "name", "puzzle_type", "slots", "target", "layout"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "puzzle_type": {"type": "string", "enum": ["vasebreaker", "i_zombie", "last_stand"]},
+    "slots": {"type": "integer"},
+    "target": {"type": "string"},
+    "layout": {"type": "array", "items": {"type": "object"}}
+  }
+}

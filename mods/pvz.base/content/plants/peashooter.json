@@ -1,0 +1,9 @@
+{
+  "id": "peashooter",
+  "name": "Peashooter",
+  "cost": 100,
+  "cooldown": 7.5,
+  "max_hp": 300,
+  "damage": 20,
+  "tags": ["offense", "starter"]
+}

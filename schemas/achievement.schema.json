@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": ["id", "title", "description", "conditions", "reward"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "description": {"type": "string"},
+    "conditions": {"type": "array", "items": {"type": "object"}},
+    "reward": {"type": "object"}
+  }
+}

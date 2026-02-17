@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": ["id", "title", "kind", "target_id", "description"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "kind": {"type": "string", "enum": ["plant", "zombie"]},
+    "target_id": {"type": "string"},
+    "description": {"type": "string"}
+  }
+}

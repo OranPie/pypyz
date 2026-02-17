@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["id", "name", "stage", "rounds", "level_ref"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "stage": {"type": "string"},
+    "rounds": {"type": "integer"},
+    "level_ref": {"type": "string"},
+    "modifiers": {"type": "array", "items": {"type": "string"}}
+  }
+}

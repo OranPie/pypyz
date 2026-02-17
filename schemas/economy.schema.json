@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": ["id", "currency", "start_amount", "max_amount", "income_sources"],
+  "properties": {
+    "id": {"type": "string"},
+    "currency": {"type": "string"},
+    "start_amount": {"type": "integer"},
+    "max_amount": {"type": "integer"},
+    "income_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "value"],
+        "properties": {
+          "source": {"type": "string"},
+          "value": {"type": "integer"}
+        }
+      }
+    }
+  }
+}

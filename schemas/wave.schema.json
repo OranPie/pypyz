@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "required": ["id", "tick", "entries"],
+  "properties": {
+    "id": {"type": "string"},
+    "tick": {"type": "integer"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["zombie_id", "count", "lane"],
+        "properties": {
+          "zombie_id": {"type": "string"},
+          "count": {"type": "integer"},
+          "lane": {"type": "integer"}
+        }
+      }
+    }
+  }
+}

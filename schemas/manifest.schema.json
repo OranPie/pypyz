@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "required": ["id", "version", "title", "engine_api"],
+  "properties": {
+    "id": {"type": "string"},
+    "version": {"type": "string"},
+    "title": {"type": "string"},
+    "engine_api": {"type": "string"},
+    "requires": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {"type": "string"},
+          "version": {"type": "string"}
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {"type": "string"},
+          "version": {"type": "string"}
+        }
+      }
+    },
+    "load_before": {"type": "array", "items": {"type": "string"}},
+    "load_after": {"type": "array", "items": {"type": "string"}},
+    "capabilities": {"type": "array", "items": {"type": "string"}},
+    "entrypoints": {"type": "object"}
+  }
+}

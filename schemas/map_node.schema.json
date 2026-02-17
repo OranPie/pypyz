@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["id", "name", "kind", "level_ref", "next"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "kind": {"type": "string", "enum": ["adventure", "minigame", "puzzle", "survival"]},
+    "level_ref": {"type": "string"},
+    "next": {"type": "array", "items": {"type": "string"}},
+    "unlock_rule_id": {"type": "string"}
+  }
+}
