@@ -117,8 +117,7 @@
     "pvz.base:zombies:conehead",
     "pvz.base:zombies:screen_door",
     "pvz.base:zombies:football",
-    "pvz.base:zombies:dancing",
-    "pvz.base:zombies:backup_dancer"
+    "pvz.base:zombies:dancing"
   ],
   "conveyor_belt": true
 }

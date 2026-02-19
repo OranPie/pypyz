@@ -124,3 +124,8 @@ Reference pages used when aligning PvZ1 progression:
 - https://plantsvszombies.wiki.gg/wiki/Level_1-10
 - https://plantsvszombies.wiki.gg/wiki/Level_2-8
 - https://plantsvszombies.wiki.gg/wiki/Level_5-10
+
+Web snapshot workflow for full-level alignment:
+- `python3 tools/gather_pvz_level_alignment.py`
+- `python3 tools/apply_level_alignment.py`
+- Raw snapshot output: `mods/pvz.base/assets/indexes/alignment/pvz1_levels_fandom_raw.json`

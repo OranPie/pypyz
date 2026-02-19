@@ -130,6 +130,18 @@ CANONICAL: Dict[str, List[str]] = {
     ],
 }
 
+WEB_LEVEL_ALIGNMENT_RAW = Path(
+    "mods/pvz.base/assets/indexes/alignment/pvz1_levels_fandom_raw.json"
+)
+
+ZOMBIE_NAME_ALIASES = {
+    "zombie": "basic",
+    "drzomboss": "doctor_zomboss",
+    "drzombosszombie": "doctor_zomboss",
+    "zombotanywallnutzombie": "zombotany_wallnut",
+    "zombotanytallnutzombie": "zombotany_tallnut",
+}
+
 
 def normalize(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", name.lower())
@@ -150,6 +162,66 @@ def diff_names(canonical: Iterable[str], current: Iterable[str]) -> Dict[str, Li
     missing = [canonical_map[key] for key in canonical_map if key not in current_map]
     extra = [current_map[key] for key in current_map if key not in canonical_map]
     return {"missing": missing, "extra": extra}
+
+
+def zombie_name_lookup() -> Dict[str, str]:
+    lookup: Dict[str, str] = dict(ZOMBIE_NAME_ALIASES)
+    for path in sorted(glob.glob("mods/pvz.base/content/zombies/*.json")):
+        with open(path, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        lookup[normalize(data.get("name", data["id"]))] = data["id"]
+    return lookup
+
+
+def web_alignment_quality(level_by_id: Dict[str, Dict[str, object]]) -> Dict[str, object]:
+    if not WEB_LEVEL_ALIGNMENT_RAW.exists():
+        return {"has_web_alignment_raw": False}
+
+    with WEB_LEVEL_ALIGNMENT_RAW.open("r", encoding="utf-8") as fh:
+        raw = json.load(fh)
+
+    lookup = zombie_name_lookup()
+    entries = raw.get("levels", [])
+    flag_mismatches: List[str] = []
+    zombie_pool_mismatches: List[str] = []
+    levels_with_web_pool = 0
+    levels_without_web_pool = 0
+
+    for entry in entries:
+        level_id = entry.get("level_id")
+        if level_id not in level_by_id:
+            continue
+        level = level_by_id[level_id]
+
+        flags_count = entry.get("flags_count")
+        if isinstance(flags_count, int) and level.get("flags_count") != flags_count:
+            flag_mismatches.append(level_id)
+
+        expected_pool = []
+        for zombie_name in entry.get("first_play_zombies", []):
+            zombie_id = lookup.get(normalize(zombie_name))
+            if zombie_id is None:
+                continue
+            fqid = f"pvz.base:zombies:{zombie_id}"
+            if fqid not in expected_pool:
+                expected_pool.append(fqid)
+
+        if expected_pool:
+            levels_with_web_pool += 1
+            current_pool = level.get("zombie_pool", [])
+            if set(current_pool) != set(expected_pool):
+                zombie_pool_mismatches.append(level_id)
+        else:
+            levels_without_web_pool += 1
+
+    return {
+        "has_web_alignment_raw": True,
+        "web_alignment_levels": len(entries),
+        "web_flag_mismatches": sorted(flag_mismatches),
+        "web_zombie_pool_mismatches": sorted(zombie_pool_mismatches),
+        "levels_with_web_pool": levels_with_web_pool,
+        "levels_without_web_pool": levels_without_web_pool,
+    }
 
 
 def level_quality() -> Dict[str, int]:
@@ -222,7 +294,7 @@ def level_alignment_quality() -> Dict[str, object]:
         "pool_2": 2,
         "pool_3": 2,
         "pool_4": 3,
-        "pool_5": 0,
+        "pool_5": 2,
         "pool_6": 2,
         "pool_7": 3,
         "pool_8": 2,
@@ -257,6 +329,7 @@ def level_alignment_quality() -> Dict[str, object]:
 
     fog_5 = level_by_id.get("fog_5", {})
     roof_10 = level_by_id.get("roof_10", {})
+    web_quality = web_alignment_quality(level_by_id)
     return {
         "tutorial_day_1_lawns": tutorial.get("lawns"),
         "tutorial_day_1_special_type": tutorial.get("special_type"),
@@ -270,6 +343,7 @@ def level_alignment_quality() -> Dict[str, object]:
         "levels_with_flags_count": sum(1 for level in levels if isinstance(level.get("flags_count"), int)),
         "missing_wave_defs": missing_wave_defs,
         "extra_wave_defs": extra_wave_defs,
+        **web_quality,
     }
 
 
@@ -387,6 +461,20 @@ def print_report(report: Dict[str, object]) -> None:
     )
     print(f"  missing wave defs ({len(lvl_align['missing_wave_defs'])}): {lvl_align['missing_wave_defs']}")
     print(f"  extra wave defs ({len(lvl_align['extra_wave_defs'])}): {lvl_align['extra_wave_defs']}")
+    print(f"  web alignment raw: {lvl_align.get('has_web_alignment_raw')}")
+    if lvl_align.get("has_web_alignment_raw"):
+        print(
+            f"  web pool coverage: {lvl_align['levels_with_web_pool']}/"
+            f"{lvl_align['web_alignment_levels']}"
+        )
+        print(
+            f"  web flag mismatches ({len(lvl_align['web_flag_mismatches'])}): "
+            f"{lvl_align['web_flag_mismatches']}"
+        )
+        print(
+            f"  web zombie_pool mismatches ({len(lvl_align['web_zombie_pool_mismatches'])}): "
+            f"{lvl_align['web_zombie_pool_mismatches']}"
+        )
     animation = report["quality"]["animation"]
     print("animation quality:")
     print(f"  covered: {animation['covered_targets']}/{animation['expected_targets']}")

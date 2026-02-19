@@ -124,11 +124,8 @@
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
-    "pvz.base:zombies:ducky_tube",
-    "pvz.base:zombies:snorkel",
-    "pvz.base:zombies:balloon",
-    "pvz.base:zombies:digger",
-    "pvz.base:zombies:jack_in_box"
+    "pvz.base:zombies:dolphin_rider",
+    "pvz.base:zombies:balloon"
   ],
   "conveyor_belt": false
 }

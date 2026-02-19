@@ -138,13 +138,9 @@
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
-    "pvz.base:zombies:buckethead",
-    "pvz.base:zombies:ladder",
-    "pvz.base:zombies:catapult",
     "pvz.base:zombies:bungee",
-    "pvz.base:zombies:football",
-    "pvz.base:zombies:gargantuar",
-    "pvz.base:zombies:imp"
+    "pvz.base:zombies:ladder",
+    "pvz.base:zombies:catapult"
   ],
   "conveyor_belt": false
 }

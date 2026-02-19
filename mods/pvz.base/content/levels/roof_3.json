@@ -114,10 +114,8 @@
   "zombie_pool": [
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",
-    "pvz.base:zombies:conehead",
-    "pvz.base:zombies:buckethead",
     "pvz.base:zombies:ladder",
-    "pvz.base:zombies:catapult"
+    "pvz.base:zombies:conehead"
   ],
   "conveyor_belt": false
 }

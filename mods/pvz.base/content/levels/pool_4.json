@@ -142,10 +142,10 @@
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
-    "pvz.base:zombies:ducky_tube",
-    "pvz.base:zombies:snorkel",
-    "pvz.base:zombies:zomboni",
-    "pvz.base:zombies:dolphin_rider"
+    "pvz.base:zombies:pole_vaulting",
+    "pvz.base:zombies:buckethead",
+    "pvz.base:zombies:newspaper",
+    "pvz.base:zombies:snorkel"
   ],
   "conveyor_belt": false
 }

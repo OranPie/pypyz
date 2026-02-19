@@ -112,11 +112,12 @@
   "special_type": "minigame",
   "flags_count": 2,
   "zombie_pool": [
+    "pvz.base:zombies:bungee",
     "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
     "pvz.base:zombies:buckethead",
-    "pvz.base:zombies:ladder",
-    "pvz.base:zombies:catapult"
+    "pvz.base:zombies:ladder"
   ],
   "conveyor_belt": false
 }

@@ -63,11 +63,13 @@
     "target_id": "pvz.base:plants:plantern"
   },
   "special_type": "minigame",
-  "flags_count": 0,
+  "flags_count": 2,
   "zombie_pool": [
-    "pvz.base:zombies:zombotany_peashooter",
-    "pvz.base:zombies:zombotany_wallnut",
-    "pvz.base:zombies:zombotany_squash"
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:football",
+    "pvz.base:zombies:snorkel"
   ],
   "conveyor_belt": false
 }

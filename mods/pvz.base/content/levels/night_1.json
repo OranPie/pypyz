@@ -90,8 +90,8 @@
   "flags_count": 1,
   "zombie_pool": [
     "pvz.base:zombies:basic",
-    "pvz.base:zombies:flag",
-    "pvz.base:zombies:newspaper"
+    "pvz.base:zombies:newspaper",
+    "pvz.base:zombies:flag"
   ],
   "conveyor_belt": false
 }

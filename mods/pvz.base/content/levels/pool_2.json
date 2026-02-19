@@ -119,8 +119,9 @@
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
-    "pvz.base:zombies:ducky_tube",
-    "pvz.base:zombies:snorkel"
+    "pvz.base:zombies:buckethead",
+    "pvz.base:zombies:newspaper",
+    "pvz.base:zombies:football"
   ],
   "conveyor_belt": false
 }

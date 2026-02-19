@@ -95,8 +95,7 @@
   "zombie_pool": [
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",
-    "pvz.base:zombies:conehead",
-    "pvz.base:zombies:ducky_tube"
+    "pvz.base:zombies:conehead"
   ],
   "conveyor_belt": false
 }

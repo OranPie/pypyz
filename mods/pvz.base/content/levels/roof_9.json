@@ -138,14 +138,11 @@
     "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
     "pvz.base:zombies:buckethead",
+    "pvz.base:zombies:jack_in_box",
+    "pvz.base:zombies:bungee",
     "pvz.base:zombies:ladder",
     "pvz.base:zombies:catapult",
-    "pvz.base:zombies:bungee",
-    "pvz.base:zombies:football",
-    "pvz.base:zombies:gargantuar",
-    "pvz.base:zombies:imp",
-    "pvz.base:zombies:pogo",
-    "pvz.base:zombies:zombotany_jalapeno"
+    "pvz.base:zombies:gargantuar"
   ],
   "conveyor_belt": false
 }

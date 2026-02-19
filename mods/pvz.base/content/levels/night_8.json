@@ -90,10 +90,9 @@
   "flags_count": 1,
   "zombie_pool": [
     "pvz.base:zombies:basic",
-    "pvz.base:zombies:flag",
-    "pvz.base:zombies:conehead",
     "pvz.base:zombies:dancing",
-    "pvz.base:zombies:backup_dancer"
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead"
   ],
   "conveyor_belt": false
 }

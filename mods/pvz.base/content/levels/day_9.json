@@ -115,8 +115,8 @@
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
-    "pvz.base:zombies:buckethead",
-    "pvz.base:zombies:pole_vaulting"
+    "pvz.base:zombies:pole_vaulting",
+    "pvz.base:zombies:buckethead"
   ],
   "conveyor_belt": false
 }

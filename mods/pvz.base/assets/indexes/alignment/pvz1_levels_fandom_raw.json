@@ -1,0 +1,876 @@
+{
+  "source": "plantsvszombies.fandom.com",
+  "note": "Data is parsed from level infobox + first-play wave tables when present.",
+  "levels": [
+    {
+      "level_id": "day_1",
+      "page": "Level_1-1",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-1",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "None (two after first time)",
+      "flags_count": 0,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie"
+      ]
+    },
+    {
+      "level_id": "day_2",
+      "page": "Level_1-2",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-2",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie"
+      ]
+    },
+    {
+      "level_id": "day_3",
+      "page": "Level_1-3",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-3",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Conehead Zombie",
+        "Flag Zombie"
+      ]
+    },
+    {
+      "level_id": "day_4",
+      "page": "Level_1-4",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-4",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "Shovel",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "day_5",
+      "page": "Level_1-5",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-5",
+      "location": "Day",
+      "type": "Wall-nut Bowling",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "(most versions) (web)",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "day_6",
+      "page": "Level_1-6",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-6",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Pole Vaulting Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "day_7",
+      "page": "Level_1-7",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-7",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Pole Vaulting Zombie"
+      ]
+    },
+    {
+      "level_id": "day_8",
+      "page": "Level_1-8",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-8",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Buckethead Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "day_9",
+      "page": "Level_1-9",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-9",
+      "location": "Day",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "A note from the zombies",
+      "replay_reward": "Same as before",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Pole Vaulting Zombie",
+        "Buckethead Zombie"
+      ]
+    },
+    {
+      "level_id": "day_10",
+      "page": "Level_1-10",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_1-10",
+      "location": "Day",
+      "type": "Conveyor-belt level",
+      "flags_text": "Two",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Pole Vaulting Zombie",
+        "Buckethead Zombie"
+      ]
+    },
+    {
+      "level_id": "night_1",
+      "page": "Level_2-1",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-1",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Newspaper Zombie",
+        "Flag Zombie"
+      ]
+    },
+    {
+      "level_id": "night_2",
+      "page": "Level_2-2",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-2",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Newspaper Zombie"
+      ]
+    },
+    {
+      "level_id": "night_3",
+      "page": "Level_2-3",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-3",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Screen Door Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "night_4",
+      "page": "Level_2-4",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-4",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "Two, three (replaying)",
+      "flags_count": 2,
+      "first_time_reward": "Suburban Almanac Note (mobile) The End (An empty seed packet if hacking) (web)",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Pole Vaulting Zombie",
+        "Screen Door Zombie"
+      ]
+    },
+    {
+      "level_id": "night_5",
+      "page": "Level_2-5",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-5",
+      "location": "Night",
+      "type": "Whack a Zombie",
+      "flags_text": "None",
+      "flags_count": 0,
+      "first_time_reward": "Note (Java edition only)",
+      "replay_reward": "A money bag",
+      "first_play_zombies": []
+    },
+    {
+      "level_id": "night_6",
+      "page": "Level_2-6",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-6",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Football Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "night_7",
+      "page": "Level_2-7",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-7",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Screen Door Zombie",
+        "Football Zombie"
+      ]
+    },
+    {
+      "level_id": "night_8",
+      "page": "Level_2-8",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-8",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Dancing Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "night_9",
+      "page": "Level_2-9",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-9",
+      "location": "Night",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "A note from the zombies",
+      "replay_reward": "Same as before",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Screen Door Zombie",
+        "Dancing Zombie"
+      ]
+    },
+    {
+      "level_id": "night_10",
+      "page": "Level_2-10",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_2-10",
+      "location": "Night",
+      "type": "Conveyor-belt level",
+      "flags_text": "Two",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Screen Door Zombie",
+        "Football Zombie",
+        "Dancing Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_1",
+      "page": "Level_3-1",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-1",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_2",
+      "page": "Level_3-2",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-2",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Newspaper Zombie",
+        "Football Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_3",
+      "page": "Level_3-3",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-3",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Snorkel Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_4",
+      "page": "Level_3-4",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-4",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "Three (four after first time)",
+      "flags_count": 3,
+      "first_time_reward": "Crazy Dave's Car Key Bacon (Android/iOS/iPadOS)",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Pole Vaulting Zombie",
+        "Buckethead Zombie",
+        "Newspaper Zombie",
+        "Snorkel Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_5",
+      "page": "Level_3-5",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-5",
+      "location": "Pool",
+      "type": "Big Trouble Little Zombie",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Football Zombie",
+        "Snorkel Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_6",
+      "page": "Level_3-6",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-6",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "Two, three (replaying)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Zomboni",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_7",
+      "page": "Level_3-7",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-7",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "Three (four after first time)",
+      "flags_count": 3,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Snorkel Zombie",
+        "Zomboni"
+      ]
+    },
+    {
+      "level_id": "pool_8",
+      "page": "Level_3-8",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-8",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Dolphin Rider Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_9",
+      "page": "Level_3-9",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-9",
+      "location": "Pool",
+      "type": "Regular",
+      "flags_text": "Three (four after first time)",
+      "flags_count": 3,
+      "first_time_reward": "A note from the zombies",
+      "replay_reward": "Same as before",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Pole Vaulting Zombie",
+        "Buckethead Zombie",
+        "Zomboni",
+        "Dolphin Rider Zombie"
+      ]
+    },
+    {
+      "level_id": "pool_10",
+      "page": "Level_3-10",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_3-10",
+      "location": "Pool",
+      "type": "Conveyor-belt level",
+      "flags_text": "Three",
+      "flags_count": 3,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Snorkel Zombie",
+        "Zomboni",
+        "Dolphin Rider Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_1",
+      "page": "Level_4-1",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-1",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Jack-in-the-Box Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_2",
+      "page": "Level_4-2",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-2",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Football Zombie",
+        "Jack-in-the-Box Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_3",
+      "page": "Level_4-3",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-3",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Balloon Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_4",
+      "page": "Level_4-4",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-4",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "Taco",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Dolphin Rider Zombie",
+        "Balloon Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_5",
+      "page": "Level_4-5",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-5",
+      "location": null,
+      "type": null,
+      "flags_text": "",
+      "flags_count": null,
+      "first_time_reward": null,
+      "replay_reward": null,
+      "first_play_zombies": []
+    },
+    {
+      "level_id": "fog_6",
+      "page": "Level_4-6",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-6",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "( in Great Wall Edition )",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Digger Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_7",
+      "page": "Level_4-7",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-7",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Jack-in-the-Box Zombie",
+        "Digger Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_8",
+      "page": "Level_4-8",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-8",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Pogo Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_9",
+      "page": "Level_4-9",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-9",
+      "location": "Fog",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "A note from the zombies",
+      "replay_reward": "Same as before",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Balloon Zombie",
+        "Pogo Zombie"
+      ]
+    },
+    {
+      "level_id": "fog_10",
+      "page": "Level_4-10",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_4-10",
+      "location": "Fog",
+      "type": "Conveyor-belt",
+      "flags_text": "Two, three (replaying)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Jack-in-the-Box Zombie",
+        "Balloon Zombie",
+        "Digger Zombie",
+        "Pogo Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_1",
+      "page": "Level_5-1",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-1",
+      "location": "Roof",
+      "type": "Regular",
+      "flags_text": "One (two after first time)",
+      "flags_count": 1,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Bungee Zombie",
+        "Flag Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_2",
+      "page": "Level_5-2",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-2",
+      "location": "Roof",
+      "type": "Normal",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Pole Vaulting Zombie",
+        "Buckethead Zombie",
+        "Bungee Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_3",
+      "page": "Level_5-3",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-3",
+      "location": "Roof",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Ladder Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_4",
+      "page": "Level_5-4",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-4",
+      "location": "Roof",
+      "type": "Regular",
+      "flags_text": "Three (four after first time)",
+      "flags_count": 3,
+      "first_time_reward": "Watering Can (most versions) (DSiWare)",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Football Zombie",
+        "Pogo Zombie",
+        "Ladder Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_5",
+      "page": "Level_5-5",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-5",
+      "location": "Roof",
+      "type": "Conveyor-belt level",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Bungee Zombie",
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Ladder Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_6",
+      "page": "Level_5-6",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-6",
+      "location": "Roof",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Catapult Zombie",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_7",
+      "page": "Level_5-7",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-7",
+      "location": "Roof",
+      "type": "Regular",
+      "flags_text": "Three (four after first time)",
+      "flags_count": 3,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Bungee Zombie",
+        "Ladder Zombie",
+        "Catapult Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_8",
+      "page": "Level_5-8",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-8",
+      "location": "Roof",
+      "type": "Regular",
+      "flags_text": "Two (three after first time)",
+      "flags_count": 2,
+      "first_time_reward": "",
+      "replay_reward": "A money bag",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Gargantuar",
+        "Conehead Zombie"
+      ]
+    },
+    {
+      "level_id": "roof_9",
+      "page": "Level_5-9",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-9",
+      "location": "Roof",
+      "type": "Regular",
+      "flags_text": "Three (four after first time)",
+      "flags_count": 3,
+      "first_time_reward": "A note from Dr. Zomboss",
+      "replay_reward": "Same as before",
+      "first_play_zombies": [
+        "Regular Zombie",
+        "Flag Zombie",
+        "Conehead Zombie",
+        "Buckethead Zombie",
+        "Jack-in-the-Box Zombie",
+        "Bungee Zombie",
+        "Ladder Zombie",
+        "Catapult Zombie",
+        "Gargantuar"
+      ]
+    },
+    {
+      "level_id": "roof_10",
+      "page": "Level_5-10",
+      "url": "https://plantsvszombies.fandom.com/wiki/Level_5-10",
+      "location": "Night Roof",
+      "type": "Boss battle",
+      "flags_text": "none",
+      "flags_count": 0,
+      "first_time_reward": "Silver Sunflower Trophy , three diamonds A money bag (iOS version)",
+      "replay_reward": "A money bag",
+      "first_play_zombies": []
+    }
+  ]
+}
