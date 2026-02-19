@@ -1,0 +1,29 @@
+{
+  "id": "blover_idle",
+  "target_id": "pvz.base:plants:blover",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/26/Close-Up_of_Blover_and_Dandleion_combo.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a1/BloverAS.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b2/Blover2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b6/HD_Blover.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

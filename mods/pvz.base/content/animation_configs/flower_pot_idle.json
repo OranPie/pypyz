@@ -1,0 +1,29 @@
+{
+  "id": "flower_pot_idle",
+  "target_id": "pvz.base:plants:flower_pot",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5c/Flower_Pot_Costume_HD.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/70/Flower_PotAS.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/9e/FlowerPot_irl.jpg",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b1/Flower_PotGWE.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

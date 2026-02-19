@@ -1,0 +1,29 @@
+{
+  "id": "garlic_idle",
+  "target_id": "pvz.base:plants:garlic",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/21/Garlic2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2f/GarlicH.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

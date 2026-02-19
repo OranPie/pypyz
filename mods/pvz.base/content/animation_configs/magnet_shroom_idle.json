@@ -1,0 +1,29 @@
+{
+  "id": "magnet_shroom_idle",
+  "target_id": "pvz.base:plants:magnet_shroom",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/18/Gold_Magnet1.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2f/Magnet_Plant_Shroom_packet.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/35/Magnet_PlantA.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

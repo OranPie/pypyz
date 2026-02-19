@@ -1,0 +1,38 @@
+{
+  "id": "zombie_walk",
+  "target_id": "pvz.base:zombies:basic",
+  "fps": 10,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Wall-NutH.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/03/Sun_Card.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/05/JavaSun.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/06/SunflowerA.png",
+      "duration_ms": 100
+    }
+  ],
+  "sound_events": [
+    {
+      "event": "step",
+      "sound_url": "https://plantsvszombies.fandom.com/wiki/File:Groan.ogg"
+    },
+    {
+      "event": "attack",
+      "sound_url": "https://plantsvszombies.fandom.com/wiki/File:ZombieBite.ogg"
+    }
+  ]
+}

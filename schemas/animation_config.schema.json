@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "required": ["id", "target_id", "fps", "loop", "frames"],
+  "properties": {
+    "id": {"type": "string"},
+    "target_id": {"type": "string"},
+    "fps": {"type": "integer"},
+    "loop": {"type": "boolean"},
+    "frames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["frame", "texture", "duration_ms"],
+        "properties": {
+          "frame": {"type": "integer"},
+          "texture": {"type": "string"},
+          "duration_ms": {"type": "integer"}
+        }
+      }
+    },
+    "sound_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event", "sound_url"],
+        "properties": {
+          "event": {"type": "string"},
+          "sound_url": {"type": "string"}
+        }
+      }
+    }
+  }
+}

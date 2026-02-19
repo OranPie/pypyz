@@ -1,0 +1,29 @@
+{
+  "id": "winter_melon_idle",
+  "target_id": "pvz.base:plants:winter_melon",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0b/Winter_Melon_Upgrade_3.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/24/Winter_Melon2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

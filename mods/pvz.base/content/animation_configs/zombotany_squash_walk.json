@@ -1,0 +1,38 @@
+{
+  "id": "zombotany_squash_walk",
+  "target_id": "pvz.base:zombies:zombotany_squash",
+  "fps": 10,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Squashzombie.jpg",
+      "duration_ms": 100
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/03/Squash_zombie.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0c/Sqseed.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1a/Squash_burnt.JPG",
+      "duration_ms": 100
+    }
+  ],
+  "sound_events": [
+    {
+      "event": "attack",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
+    },
+    {
+      "event": "step",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+    }
+  ]
+}

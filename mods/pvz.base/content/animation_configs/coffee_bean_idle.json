@@ -1,0 +1,29 @@
+{
+  "id": "coffee_bean_idle",
+  "target_id": "pvz.base:plants:coffee_bean",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/44/Coffee_line_Ability2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b1/Coffee_BeanAS.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b5/Coffee-Bean.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b5/Coffee_Bean1.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

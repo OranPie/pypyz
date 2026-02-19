@@ -1,0 +1,38 @@
+{
+  "id": "gargantuar_walk",
+  "target_id": "pvz.base:zombies:gargantuar",
+  "fps": 10,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/The_SmashH.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0f/PvZH_Beastly_Icon.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1e/Gargantuar5.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "duration_ms": 100
+    }
+  ],
+  "sound_events": [
+    {
+      "event": "attack",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
+    },
+    {
+      "event": "step",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+    }
+  ]
+}

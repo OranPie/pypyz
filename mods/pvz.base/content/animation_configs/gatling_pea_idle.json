@@ -1,0 +1,29 @@
+{
+  "id": "gatling_pea_idle",
+  "target_id": "pvz.base:plants:gatling_pea",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/Pea_GatlingGW2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/17/Mega_Gatling_Pea2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/Gatling_Pea2.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

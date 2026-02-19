@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "required": ["id", "source", "textures", "sounds"],
+  "properties": {
+    "id": {"type": "string"},
+    "source": {"type": "string"},
+    "crawled_at": {"type": "string"},
+    "page_sources": {"type": "array", "items": {"type": "string"}},
+    "textures": {"type": "array", "items": {"type": "string"}},
+    "sounds": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  }
+}

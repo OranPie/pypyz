@@ -1,0 +1,38 @@
+{
+  "id": "ducky_tube_walk",
+  "target_id": "pvz.base:zombies:ducky_tube",
+  "fps": 10,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/06/Ducky_Tube_ZombieH.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/33/Ducky_Tube_Zombie3.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/34/Ducky_Tube2.png",
+      "duration_ms": 100
+    }
+  ],
+  "sound_events": [
+    {
+      "event": "attack",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
+    },
+    {
+      "event": "step",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+    }
+  ]
+}

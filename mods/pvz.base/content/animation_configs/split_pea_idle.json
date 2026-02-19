@@ -1,0 +1,29 @@
+{
+  "id": "split_pea_idle",
+  "target_id": "pvz.base:plants:split_pea",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/35/Split_pea_real.jpg",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3f/Splitpea2009HD.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

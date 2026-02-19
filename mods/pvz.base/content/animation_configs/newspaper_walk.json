@@ -1,0 +1,38 @@
+{
+  "id": "newspaper_walk",
+  "target_id": "pvz.base:zombies:newspaper",
+  "fps": 10,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/PvZH_Crazy_Icon.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Newspaper_ZombieGW2.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/33/Newspaper_ZombieH.png",
+      "duration_ms": 100
+    }
+  ],
+  "sound_events": [
+    {
+      "event": "attack",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
+    },
+    {
+      "event": "step",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+    }
+  ]
+}

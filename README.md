@@ -1,19 +1,25 @@
 # pvz-mod-engine
 
-Python prototype for a mod-driven PvZ-like game. Core content is loaded from mods, with a required base mod id: `pvz.base`.
+Python prototype for a mod-driven PvZ-like game.
 
-## Quick start
+- Required base mod: `pvz.base`
+- Primary content format: JSON
+- Complex behavior: restricted Python hook scripts
 
-```bash
-python -m pvz --mods mods --validate-only
-python -m pvz --mods mods
-```
-
-## Tools
+## Run
 
 ```bash
-python -m tools.validate_mod mods/pvz.base
-python -m tools.resolve_load_order mods
-python -m tools.dump_registry mods
-python -m tools.lint_patches mods
+python3 -m pvz --mods mods --schemas schemas --validate-only
+python3 -m pvz --mods mods --schemas schemas --simulate
 ```
+
+## Tooling
+
+```bash
+python3 -m tools.validate_mod mods/pvz.base --schemas schemas
+python3 -m tools.resolve_load_order mods --schemas schemas
+python3 -m tools.lint_patches mods --schemas schemas
+python3 -m tools.dump_registry mods --schemas schemas
+```
+
+See `docs/mod_spec.md` for the full v1 folder format and schema surface.

@@ -1,0 +1,38 @@
+{
+  "id": "conehead_walk",
+  "target_id": "pvz.base:zombies:conehead",
+  "fps": 10,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/08/Conehead_Zombie3.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/ConeheadH.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/14/Conehead_Zombie2.png",
+      "duration_ms": 100
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "duration_ms": 100
+    }
+  ],
+  "sound_events": [
+    {
+      "event": "attack",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
+    },
+    {
+      "event": "step",
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+    }
+  ]
+}

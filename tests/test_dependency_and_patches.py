@@ -41,6 +41,8 @@ class DependencyAndPatchTests(unittest.TestCase):
                     "cooldown": 7.5,
                     "max_hp": 300,
                     "damage": 20,
+                    "family": "shooter",
+                    "tags": ["starter"],
                 },
             )
 
@@ -81,6 +83,8 @@ class DependencyAndPatchTests(unittest.TestCase):
                     "cooldown": 7.5,
                     "max_hp": 300,
                     "damage": 20,
+                    "family": "shooter",
+                    "tags": ["starter"],
                 },
             )
 

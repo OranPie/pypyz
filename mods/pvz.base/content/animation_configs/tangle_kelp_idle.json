@@ -1,0 +1,29 @@
+{
+  "id": "tangle_kelp_idle",
+  "target_id": "pvz.base:plants:tangle_kelp",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0a/Tangle_Kelp1.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1a/Tangle_Kelp2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Tangle_Kelp_HD.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2b/Tangle_KelpAS.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

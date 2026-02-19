@@ -15,10 +15,24 @@ from pvz.models import ContentItem, ContentRegistry, ModPackage
 CATEGORY_SCHEMA = {
     "plants": "plant",
     "zombies": "zombie",
+    "projectiles": "projectile",
+    "status_effects": "status_effect",
     "levels": "level",
+    "waves": "wave",
+    "map_nodes": "map_node",
+    "mini_games": "minigame",
+    "puzzle_levels": "puzzle_level",
+    "survival_levels": "survival_level",
     "shop": "shop_item",
     "almanac": "almanac_entry",
     "zen": "zen_item",
+    "unlock_rules": "unlock_rule",
+    "achievements": "achievement",
+    "economy": "economy",
+    "ui_screens": "ui_screen",
+    "audio_events": "audio_event",
+    "media_resources": "media_resource",
+    "animation_configs": "animation_config",
 }
 
 

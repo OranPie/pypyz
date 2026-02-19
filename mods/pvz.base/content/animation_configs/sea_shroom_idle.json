@@ -1,0 +1,29 @@
+{
+  "id": "sea_shroom_idle",
+  "target_id": "pvz.base:plants:sea_shroom",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Sea-ShroomH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/87/Sea-shroomAS.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/8c/Sea-shroom1.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/97/HD_Sea-shroom.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

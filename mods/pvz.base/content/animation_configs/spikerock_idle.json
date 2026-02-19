@@ -1,0 +1,29 @@
+{
+  "id": "spikerock_idle",
+  "target_id": "pvz.base:plants:spikerock",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Spikerock2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3b/Spikerock_Upgrade_2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/42/SpikerockAS.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/9b/Spikerock1.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

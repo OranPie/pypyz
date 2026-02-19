@@ -1,0 +1,29 @@
+{
+  "id": "jalapeno_idle",
+  "target_id": "pvz.base:plants:jalapeno",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/14/Jalapeno_Rare_Gacha_Icon.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/17/Jalape\u00f1o3.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/42/JalapenoAS.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

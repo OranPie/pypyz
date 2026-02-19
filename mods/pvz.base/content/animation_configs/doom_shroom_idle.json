@@ -1,0 +1,29 @@
+{
+  "id": "doom_shroom_idle",
+  "target_id": "pvz.base:plants:doom_shroom",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/37/Doom-shroomAS.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/4f/Doom-ShroomH.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

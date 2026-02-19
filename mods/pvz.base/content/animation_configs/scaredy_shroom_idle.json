@@ -1,0 +1,29 @@
+{
+  "id": "scaredy_shroom_idle",
+  "target_id": "pvz.base:plants:scaredy_shroom",
+  "fps": 12,
+  "loop": true,
+  "frames": [
+    {
+      "frame": 0,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/ShamrockA.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/13/Scaredy-shroom2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1b/ShamrockstarA.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Scaredy-shroom1.png",
+      "duration_ms": 83
+    }
+  ],
+  "sound_events": []
+}

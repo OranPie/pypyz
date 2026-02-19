@@ -40,6 +40,8 @@ class LoaderTests(unittest.TestCase):
         loaded = loader.load()
         self.assertIn("pvz.base", loaded.mod_ids)
         self.assertIn("plants", loaded.registry.categories)
+        self.assertIn("projectiles", loaded.registry.categories)
+        self.assertIn("mini_games", loaded.registry.categories)
         self.assertIn("pvz.base:plants:peashooter", loaded.registry.categories["plants"])
 
 

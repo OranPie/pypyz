@@ -1,9 +1,11 @@
-# Mod Specification (v1)
+# PvZ Mod Format Spec (v1)
 
-## Required base mod
-- Engine startup hard-fails unless mod id `pvz.base` is present and valid.
+## Startup contract
+- Engine **must** load a valid `pvz.base` mod at startup.
+- If `pvz.base` is missing or invalid, startup fails.
+- Additional mods load after dependency resolution and may patch base content.
 
-## Mod layout
+## Folder format
 
 ```text
 <mod>/
@@ -11,50 +13,69 @@
   content/
     plants/*.json
     zombies/*.json
+    projectiles/*.json
+    status_effects/*.json
     levels/*.json
+    waves/*.json
+    map_nodes/*.json
+    mini_games/*.json
+    puzzle_levels/*.json
+    survival_levels/*.json
     shop/*.json
     almanac/*.json
     zen/*.json
+    unlock_rules/*.json
+    achievements/*.json
+    economy/*.json
+    ui_screens/*.json
+    audio_events/*.json
+    media_resources/*.json
+    animation_configs/*.json
   patches/*.json
   scripts/*.py
   assets/**
   localization/*.json
 ```
 
-## `mod.json`
-Required fields:
-- `id`
-- `version`
-- `title`
-- `engine_api`
+## Manifest (`mod.json`)
+Required:
+- `id`, `version`, `title`, `engine_api`
 
-Optional fields:
-- `requires`/`conflicts`: array of `{ id, version }`
-- `load_before`/`load_after`: array of mod ids
-- `capabilities`: script capability list
-- `entrypoints`: map name -> script path
+Optional:
+- `requires`: dependency list `[{"id": "pvz.base", "version": "^1.0.0"}]`
+- `conflicts`
+- `load_before`, `load_after`
+- `capabilities` (for script API permissions)
+- `entrypoints` (hook scripts)
 
-## Content IDs
-- If `id` is local (`peashooter`), engine expands to `mod_id:category:id`.
-- Cross-mod references should use fully-qualified IDs.
+## IDs and references
+- Local IDs are auto-expanded into `mod_id:category:id`.
+- Cross-category references should always use fully qualified IDs.
+- Examples:
+  - `pvz.base:plants:peashooter`
+  - `pvz.base:levels:day_1`
 
 ## Patch format
-`patches/*.json` can be:
-- a list of patch ops, or
-- `{ "ops": [...] }`
+Each `patches/*.json` file can be either:
+- `[{...}, {...}]`
+- `{ "ops": [{...}, {...}] }`
 
 Patch operation fields:
-- `target`: content id
-- `op`: `add|replace|remove|merge|append`
-- `path`: JSON pointer (default `/`)
-- `value`: operation payload
+- `target` (content item id)
+- `op` in `add|replace|remove|merge|append`
+- `path` JSON pointer (default `/`)
+- `value` payload for op
 
-## Script hooks
-Functions named with `on_` prefix are registered. Current hooks include:
-- `on_startup`
-- `on_tick`
+## Script hooks and safety
+- Hook functions are discovered by `on_` prefix (e.g. `on_startup`, `on_tick`).
+- Scripts run with restricted builtins and allowlisted imports.
+- Runtime API methods are capability-gated (`events.emit`, `state.write`, `combat.write`).
 
-Scripts run in restricted runtime:
-- limited builtins
-- import allowlist (`math`, `random`)
-- capability-gated API methods (`events.emit`, `state.write`, `combat.write`)
+## v1 content surface (PvZ-style)
+This v1 schema pack covers:
+- Adventure campaign (`levels`, `waves`, `map_nodes`)
+- Core entities (`plants`, `zombies`, `projectiles`, `status_effects`)
+- Side modes (`mini_games`, `puzzle_levels`, `survival_levels`, `zen`)
+- Meta/progression (`shop`, `unlock_rules`, `achievements`, `economy`)
+- UX content (`almanac`, `ui_screens`, `audio_events`, `localization`)
+- External media index + animation recognition (`media_resources`, `animation_configs`)
