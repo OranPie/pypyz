@@ -4,3 +4,6 @@ __pycache__/
 .mypy_cache/
 coverage.xml
 saves/
+
+# generated web scrape outputs
+data/web_resources/
