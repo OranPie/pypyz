@@ -4,7 +4,9 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
+from pvz.content.asset_validation import validate_content_asset_refs
 from pvz.content.dependency import resolve_load_order
+from pvz.content.localization_validation import validate_localization_files
 from pvz.content.manifest import parse_manifest
 from pvz.content.patcher import apply_patches
 from pvz.content.schema_validator import SchemaStore, validate_against_schema
@@ -89,6 +91,7 @@ class ModLoader:
 
         for mod in ordered_mods:
             self._load_content_for_mod(mod, registry)
+            validate_localization_files(mod.path)
 
         for mod in ordered_mods:
             self._apply_patches_for_mod(mod, registry)
@@ -118,6 +121,12 @@ class ModLoader:
             if schema_name:
                 schema = self.schemas.get(schema_name)
                 validate_against_schema(payload, schema, source=str(file_path))
+                validate_content_asset_refs(
+                    payload,
+                    category=category,
+                    mod_root=mod.path,
+                    source=str(file_path),
+                )
 
             registry.add(
                 ContentItem(

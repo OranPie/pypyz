@@ -5,6 +5,7 @@ Python prototype for a mod-driven PvZ-like game.
 - Required base mod: `pvz.base`
 - Primary content format: JSON
 - Complex behavior: restricted Python hook scripts
+- Built-in validation covers schemas, asset references, and localization bundles
 
 ## Run
 

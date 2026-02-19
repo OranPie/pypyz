@@ -889,5 +889,5 @@
     "https://static.wikia.nocookie.net/plantsvszombies/images/f/ff/Groan5.ogg"
   ],
   "notes": "Precise per-target scrape. Verify licensing before packaging assets.",
-  "raw_snapshot": "assets/web_resources/pvz_web_media_precise_raw.json"
+  "raw_snapshot": "assets/indexes/media/pvz_web_media_precise_raw.json"
 }

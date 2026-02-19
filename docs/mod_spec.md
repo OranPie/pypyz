@@ -33,7 +33,10 @@
     animation_configs/*.json
   patches/*.json
   scripts/*.py
-  assets/**
+  assets/
+    sprites/**        # local textures/sheets (optional)
+    audio/**          # local sounds (optional)
+    indexes/media/**  # generated media crawl snapshots/index payloads
   localization/*.json
 ```
 
@@ -54,6 +57,19 @@ Optional:
 - Examples:
   - `pvz.base:plants:peashooter`
   - `pvz.base:levels:day_1`
+
+## Asset references and validation
+- In content JSON, asset refs may be:
+  - external URLs (`https://...`)
+  - local paths under `assets/...`
+- Local refs must stay inside the mod folder and must exist on disk.
+- `media_resources.raw_snapshot` should point to a local file under `assets/indexes/media/...`.
+- `animation_configs.frames[].texture` and `animation_configs.sound_events[].sound_url` are validated with the same rules.
+
+## Localization and i18n
+- Put locale bundles under `localization/*.json` (example: `en.json`, `zh-CN.json`).
+- Bundles must be object maps of string keys to string values.
+- If `en.json` exists, other locales are validated to have the same key set.
 
 ## Plant upgrade definition (v1)
 - Plants may define `upgrade` metadata to describe replacement upgrades in a mod-driven way.

@@ -195,7 +195,7 @@ def animation_quality() -> Dict[str, object]:
 
 
 def media_quality() -> Dict[str, object]:
-    raw_path = Path("mods/pvz.base/assets/web_resources/pvz_web_media_precise_raw.json")
+    raw_path = Path("mods/pvz.base/assets/indexes/media/pvz_web_media_precise_raw.json")
     if not raw_path.exists():
         return {"has_precise_media_raw": False}
     with raw_path.open("r", encoding="utf-8") as fh:

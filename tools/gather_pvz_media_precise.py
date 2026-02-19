@@ -257,7 +257,7 @@ def gather_precise() -> dict:
 
 def build_mod_files(payload: dict) -> None:
     content_root = Path("mods/pvz.base/content")
-    assets_root = Path("mods/pvz.base/assets/web_resources")
+    assets_root = Path("mods/pvz.base/assets/indexes/media")
     assets_root.mkdir(parents=True, exist_ok=True)
     (content_root / "media_resources").mkdir(parents=True, exist_ok=True)
     (content_root / "animation_configs").mkdir(parents=True, exist_ok=True)

@@ -13,6 +13,14 @@ class SchemaValidationError(PvzError):
     """Raised when JSON content fails schema validation."""
 
 
+class AssetValidationError(PvzError):
+    """Raised when referenced mod assets are invalid or missing."""
+
+
+class LocalizationValidationError(PvzError):
+    """Raised when localization files are malformed or inconsistent."""
+
+
 class DependencyError(PvzError):
     """Raised when dependency constraints cannot be resolved."""
 

@@ -6,6 +6,8 @@ import unittest
 from pathlib import Path
 
 from pvz.content.loader import ModLoader
+from pvz.errors import AssetValidationError
+from pvz.errors import LocalizationValidationError
 from pvz.errors import MissingBaseModError
 
 
@@ -62,6 +64,76 @@ class LoaderTests(unittest.TestCase):
                 upgrade = data["upgrade"]
                 self.assertGreaterEqual(upgrade.get("consume", 0), 1, msg=item.id)
                 self.assertTrue(upgrade.get("from"), msg=item.id)
+
+    def test_missing_local_asset_fails_validation(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            mods = Path(tmp)
+            base = mods / "pvz.base"
+            (base / "content" / "animation_configs").mkdir(parents=True)
+            (base / "mod.json").write_text(
+                json.dumps(
+                    {
+                        "id": "pvz.base",
+                        "version": "1.0.0",
+                        "title": "Base",
+                        "engine_api": "1.0",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (base / "content" / "animation_configs" / "broken.json").write_text(
+                json.dumps(
+                    {
+                        "id": "broken_anim",
+                        "target_id": "pvz.base:zombies:basic",
+                        "fps": 10,
+                        "loop": True,
+                        "frames": [
+                            {
+                                "frame": 0,
+                                "texture": "assets/sprites/missing/basic.png",
+                                "duration_ms": 100,
+                            }
+                        ],
+                        "sound_events": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            loader = ModLoader(mods, schema_root=SCHEMAS)
+            with self.assertRaises(AssetValidationError):
+                loader.load()
+
+    def test_localization_key_mismatch_fails_validation(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            mods = Path(tmp)
+            base = mods / "pvz.base"
+            base.mkdir(parents=True)
+            (base / "mod.json").write_text(
+                json.dumps(
+                    {
+                        "id": "pvz.base",
+                        "version": "1.0.0",
+                        "title": "Base",
+                        "engine_api": "1.0",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (base / "localization").mkdir(parents=True)
+            (base / "localization" / "en.json").write_text(
+                json.dumps({"menu.start": "Start", "menu.shop": "Shop"}),
+                encoding="utf-8",
+            )
+            (base / "localization" / "zh-CN.json").write_text(
+                json.dumps({"menu.start": "开始冒险"}),
+                encoding="utf-8",
+            )
+
+            loader = ModLoader(mods, schema_root=SCHEMAS)
+            with self.assertRaises(LocalizationValidationError):
+                loader.load()
 
 
 if __name__ == "__main__":

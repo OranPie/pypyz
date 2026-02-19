@@ -4,7 +4,9 @@ import argparse
 import json
 from pathlib import Path
 
+from pvz.content.asset_validation import validate_content_asset_refs
 from pvz.content.loader import CATEGORY_SCHEMA
+from pvz.content.localization_validation import validate_localization_files
 from pvz.content.manifest import parse_manifest
 from pvz.content.schema_validator import SchemaStore, validate_against_schema
 
@@ -33,6 +35,14 @@ def main() -> int:
         if ":" not in str(payload.get("id", "")):
             payload["id"] = f"{manifest.id}:{category}:{payload.get('id', rel.stem)}"
         validate_against_schema(payload, schemas.get(schema_name), source=str(file_path))
+        validate_content_asset_refs(
+            payload,
+            category=category,
+            mod_root=mod_path,
+            source=str(file_path),
+        )
+
+    validate_localization_files(mod_path)
 
     print(f"OK: {manifest.id} ({manifest.version})")
     return 0
