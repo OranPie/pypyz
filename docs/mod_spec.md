@@ -111,3 +111,15 @@ This v1 schema pack covers:
 - `levels/*.json` may include `scripted_events` for timeline cues (music, huge wave, boss phases).
 - `levels/*.json` may include `reward` metadata for stage clear payouts/cards/trophies.
 - `roof_10` is expected to carry boss metadata via `doctor_zomboss` wave + scripted events.
+- Optional alignment fields:
+  - `special_type`: `tutorial|standard|minigame|conveyor|boss`
+  - `conveyor_belt`: whether the stage uses conveyor-belt seed flow
+  - `flags_count`: expected number of flag-wave spikes in the stage
+  - `zombie_pool`: explicit per-level zombie pool used for progression auditing
+
+Reference pages used when aligning PvZ1 progression:
+- https://plantsvszombies.wiki.gg/wiki/Adventure_Mode
+- https://plantsvszombies.wiki.gg/wiki/Level_1-1
+- https://plantsvszombies.wiki.gg/wiki/Level_1-10
+- https://plantsvszombies.wiki.gg/wiki/Level_2-8
+- https://plantsvszombies.wiki.gg/wiki/Level_5-10

@@ -26,3 +26,4 @@ Each top-level folder under `content/` maps to a schema file.
 `manifest.schema.json` validates `mod.json`.
 
 Note: `plant.schema.json` includes optional `upgrade` metadata (`from`, `consume`, `placement`, `requires`, `inherit`) for explicit upgrade-path definitions.
+Note: `level.schema.json` includes optional alignment metadata (`special_type`, `conveyor_belt`, `flags_count`, `zombie_pool`).

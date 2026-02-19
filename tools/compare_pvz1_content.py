@@ -172,6 +172,42 @@ def level_quality() -> Dict[str, int]:
     }
 
 
+def level_alignment_quality() -> Dict[str, object]:
+    levels = []
+    for path in sorted(glob.glob("mods/pvz.base/content/levels/*.json")):
+        with open(path, "r", encoding="utf-8") as fh:
+            levels.append(json.load(fh))
+
+    level_by_id = {level["id"]: level for level in levels}
+    minigame_levels = sorted(level["id"] for level in levels if level.get("special_type") == "minigame")
+    conveyor_levels = sorted(level["id"] for level in levels if level.get("conveyor_belt"))
+    boss_levels = sorted(level["id"] for level in levels if level.get("special_type") == "boss")
+
+    wave_files = {
+        Path(path).stem
+        for path in glob.glob("mods/pvz.base/content/waves/*.json")
+    }
+    missing_wave_defs = sorted(
+        f"{level['id']}_flag" for level in levels if f"{level['id']}_flag" not in wave_files
+    )
+    extra_wave_defs = sorted(
+        wave_id for wave_id in wave_files if not wave_id.endswith("_flag") or wave_id[:-5] not in level_by_id
+    )
+
+    tutorial = level_by_id.get("day_1", {})
+    return {
+        "tutorial_day_1_lawns": tutorial.get("lawns"),
+        "tutorial_day_1_special_type": tutorial.get("special_type"),
+        "minigame_levels": minigame_levels,
+        "conveyor_levels": conveyor_levels,
+        "boss_levels": boss_levels,
+        "levels_with_zombie_pool": sum(1 for level in levels if level.get("zombie_pool")),
+        "levels_with_flags_count": sum(1 for level in levels if isinstance(level.get("flags_count"), int)),
+        "missing_wave_defs": missing_wave_defs,
+        "extra_wave_defs": extra_wave_defs,
+    }
+
+
 def animation_quality() -> Dict[str, object]:
     expected_targets: Set[str] = set()
     for category in ("plants", "zombies"):
@@ -252,6 +288,7 @@ def build_report() -> Dict[str, object]:
             **diff_names(CANONICAL[category], current),
         }
     report["quality"]["levels"] = level_quality()
+    report["quality"]["level_alignment"] = level_alignment_quality()
     report["quality"]["animation"] = animation_quality()
     report["quality"]["media"] = media_quality()
     report["quality"]["upgrades"] = upgrade_quality()
@@ -270,6 +307,18 @@ def print_report(report: Dict[str, object]) -> None:
     print(f"  with zomboss: {levels['levels_with_zomboss']}")
     print(f"  with scripted_events: {levels['levels_with_scripted_events']}")
     print(f"  with rewards: {levels['levels_with_rewards']}")
+    lvl_align = report["quality"]["level_alignment"]
+    print("level alignment:")
+    print(f"  day_1 lawns/special: {lvl_align['tutorial_day_1_lawns']}/{lvl_align['tutorial_day_1_special_type']}")
+    print(f"  minigame levels ({len(lvl_align['minigame_levels'])}): {lvl_align['minigame_levels']}")
+    print(f"  conveyor levels ({len(lvl_align['conveyor_levels'])}): {lvl_align['conveyor_levels']}")
+    print(f"  boss levels ({len(lvl_align['boss_levels'])}): {lvl_align['boss_levels']}")
+    print(
+        f"  zombie_pool+flags_count coverage: {lvl_align['levels_with_zombie_pool']}/"
+        f"{lvl_align['levels_with_flags_count']}"
+    )
+    print(f"  missing wave defs ({len(lvl_align['missing_wave_defs'])}): {lvl_align['missing_wave_defs']}")
+    print(f"  extra wave defs ({len(lvl_align['extra_wave_defs'])}): {lvl_align['extra_wave_defs']}")
     animation = report["quality"]["animation"]
     print("animation quality:")
     print(f"  covered: {animation['covered_targets']}/{animation['expected_targets']}")

@@ -7,6 +7,13 @@
     "lawns": {"type": "integer"},
     "sun_start": {"type": "integer"},
     "mode": {"type": "string"},
+    "special_type": {
+      "type": "string",
+      "enum": ["tutorial", "standard", "minigame", "conveyor", "boss"]
+    },
+    "conveyor_belt": {"type": "boolean"},
+    "flags_count": {"type": "integer"},
+    "zombie_pool": {"type": "array", "items": {"type": "string"}},
     "fog": {"type": "boolean"},
     "pool_lanes": {"type": "array", "items": {"type": "integer"}},
     "waves": {

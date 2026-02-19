@@ -1,16 +1,16 @@
 {
   "id": "fog_3_flag",
-  "tick": 30,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:pogo",
-      "count": 3,
-      "lane": 5
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 1,
+      "lane": 4
     },
     {
-      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "zombie_id": "pvz.base:zombies:flag",
       "count": 1,
-      "lane": 1
+      "lane": 4
     }
   ]
 }

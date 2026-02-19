@@ -1,16 +1,26 @@
 {
   "id": "night_10_flag",
-  "tick": 31,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:dancing",
-      "count": 5,
-      "lane": 2
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 1,
+      "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 1
     },
     {
       "zombie_id": "pvz.base:zombies:backup_dancer",
-      "count": 3,
-      "lane": 4
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 2
     }
   ]
 }

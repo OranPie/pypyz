@@ -1,16 +1,16 @@
 {
   "id": "roof_3_flag",
-  "tick": 30,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:gargantuar",
-      "count": 3,
-      "lane": 5
+      "zombie_id": "pvz.base:zombies:catapult",
+      "count": 1,
+      "lane": 1
     },
     {
-      "zombie_id": "pvz.base:zombies:imp",
+      "zombie_id": "pvz.base:zombies:flag",
       "count": 1,
-      "lane": 2
+      "lane": 5
     }
   ]
 }

@@ -2,33 +2,81 @@
   "id": "roof_9",
   "name": "Roof 9",
   "lawns": 5,
-  "sun_start": 82,
+  "sun_start": 62,
   "mode": "adventure_roof",
   "fog": false,
   "waves": [
     {
-      "tick": 4,
-      "zombie_id": "pvz.base:zombies:buckethead",
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 2,
+      "lane": 4
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 3,
       "lane": 5
     },
     {
-      "tick": 10,
-      "zombie_id": "pvz.base:zombies:football",
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 3,
+      "lane": 3
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 2,
       "lane": 1
     },
     {
-      "tick": 16,
-      "zombie_id": "pvz.base:zombies:gargantuar",
-      "count": 3,
-      "lane": 2
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:ladder",
+      "count": 2,
+      "lane": 4
     },
     {
-      "tick": 22,
-      "zombie_id": "pvz.base:zombies:imp",
-      "count": 4,
-      "lane": 3
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 3,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
+      "count": 1,
+      "lane": 2,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -36,17 +84,22 @@
   ],
   "scripted_events": [
     {
-      "tick": 2,
+      "tick": 3,
       "event": "music_cue",
       "cue": "adventure_roof"
     },
     {
-      "tick": 16,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 22,
+      "tick": 40,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 40,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -54,5 +107,22 @@
   "reward": {
     "type": "coins",
     "amount": 200
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 2,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:buckethead",
+    "pvz.base:zombies:ladder",
+    "pvz.base:zombies:catapult",
+    "pvz.base:zombies:bungee",
+    "pvz.base:zombies:football",
+    "pvz.base:zombies:gargantuar",
+    "pvz.base:zombies:imp",
+    "pvz.base:zombies:pogo",
+    "pvz.base:zombies:zombotany_jalapeno"
+  ],
+  "conveyor_belt": false
 }

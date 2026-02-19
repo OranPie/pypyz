@@ -2,33 +2,81 @@
   "id": "day_10",
   "name": "Day 10",
   "lawns": 5,
-  "sun_start": 160,
+  "sun_start": 126,
   "mode": "adventure_day",
   "fog": false,
   "waves": [
     {
       "tick": 5,
       "zombie_id": "pvz.base:zombies:buckethead",
-      "count": 3,
+      "count": 2,
       "lane": 1
     },
     {
-      "tick": 11,
-      "zombie_id": "pvz.base:zombies:newspaper",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 3,
       "lane": 2
     },
     {
-      "tick": 17,
-      "zombie_id": "pvz.base:zombies:basic",
-      "count": 4,
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 2,
       "lane": 3
     },
     {
-      "tick": 23,
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 3,
+      "lane": 1
+    },
+    {
+      "tick": 35,
       "zombie_id": "pvz.base:zombies:flag",
-      "count": 4,
-      "lane": 4
+      "count": 2,
+      "lane": 1,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 2,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 1,
+      "lane": 2,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -42,12 +90,17 @@
       "cue": "adventure_day"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 40,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 40,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -55,5 +108,15 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:fume_shroom"
-  }
+  },
+  "special_type": "conveyor",
+  "flags_count": 2,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:buckethead",
+    "pvz.base:zombies:pole_vaulting"
+  ],
+  "conveyor_belt": true
 }

@@ -1,15 +1,15 @@
 {
   "id": "roof_4_flag",
-  "tick": 31,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:imp",
-      "count": 3,
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 1,
       "lane": 1
     },
     {
-      "zombie_id": "pvz.base:zombies:bungee",
-      "count": 2,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
       "lane": 3
     }
   ]

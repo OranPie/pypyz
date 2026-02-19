@@ -2,33 +2,63 @@
   "id": "fog_5",
   "name": "Fog 5",
   "lawns": 6,
-  "sun_start": 110,
+  "sun_start": 96,
   "mode": "adventure_fog",
   "fog": true,
   "waves": [
     {
-      "tick": 6,
-      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 2,
-      "lane": 6
+      "lane": 5
     },
     {
-      "tick": 12,
-      "zombie_id": "pvz.base:zombies:yeti",
-      "count": 2,
-      "lane": 1
-    },
-    {
-      "tick": 18,
-      "zombie_id": "pvz.base:zombies:snorkel",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 2,
       "lane": 2
     },
     {
-      "tick": 24,
-      "zombie_id": "pvz.base:zombies:dolphin_rider",
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:balloon",
+      "count": 1,
+      "lane": 5
+    },
+    {
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 3,
-      "lane": 3
+      "lane": 2
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 1,
+      "lane": 2,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -41,7 +71,7 @@
   ],
   "scripted_events": [
     {
-      "tick": 4,
+      "tick": 3,
       "event": "music_cue",
       "cue": "adventure_fog"
     },
@@ -51,12 +81,12 @@
       "density": "medium"
     },
     {
-      "tick": 18,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 24,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -64,5 +94,15 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:coffee_bean"
-  }
+  },
+  "special_type": "minigame",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:balloon",
+    "pvz.base:zombies:digger",
+    "pvz.base:zombies:jack_in_box"
+  ],
+  "conveyor_belt": false
 }

@@ -1,16 +1,26 @@
 {
   "id": "roof_7_flag",
-  "tick": 31,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:catapult",
-      "count": 4,
-      "lane": 4
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 2
     },
     {
-      "zombie_id": "pvz.base:zombies:buckethead",
-      "count": 2,
+      "zombie_id": "pvz.base:zombies:imp",
+      "count": 1,
       "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:imp",
+      "count": 1,
+      "lane": 2
     }
   ]
 }

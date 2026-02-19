@@ -2,33 +2,63 @@
   "id": "night_1",
   "name": "Night 1",
   "lawns": 5,
-  "sun_start": 158,
+  "sun_start": 150,
   "mode": "adventure_night",
   "fog": false,
   "waves": [
     {
       "tick": 5,
-      "zombie_id": "pvz.base:zombies:conehead",
-      "count": 1,
-      "lane": 2
-    },
-    {
-      "tick": 11,
-      "zombie_id": "pvz.base:zombies:screen_door",
-      "count": 1,
+      "zombie_id": "pvz.base:zombies:newspaper",
+      "count": 2,
       "lane": 3
     },
     {
-      "tick": 17,
-      "zombie_id": "pvz.base:zombies:football",
-      "count": 1,
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:newspaper",
+      "count": 2,
       "lane": 4
     },
     {
-      "tick": 23,
-      "zombie_id": "pvz.base:zombies:dancing",
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:newspaper",
       "count": 2,
       "lane": 5
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:newspaper",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -42,12 +72,12 @@
       "cue": "adventure_night"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -55,5 +85,13 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:grave_buster"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:newspaper"
+  ],
+  "conveyor_belt": false
 }

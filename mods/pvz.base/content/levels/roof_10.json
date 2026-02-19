@@ -2,36 +2,84 @@
   "id": "roof_10",
   "name": "Roof 10",
   "lawns": 5,
-  "sun_start": 80,
+  "sun_start": 56,
   "mode": "adventure_roof",
   "fog": false,
   "waves": [
     {
       "tick": 5,
-      "zombie_id": "pvz.base:zombies:football",
-      "count": 3,
+      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
+      "count": 2,
       "lane": 1
     },
     {
-      "tick": 11,
-      "zombie_id": "pvz.base:zombies:gargantuar",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 3,
       "lane": 2
     },
     {
-      "tick": 17,
-      "zombie_id": "pvz.base:zombies:imp",
-      "count": 4,
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:ladder",
+      "count": 2,
       "lane": 3
     },
     {
-      "tick": 23,
-      "zombie_id": "pvz.base:zombies:bungee",
-      "count": 4,
-      "lane": 4
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:catapult",
+      "count": 2,
+      "lane": 1
     },
     {
-      "tick": 29,
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 1,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 2,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
+      "count": 1,
+      "lane": 2,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 45,
       "zombie_id": "pvz.base:zombies:doctor_zomboss",
       "count": 1,
       "lane": 3,
@@ -49,28 +97,33 @@
       "cue": "adventure_roof"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 40,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 40,
       "event": "final_wave",
       "message": "Final wave!"
     },
     {
-      "tick": 29,
+      "tick": 45,
       "event": "boss_spawn",
       "target_id": "pvz.base:zombies:doctor_zomboss",
       "message": "Dr. Zomboss enters the battle!"
     },
     {
-      "tick": 33,
+      "tick": 50,
       "event": "boss_phase_shift",
       "phase": "rage"
     },
     {
-      "tick": 40,
+      "tick": 58,
       "event": "boss_defeated",
       "message": "The rooftop is secured!"
     }
@@ -79,5 +132,23 @@
     "type": "trophy",
     "name": "Golden Sunflower Trophy",
     "coins": 1000
-  }
+  },
+  "special_type": "boss",
+  "flags_count": 2,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:buckethead",
+    "pvz.base:zombies:ladder",
+    "pvz.base:zombies:catapult",
+    "pvz.base:zombies:bungee",
+    "pvz.base:zombies:football",
+    "pvz.base:zombies:gargantuar",
+    "pvz.base:zombies:imp",
+    "pvz.base:zombies:pogo",
+    "pvz.base:zombies:zombotany_jalapeno",
+    "pvz.base:zombies:doctor_zomboss"
+  ],
+  "conveyor_belt": true
 }

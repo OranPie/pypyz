@@ -2,33 +2,63 @@
   "id": "fog_4",
   "name": "Fog 4",
   "lawns": 6,
-  "sun_start": 112,
+  "sun_start": 102,
   "mode": "adventure_fog",
   "fog": true,
   "waves": [
     {
       "tick": 5,
-      "zombie_id": "pvz.base:zombies:pogo",
-      "count": 2,
-      "lane": 5
+      "zombie_id": "pvz.base:zombies:balloon",
+      "count": 1,
+      "lane": 3
     },
     {
-      "tick": 11,
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 1,
+      "lane": 6
+    },
+    {
+      "tick": 15,
       "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 2,
       "lane": 6
     },
     {
-      "tick": 17,
-      "zombie_id": "pvz.base:zombies:yeti",
-      "count": 2,
-      "lane": 1
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 3
     },
     {
-      "tick": 23,
-      "zombie_id": "pvz.base:zombies:snorkel",
-      "count": 2,
-      "lane": 2
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 3,
+      "lane": 6
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 1,
+      "lane": 3,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -51,12 +81,12 @@
       "density": "medium"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -64,5 +94,18 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:kernel_pult"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:ducky_tube",
+    "pvz.base:zombies:snorkel",
+    "pvz.base:zombies:balloon",
+    "pvz.base:zombies:digger",
+    "pvz.base:zombies:jack_in_box"
+  ],
+  "conveyor_belt": false
 }

@@ -2,33 +2,63 @@
   "id": "day_4",
   "name": "Day 4",
   "lawns": 5,
-  "sun_start": 172,
+  "sun_start": 162,
   "mode": "adventure_day",
   "fog": false,
   "waves": [
     {
       "tick": 5,
-      "zombie_id": "pvz.base:zombies:buckethead",
-      "count": 2,
-      "lane": 5
-    },
-    {
-      "tick": 11,
-      "zombie_id": "pvz.base:zombies:newspaper",
-      "count": 2,
-      "lane": 1
-    },
-    {
-      "tick": 17,
       "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 4
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 2,
       "lane": 2
     },
     {
-      "tick": 23,
-      "zombie_id": "pvz.base:zombies:flag",
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 5
+    },
+    {
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 2,
       "lane": 3
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 3,
+      "lane": 1
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 3,
+      "flags": [
+        "flag_wave"
+      ]
     }
   ],
   "unlock_rules": [
@@ -42,12 +72,12 @@
       "cue": "adventure_day"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -55,5 +85,13 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:potato_mine"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead"
+  ],
+  "conveyor_belt": false
 }

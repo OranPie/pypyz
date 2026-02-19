@@ -2,33 +2,63 @@
   "id": "night_8",
   "name": "Night 8",
   "lawns": 5,
-  "sun_start": 144,
+  "sun_start": 108,
   "mode": "adventure_night",
   "fog": false,
   "waves": [
     {
-      "tick": 6,
-      "zombie_id": "pvz.base:zombies:conehead",
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 3,
-      "lane": 4
+      "lane": 2
     },
     {
-      "tick": 12,
-      "zombie_id": "pvz.base:zombies:screen_door",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 3,
       "lane": 5
     },
     {
-      "tick": 18,
-      "zombie_id": "pvz.base:zombies:football",
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:dancing",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
       "count": 3,
       "lane": 1
     },
     {
-      "tick": 24,
-      "zombie_id": "pvz.base:zombies:dancing",
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 3,
       "lane": 2
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 5,
+      "flags": [
+        "flag_wave"
+      ]
     }
   ],
   "unlock_rules": [
@@ -37,17 +67,17 @@
   ],
   "scripted_events": [
     {
-      "tick": 4,
+      "tick": 3,
       "event": "music_cue",
       "cue": "adventure_night"
     },
     {
-      "tick": 18,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 24,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -55,5 +85,15 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:threepeater"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:dancing",
+    "pvz.base:zombies:backup_dancer"
+  ],
+  "conveyor_belt": false
 }

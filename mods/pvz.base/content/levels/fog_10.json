@@ -2,33 +2,81 @@
   "id": "fog_10",
   "name": "Fog 10",
   "lawns": 6,
-  "sun_start": 100,
+  "sun_start": 66,
   "mode": "adventure_fog",
   "fog": true,
   "waves": [
     {
       "tick": 5,
-      "zombie_id": "pvz.base:zombies:digger",
-      "count": 3,
-      "lane": 5
+      "zombie_id": "pvz.base:zombies:zombotany_wallnut",
+      "count": 2,
+      "lane": 3
     },
     {
-      "tick": 11,
-      "zombie_id": "pvz.base:zombies:pogo",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:zombotany_squash",
+      "count": 2,
+      "lane": 6
+    },
+    {
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:yeti",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 3,
       "lane": 6
     },
     {
-      "tick": 17,
-      "zombie_id": "pvz.base:zombies:jack_in_box",
-      "count": 4,
-      "lane": 1
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
+      "lane": 3
     },
     {
-      "tick": 23,
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 3,
+      "lane": 6
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 1,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
       "zombie_id": "pvz.base:zombies:yeti",
-      "count": 4,
-      "lane": 2
+      "count": 1,
+      "lane": 3,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 2,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:yeti",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -51,12 +99,17 @@
       "density": "medium"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 40,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 40,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -64,5 +117,24 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:gatling_pea"
-  }
+  },
+  "special_type": "conveyor",
+  "flags_count": 2,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:ducky_tube",
+    "pvz.base:zombies:snorkel",
+    "pvz.base:zombies:balloon",
+    "pvz.base:zombies:digger",
+    "pvz.base:zombies:jack_in_box",
+    "pvz.base:zombies:pogo",
+    "pvz.base:zombies:bungee",
+    "pvz.base:zombies:zombotany_peashooter",
+    "pvz.base:zombies:zombotany_wallnut",
+    "pvz.base:zombies:zombotany_squash",
+    "pvz.base:zombies:yeti"
+  ],
+  "conveyor_belt": true
 }

@@ -1,16 +1,26 @@
 {
   "id": "fog_10_flag",
-  "tick": 31,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:pogo",
-      "count": 5,
-      "lane": 6
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 1
     },
     {
-      "zombie_id": "pvz.base:zombies:jack_in_box",
-      "count": 3,
+      "zombie_id": "pvz.base:zombies:yeti",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
       "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:yeti",
+      "count": 1,
+      "lane": 4
     }
   ]
 }

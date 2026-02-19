@@ -2,33 +2,63 @@
   "id": "fog_8",
   "name": "Fog 8",
   "lawns": 6,
-  "sun_start": 104,
+  "sun_start": 78,
   "mode": "adventure_fog",
   "fog": true,
   "waves": [
     {
-      "tick": 6,
-      "zombie_id": "pvz.base:zombies:dolphin_rider",
-      "count": 3,
-      "lane": 3
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 2,
+      "lane": 5
     },
     {
-      "tick": 12,
-      "zombie_id": "pvz.base:zombies:balloon",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:zombotany_peashooter",
       "count": 3,
-      "lane": 4
+      "lane": 2
     },
     {
-      "tick": 18,
-      "zombie_id": "pvz.base:zombies:digger",
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 3,
       "lane": 5
     },
     {
-      "tick": 24,
-      "zombie_id": "pvz.base:zombies:pogo",
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 3,
-      "lane": 6
+      "lane": 2
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 3,
+      "lane": 5
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 1,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:zombotany_peashooter",
+      "count": 1,
+      "lane": 5,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -41,7 +71,7 @@
   ],
   "scripted_events": [
     {
-      "tick": 4,
+      "tick": 3,
       "event": "music_cue",
       "cue": "adventure_fog"
     },
@@ -51,12 +81,12 @@
       "density": "medium"
     },
     {
-      "tick": 18,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 24,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -64,5 +94,21 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:marigold"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:ducky_tube",
+    "pvz.base:zombies:snorkel",
+    "pvz.base:zombies:balloon",
+    "pvz.base:zombies:digger",
+    "pvz.base:zombies:jack_in_box",
+    "pvz.base:zombies:pogo",
+    "pvz.base:zombies:bungee",
+    "pvz.base:zombies:zombotany_peashooter"
+  ],
+  "conveyor_belt": false
 }

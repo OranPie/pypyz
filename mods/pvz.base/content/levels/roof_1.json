@@ -2,33 +2,63 @@
   "id": "roof_1",
   "name": "Roof 1",
   "lawns": 5,
-  "sun_start": 98,
+  "sun_start": 110,
   "mode": "adventure_roof",
   "fog": false,
   "waves": [
     {
       "tick": 5,
-      "zombie_id": "pvz.base:zombies:catapult",
-      "count": 1,
-      "lane": 2
-    },
-    {
-      "tick": 11,
-      "zombie_id": "pvz.base:zombies:buckethead",
-      "count": 1,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 2,
       "lane": 3
     },
     {
-      "tick": 17,
-      "zombie_id": "pvz.base:zombies:football",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:buckethead",
       "count": 1,
+      "lane": 1
+    },
+    {
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
       "lane": 4
     },
     {
-      "tick": 23,
-      "zombie_id": "pvz.base:zombies:gargantuar",
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 2,
+      "lane": 2
+    },
+    {
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 1,
       "lane": 5
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 3
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:buckethead",
+      "count": 1,
+      "lane": 1,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
     }
   ],
   "unlock_rules": [
@@ -42,12 +72,12 @@
       "cue": "adventure_roof"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -55,5 +85,14 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:twin_sunflower"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:buckethead"
+  ],
+  "conveyor_belt": false
 }

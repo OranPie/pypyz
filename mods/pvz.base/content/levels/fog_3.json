@@ -2,33 +2,63 @@
   "id": "fog_3",
   "name": "Fog 3",
   "lawns": 6,
-  "sun_start": 114,
+  "sun_start": 108,
   "mode": "adventure_fog",
   "fog": true,
   "waves": [
     {
-      "tick": 4,
-      "zombie_id": "pvz.base:zombies:digger",
+      "tick": 5,
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 1,
+      "lane": 1
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:balloon",
       "count": 1,
       "lane": 4
     },
     {
-      "tick": 10,
-      "zombie_id": "pvz.base:zombies:pogo",
-      "count": 2,
-      "lane": 5
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 1,
+      "lane": 1
     },
     {
-      "tick": 16,
-      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:basic",
       "count": 2,
-      "lane": 6
+      "lane": 4
     },
     {
-      "tick": 22,
-      "zombie_id": "pvz.base:zombies:yeti",
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 2,
       "lane": 1
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 3,
+      "lane": 4
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
     }
   ],
   "unlock_rules": [
@@ -41,7 +71,7 @@
   ],
   "scripted_events": [
     {
-      "tick": 2,
+      "tick": 3,
       "event": "music_cue",
       "cue": "adventure_fog"
     },
@@ -51,12 +81,12 @@
       "density": "medium"
     },
     {
-      "tick": 16,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 22,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -64,5 +94,17 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:flower_pot"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:ducky_tube",
+    "pvz.base:zombies:snorkel",
+    "pvz.base:zombies:balloon",
+    "pvz.base:zombies:digger"
+  ],
+  "conveyor_belt": false
 }

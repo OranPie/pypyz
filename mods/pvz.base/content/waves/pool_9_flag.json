@@ -1,16 +1,26 @@
 {
   "id": "pool_9_flag",
-  "tick": 30,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:snorkel",
-      "count": 5,
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 4
+    },
+    {
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 1,
       "lane": 5
     },
     {
-      "zombie_id": "pvz.base:zombies:zomboni",
-      "count": 3,
-      "lane": 1
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 5
     }
   ]
 }

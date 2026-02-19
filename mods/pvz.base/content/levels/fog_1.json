@@ -2,33 +2,63 @@
   "id": "fog_1",
   "name": "Fog 1",
   "lawns": 6,
-  "sun_start": 118,
+  "sun_start": 120,
   "mode": "adventure_fog",
   "fog": true,
   "waves": [
     {
       "tick": 5,
-      "zombie_id": "pvz.base:zombies:dolphin_rider",
-      "count": 1,
-      "lane": 2
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 2,
+      "lane": 3
     },
     {
-      "tick": 11,
-      "zombie_id": "pvz.base:zombies:balloon",
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 2,
+      "lane": 6
+    },
+    {
+      "tick": 15,
+      "zombie_id": "pvz.base:zombies:snorkel",
       "count": 1,
       "lane": 3
     },
     {
-      "tick": 17,
-      "zombie_id": "pvz.base:zombies:digger",
-      "count": 1,
-      "lane": 4
+      "tick": 20,
+      "zombie_id": "pvz.base:zombies:basic",
+      "count": 2,
+      "lane": 6
     },
     {
-      "tick": 23,
-      "zombie_id": "pvz.base:zombies:pogo",
+      "tick": 25,
+      "zombie_id": "pvz.base:zombies:conehead",
       "count": 2,
-      "lane": 5
+      "lane": 3
+    },
+    {
+      "tick": 30,
+      "zombie_id": "pvz.base:zombies:ducky_tube",
+      "count": 2,
+      "lane": 6
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 35,
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 1,
+      "lane": 6,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -51,12 +81,12 @@
       "density": "medium"
     },
     {
-      "tick": 17,
+      "tick": 35,
       "event": "huge_wave",
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 23,
+      "tick": 35,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -64,5 +94,15 @@
   "reward": {
     "type": "plant_card",
     "target_id": "pvz.base:plants:magnet_shroom"
-  }
+  },
+  "special_type": "standard",
+  "flags_count": 1,
+  "zombie_pool": [
+    "pvz.base:zombies:basic",
+    "pvz.base:zombies:flag",
+    "pvz.base:zombies:conehead",
+    "pvz.base:zombies:ducky_tube",
+    "pvz.base:zombies:snorkel"
+  ],
+  "conveyor_belt": false
 }

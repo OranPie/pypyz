@@ -1,16 +1,26 @@
 {
   "id": "day_10_flag",
-  "tick": 31,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:newspaper",
-      "count": 5,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 1,
+      "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
       "lane": 2
     },
     {
-      "zombie_id": "pvz.base:zombies:basic",
-      "count": 3,
-      "lane": 4
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 1,
+      "lane": 2
     }
   ]
 }

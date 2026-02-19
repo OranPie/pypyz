@@ -1,16 +1,26 @@
 {
   "id": "night_9_flag",
-  "tick": 30,
+  "tick": 35,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:football",
-      "count": 5,
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 1,
       "lane": 1
     },
     {
-      "zombie_id": "pvz.base:zombies:dancing",
-      "count": 3,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
       "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:backup_dancer",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 4
     }
   ]
 }

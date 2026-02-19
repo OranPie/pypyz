@@ -1,16 +1,16 @@
 {
   "id": "day_6_flag",
-  "tick": 30,
+  "tick": 35,
   "entries": [
     {
       "zombie_id": "pvz.base:zombies:flag",
-      "count": 4,
-      "lane": 3
+      "count": 1,
+      "lane": 4
     },
     {
-      "zombie_id": "pvz.base:zombies:conehead",
-      "count": 2,
-      "lane": 5
+      "zombie_id": "pvz.base:zombies:pole_vaulting",
+      "count": 1,
+      "lane": 1
     }
   ]
 }
