@@ -24,3 +24,5 @@ Each top-level folder under `content/` maps to a schema file.
 - `animation_configs` -> `animation_config.schema.json`
 
 `manifest.schema.json` validates `mod.json`.
+
+Note: `plant.schema.json` includes optional `upgrade` metadata (`from`, `consume`, `placement`, `requires`, `inherit`) for explicit upgrade-path definitions.

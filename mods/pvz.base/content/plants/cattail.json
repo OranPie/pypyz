@@ -8,10 +8,26 @@
   "family": "shooter",
   "tags": [
     "pool",
-    "anti_air"
+    "anti_air",
+    "upgrade"
   ],
   "abilities": [
     "homing_projectile"
   ],
-  "projectile_id": "pvz.base:projectiles:cattail_spike"
+  "projectile_id": "pvz.base:projectiles:cattail_spike",
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:lily_pad"
+    ],
+    "consume": 1,
+    "placement": "same_tile_requires_host",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_cattail"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }

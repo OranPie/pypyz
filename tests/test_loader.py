@@ -44,6 +44,25 @@ class LoaderTests(unittest.TestCase):
         self.assertIn("mini_games", loaded.registry.categories)
         self.assertIn("pvz.base:plants:peashooter", loaded.registry.categories["plants"])
 
+    def test_upgrade_plants_define_explicit_upgrade_block(self) -> None:
+        loader = ModLoader(ROOT / "mods", schema_root=SCHEMAS)
+        loaded = loader.load()
+        plants = loaded.registry.categories["plants"].values()
+
+        for item in plants:
+            data = item.data
+            has_upgrade_tag = "upgrade" in data.get("tags", [])
+            has_upgrade_block = bool(data.get("upgrade"))
+            if has_upgrade_tag:
+                self.assertTrue(
+                    has_upgrade_block,
+                    msg=f"{item.id} has upgrade tag but no upgrade block",
+                )
+            if has_upgrade_block:
+                upgrade = data["upgrade"]
+                self.assertGreaterEqual(upgrade.get("consume", 0), 1, msg=item.id)
+                self.assertTrue(upgrade.get("from"), msg=item.id)
+
 
 if __name__ == "__main__":
     unittest.main()

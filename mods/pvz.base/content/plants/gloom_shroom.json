@@ -13,5 +13,20 @@
   "abilities": [
     "area_fume"
   ],
-  "projectile_id": "pvz.base:projectiles:gloom_cloud"
+  "projectile_id": "pvz.base:projectiles:gloom_cloud",
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:fume_shroom"
+    ],
+    "consume": 1,
+    "placement": "same_tile_requires_host",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_gloom_shroom"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }

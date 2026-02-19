@@ -12,5 +12,20 @@
   ],
   "abilities": [
     "enhanced_step_damage"
-  ]
+  ],
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:spikeweed"
+    ],
+    "consume": 1,
+    "placement": "same_tile",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_spikerock"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }

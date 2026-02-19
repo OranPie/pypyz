@@ -11,6 +11,27 @@
     "family": {"type": "string"},
     "tags": {"type": "array", "items": {"type": "string"}},
     "abilities": {"type": "array", "items": {"type": "string"}},
-    "projectile_id": {"type": "string"}
+    "projectile_id": {"type": "string"},
+    "upgrade": {
+      "type": "object",
+      "required": ["from", "consume", "placement"],
+      "properties": {
+        "from": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "consume": {"type": "integer", "minimum": 1},
+        "placement": {
+          "type": "string",
+          "enum": ["same_tile", "adjacent_pair", "same_tile_requires_host"]
+        },
+        "requires": {"type": "array", "items": {"type": "string"}},
+        "inherit": {
+          "type": "object",
+          "properties": {
+            "hp_ratio": {"type": "boolean"},
+            "statuses": {"type": "boolean"},
+            "cooldown_progress": {"type": "boolean"}
+          }
+        }
+      }
+    }
   }
 }

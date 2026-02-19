@@ -8,11 +8,27 @@
   "family": "lobber",
   "tags": [
     "offense",
-    "control"
+    "control",
+    "upgrade"
   ],
   "abilities": [
     "lobbed_splash",
     "apply_chilled"
   ],
-  "projectile_id": "pvz.base:projectiles:winter_melon"
+  "projectile_id": "pvz.base:projectiles:winter_melon",
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:melon_pult"
+    ],
+    "consume": 1,
+    "placement": "same_tile",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_winter_melon"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }

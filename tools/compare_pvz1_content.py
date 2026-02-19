@@ -217,6 +217,31 @@ def media_quality() -> Dict[str, object]:
     }
 
 
+def upgrade_quality() -> Dict[str, object]:
+    plants = []
+    for path in sorted(glob.glob("mods/pvz.base/content/plants/*.json")):
+        with open(path, "r", encoding="utf-8") as fh:
+            plants.append(json.load(fh))
+    tagged = [plant["id"] for plant in plants if "upgrade" in plant.get("tags", [])]
+    with_block = [plant["id"] for plant in plants if plant.get("upgrade")]
+    missing_block = sorted(
+        plant["id"]
+        for plant in plants
+        if "upgrade" in plant.get("tags", []) and not plant.get("upgrade")
+    )
+    invalid_block = sorted(
+        plant["id"]
+        for plant in plants
+        if plant.get("upgrade") and (not plant["upgrade"].get("from") or plant["upgrade"].get("consume", 0) < 1)
+    )
+    return {
+        "upgrade_tagged": sorted(tagged),
+        "upgrade_with_block": sorted(with_block),
+        "upgrade_missing_block": missing_block,
+        "upgrade_invalid_block": invalid_block,
+    }
+
+
 def build_report() -> Dict[str, object]:
     report: Dict[str, object] = {"coverage": {}, "quality": {}}
     for category in ("plants", "zombies", "mini_games"):
@@ -229,6 +254,7 @@ def build_report() -> Dict[str, object]:
     report["quality"]["levels"] = level_quality()
     report["quality"]["animation"] = animation_quality()
     report["quality"]["media"] = media_quality()
+    report["quality"]["upgrades"] = upgrade_quality()
     return report
 
 
@@ -260,6 +286,20 @@ def print_report(report: Dict[str, object]) -> None:
             f"  targets without textures ({len(media['targets_without_textures'])}): "
             f"{media['targets_without_textures']}"
         )
+    upgrades = report["quality"]["upgrades"]
+    print("upgrade quality:")
+    print(
+        f"  tagged/with_block: {len(upgrades['upgrade_tagged'])}/"
+        f"{len(upgrades['upgrade_with_block'])}"
+    )
+    print(
+        f"  missing block ({len(upgrades['upgrade_missing_block'])}): "
+        f"{upgrades['upgrade_missing_block']}"
+    )
+    print(
+        f"  invalid block ({len(upgrades['upgrade_invalid_block'])}): "
+        f"{upgrades['upgrade_invalid_block']}"
+    )
 
 
 def main() -> None:

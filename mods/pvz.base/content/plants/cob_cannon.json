@@ -13,5 +13,20 @@
   "abilities": [
     "targeted_nuke"
   ],
-  "projectile_id": "pvz.base:projectiles:cob"
+  "projectile_id": "pvz.base:projectiles:cob",
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:kernel_pult"
+    ],
+    "consume": 2,
+    "placement": "adjacent_pair",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_cob_cannon"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }

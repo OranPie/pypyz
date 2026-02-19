@@ -12,5 +12,20 @@
   ],
   "abilities": [
     "double_sun_producer"
-  ]
+  ],
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:sunflower"
+    ],
+    "consume": 1,
+    "placement": "same_tile",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_twin_sunflower"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }

@@ -7,8 +7,7 @@
   "damage": 40,
   "family": "shooter",
   "tags": [
-    "offense",
-    "upgrade"
+    "offense"
   ],
   "abilities": [
     "double_shot"

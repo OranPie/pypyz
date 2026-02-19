@@ -13,5 +13,20 @@
   "abilities": [
     "quad_shot"
   ],
-  "projectile_id": "pvz.base:projectiles:gatling_pea"
+  "projectile_id": "pvz.base:projectiles:gatling_pea",
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:repeater"
+    ],
+    "consume": 1,
+    "placement": "same_tile",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_gatling_pea"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }

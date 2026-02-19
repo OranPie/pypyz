@@ -55,6 +55,17 @@ Optional:
   - `pvz.base:plants:peashooter`
   - `pvz.base:levels:day_1`
 
+## Plant upgrade definition (v1)
+- Plants may define `upgrade` metadata to describe replacement upgrades in a mod-driven way.
+- `upgrade.from`: source plant IDs consumed by the upgrade.
+- `upgrade.consume`: required count from `upgrade.from` (for example, Cob Cannon uses `2` Kernel-pults).
+- `upgrade.placement`:
+  - `same_tile` (replace the source plant in place)
+  - `same_tile_requires_host` (upgrade in place while preserving host constraints, e.g. Lily Pad / shroom host rules)
+  - `adjacent_pair` (requires adjacent sources; used by multi-tile upgrades)
+- `upgrade.requires`: optional prerequisite IDs (unlock rules/shop grants/etc).
+- `upgrade.inherit`: optional transfer behavior (`hp_ratio`, `statuses`, `cooldown_progress`).
+
 ## Patch format
 Each `patches/*.json` file can be either:
 - `[{...}, {...}]`

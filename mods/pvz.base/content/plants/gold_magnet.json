@@ -12,5 +12,20 @@
   ],
   "abilities": [
     "collect_coins"
-  ]
+  ],
+  "upgrade": {
+    "from": [
+      "pvz.base:plants:magnet_shroom"
+    ],
+    "consume": 1,
+    "placement": "same_tile",
+    "requires": [
+      "pvz.base:unlock_rules:unlock_gold_magnet"
+    ],
+    "inherit": {
+      "hp_ratio": true,
+      "statuses": true,
+      "cooldown_progress": true
+    }
+  }
 }
