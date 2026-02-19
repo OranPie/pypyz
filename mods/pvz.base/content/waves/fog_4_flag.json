@@ -11,6 +11,16 @@
       "zombie_id": "pvz.base:zombies:jack_in_box",
       "count": 1,
       "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "count": 1,
+      "lane": 4
     }
   ]
 }

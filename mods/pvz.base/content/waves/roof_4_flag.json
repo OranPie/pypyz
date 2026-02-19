@@ -11,6 +11,26 @@
       "zombie_id": "pvz.base:zombies:flag",
       "count": 1,
       "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4
+    },
+    {
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 5
     }
   ]
 }

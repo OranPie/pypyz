@@ -11,6 +11,16 @@
       "zombie_id": "pvz.base:zombies:newspaper",
       "count": 1,
       "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 3
+    },
+    {
+      "zombie_id": "pvz.base:zombies:newspaper",
+      "count": 1,
+      "lane": 2
     }
   ]
 }

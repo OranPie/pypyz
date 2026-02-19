@@ -11,6 +11,16 @@
       "zombie_id": "pvz.base:zombies:pogo",
       "count": 1,
       "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 1
+    },
+    {
+      "zombie_id": "pvz.base:zombies:pogo",
+      "count": 1,
+      "lane": 2
     }
   ]
 }

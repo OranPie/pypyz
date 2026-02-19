@@ -11,6 +11,16 @@
       "zombie_id": "pvz.base:zombies:snorkel",
       "count": 1,
       "lane": 5
+    },
+    {
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 1,
+      "lane": 6
     }
   ]
 }

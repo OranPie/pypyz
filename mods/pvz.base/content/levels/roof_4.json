@@ -59,6 +59,42 @@
       "flags": [
         "flag_wave"
       ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 1,
+      "lane": 2,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 45,
+      "zombie_id": "pvz.base:zombies:bungee",
+      "count": 1,
+      "lane": 3,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 45,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 5,
+      "flags": [
+        "flag_wave"
+      ]
     }
   ],
   "unlock_rules": [
@@ -77,7 +113,17 @@
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 35,
+      "tick": 40,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 45,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 45,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -87,7 +133,7 @@
     "target_id": "pvz.base:plants:winter_melon"
   },
   "special_type": "standard",
-  "flags_count": 1,
+  "flags_count": 3,
   "zombie_pool": [
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",

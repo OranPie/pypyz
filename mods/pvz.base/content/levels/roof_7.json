@@ -77,6 +77,24 @@
       "flags": [
         "final_push"
       ]
+    },
+    {
+      "tick": 45,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 4,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 45,
+      "zombie_id": "pvz.base:zombies:imp",
+      "count": 1,
+      "lane": 3,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -100,7 +118,12 @@
       "message": "Another huge wave is approaching!"
     },
     {
-      "tick": 40,
+      "tick": 45,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 45,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -110,7 +133,7 @@
     "target_id": "pvz.base:plants:cob_cannon"
   },
   "special_type": "standard",
-  "flags_count": 2,
+  "flags_count": 3,
   "zombie_pool": [
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",

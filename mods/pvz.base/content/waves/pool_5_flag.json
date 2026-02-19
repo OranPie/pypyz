@@ -1,15 +1,10 @@
 {
   "id": "pool_5_flag",
-  "tick": 35,
+  "tick": 30,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 1,
-      "lane": 4
-    },
-    {
-      "zombie_id": "pvz.base:zombies:zombotany_squash",
-      "count": 1,
+      "zombie_id": "pvz.base:zombies:zombotany_wallnut",
+      "count": 2,
       "lane": 2
     }
   ]

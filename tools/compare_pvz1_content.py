@@ -195,12 +195,77 @@ def level_alignment_quality() -> Dict[str, object]:
     )
 
     tutorial = level_by_id.get("day_1", {})
+
+    # Strategy Guide canonical flag counts (world-level notation 1-1..5-10).
+    canonical_flags = {
+        "day_1": 0,
+        "day_2": 1,
+        "day_3": 1,
+        "day_4": 1,
+        "day_5": 1,
+        "day_6": 1,
+        "day_7": 2,
+        "day_8": 1,
+        "day_9": 2,
+        "day_10": 2,
+        "night_1": 1,
+        "night_2": 2,
+        "night_3": 1,
+        "night_4": 2,
+        "night_5": 0,
+        "night_6": 1,
+        "night_7": 2,
+        "night_8": 1,
+        "night_9": 2,
+        "night_10": 2,
+        "pool_1": 1,
+        "pool_2": 2,
+        "pool_3": 2,
+        "pool_4": 3,
+        "pool_5": 0,
+        "pool_6": 2,
+        "pool_7": 3,
+        "pool_8": 2,
+        "pool_9": 3,
+        "pool_10": 3,
+        "fog_1": 1,
+        "fog_2": 2,
+        "fog_3": 1,
+        "fog_4": 2,
+        "fog_5": 0,
+        "fog_6": 1,
+        "fog_7": 2,
+        "fog_8": 1,
+        "fog_9": 2,
+        "fog_10": 2,
+        "roof_1": 1,
+        "roof_2": 2,
+        "roof_3": 2,
+        "roof_4": 3,
+        "roof_5": 2,
+        "roof_6": 2,
+        "roof_7": 3,
+        "roof_8": 2,
+        "roof_9": 3,
+        "roof_10": 0,
+    }
+    flag_mismatches = sorted(
+        level_id
+        for level_id, expected in canonical_flags.items()
+        if level_by_id.get(level_id, {}).get("flags_count") != expected
+    )
+
+    fog_5 = level_by_id.get("fog_5", {})
+    roof_10 = level_by_id.get("roof_10", {})
     return {
         "tutorial_day_1_lawns": tutorial.get("lawns"),
         "tutorial_day_1_special_type": tutorial.get("special_type"),
+        "fog_5_area_override": fog_5.get("area_override"),
+        "roof_10_area_override": roof_10.get("area_override"),
         "minigame_levels": minigame_levels,
         "conveyor_levels": conveyor_levels,
         "boss_levels": boss_levels,
+        "flag_mismatches": flag_mismatches,
         "levels_with_zombie_pool": sum(1 for level in levels if level.get("zombie_pool")),
         "levels_with_flags_count": sum(1 for level in levels if isinstance(level.get("flags_count"), int)),
         "missing_wave_defs": missing_wave_defs,
@@ -310,9 +375,12 @@ def print_report(report: Dict[str, object]) -> None:
     lvl_align = report["quality"]["level_alignment"]
     print("level alignment:")
     print(f"  day_1 lawns/special: {lvl_align['tutorial_day_1_lawns']}/{lvl_align['tutorial_day_1_special_type']}")
+    print(f"  fog_5 area_override: {lvl_align['fog_5_area_override']}")
+    print(f"  roof_10 area_override: {lvl_align['roof_10_area_override']}")
     print(f"  minigame levels ({len(lvl_align['minigame_levels'])}): {lvl_align['minigame_levels']}")
     print(f"  conveyor levels ({len(lvl_align['conveyor_levels'])}): {lvl_align['conveyor_levels']}")
     print(f"  boss levels ({len(lvl_align['boss_levels'])}): {lvl_align['boss_levels']}")
+    print(f"  canonical flag mismatches ({len(lvl_align['flag_mismatches'])}): {lvl_align['flag_mismatches']}")
     print(
         f"  zombie_pool+flags_count coverage: {lvl_align['levels_with_zombie_pool']}/"
         f"{lvl_align['levels_with_flags_count']}"

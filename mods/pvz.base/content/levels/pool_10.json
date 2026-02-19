@@ -77,6 +77,24 @@
       "flags": [
         "flag_wave"
       ]
+    },
+    {
+      "tick": 45,
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 1,
+      "lane": 5,
+      "flags": [
+        "final_push"
+      ]
+    },
+    {
+      "tick": 45,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 2,
+      "lane": 3,
+      "flags": [
+        "flag_wave"
+      ]
     }
   ],
   "unlock_rules": [
@@ -104,7 +122,12 @@
       "message": "Another huge wave is approaching!"
     },
     {
-      "tick": 40,
+      "tick": 45,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 45,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -114,7 +137,7 @@
     "target_id": "pvz.base:plants:pumpkin"
   },
   "special_type": "conveyor",
-  "flags_count": 2,
+  "flags_count": 3,
   "zombie_pool": [
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",

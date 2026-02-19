@@ -59,6 +59,24 @@
       "flags": [
         "final_push"
       ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:flag",
+      "count": 1,
+      "lane": 2,
+      "flags": [
+        "flag_wave"
+      ]
+    },
+    {
+      "tick": 40,
+      "zombie_id": "pvz.base:zombies:snorkel",
+      "count": 1,
+      "lane": 6,
+      "flags": [
+        "final_push"
+      ]
     }
   ],
   "unlock_rules": [
@@ -81,7 +99,12 @@
       "message": "A huge wave of zombies is approaching!"
     },
     {
-      "tick": 35,
+      "tick": 40,
+      "event": "huge_wave",
+      "message": "Another huge wave is approaching!"
+    },
+    {
+      "tick": 40,
       "event": "final_wave",
       "message": "Final wave!"
     }
@@ -91,7 +114,7 @@
     "target_id": "pvz.base:plants:torchwood"
   },
   "special_type": "standard",
-  "flags_count": 1,
+  "flags_count": 2,
   "zombie_pool": [
     "pvz.base:zombies:basic",
     "pvz.base:zombies:flag",

@@ -3,7 +3,7 @@
   "name": "Roof 10",
   "lawns": 5,
   "sun_start": 56,
-  "mode": "adventure_roof",
+  "mode": "adventure_night_roof",
   "fog": false,
   "waves": [
     {
@@ -43,42 +43,6 @@
       "lane": 1
     },
     {
-      "tick": 35,
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 2,
-      "lane": 1,
-      "flags": [
-        "flag_wave"
-      ]
-    },
-    {
-      "tick": 35,
-      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
-      "count": 1,
-      "lane": 1,
-      "flags": [
-        "final_push"
-      ]
-    },
-    {
-      "tick": 40,
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 2,
-      "lane": 2,
-      "flags": [
-        "flag_wave"
-      ]
-    },
-    {
-      "tick": 40,
-      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
-      "count": 1,
-      "lane": 2,
-      "flags": [
-        "final_push"
-      ]
-    },
-    {
       "tick": 45,
       "zombie_id": "pvz.base:zombies:doctor_zomboss",
       "count": 1,
@@ -94,22 +58,7 @@
     {
       "tick": 3,
       "event": "music_cue",
-      "cue": "adventure_roof"
-    },
-    {
-      "tick": 35,
-      "event": "huge_wave",
-      "message": "A huge wave of zombies is approaching!"
-    },
-    {
-      "tick": 40,
-      "event": "huge_wave",
-      "message": "Another huge wave is approaching!"
-    },
-    {
-      "tick": 40,
-      "event": "final_wave",
-      "message": "Final wave!"
+      "cue": "adventure_night_roof"
     },
     {
       "tick": 45,
@@ -126,6 +75,11 @@
       "tick": 58,
       "event": "boss_defeated",
       "message": "The rooftop is secured!"
+    },
+    {
+      "tick": 45,
+      "event": "final_wave",
+      "message": "Final battle!"
     }
   ],
   "reward": {
@@ -134,10 +88,9 @@
     "coins": 1000
   },
   "special_type": "boss",
-  "flags_count": 2,
+  "flags_count": 0,
   "zombie_pool": [
     "pvz.base:zombies:basic",
-    "pvz.base:zombies:flag",
     "pvz.base:zombies:conehead",
     "pvz.base:zombies:buckethead",
     "pvz.base:zombies:ladder",
@@ -150,5 +103,6 @@
     "pvz.base:zombies:zombotany_jalapeno",
     "pvz.base:zombies:doctor_zomboss"
   ],
-  "conveyor_belt": true
+  "conveyor_belt": true,
+  "area_override": "night_roof_boss"
 }

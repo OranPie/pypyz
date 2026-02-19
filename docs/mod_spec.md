@@ -113,6 +113,7 @@ This v1 schema pack covers:
 - `roof_10` is expected to carry boss metadata via `doctor_zomboss` wave + scripted events.
 - Optional alignment fields:
   - `special_type`: `tutorial|standard|minigame|conveyor|boss`
+  - `area_override`: stage presentation override for special cases (for example `night_pool_minigame`, `night_roof_boss`)
   - `conveyor_belt`: whether the stage uses conveyor-belt seed flow
   - `flags_count`: expected number of flag-wave spikes in the stage
   - `zombie_pool`: explicit per-level zombie pool used for progression auditing

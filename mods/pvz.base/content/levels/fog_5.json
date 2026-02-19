@@ -3,62 +3,44 @@
   "name": "Fog 5",
   "lawns": 6,
   "sun_start": 96,
-  "mode": "adventure_fog",
-  "fog": true,
+  "mode": "adventure_night_pool",
+  "fog": false,
   "waves": [
     {
       "tick": 5,
+      "zombie_id": "pvz.base:zombies:zomboni",
+      "count": 1,
+      "lane": 5
+    },
+    {
+      "tick": 10,
+      "zombie_id": "pvz.base:zombies:bobsled",
+      "count": 1,
+      "lane": 2
+    },
+    {
+      "tick": 15,
       "zombie_id": "pvz.base:zombies:basic",
       "count": 2,
       "lane": 5
     },
     {
-      "tick": 10,
-      "zombie_id": "pvz.base:zombies:conehead",
-      "count": 2,
-      "lane": 2
-    },
-    {
-      "tick": 15,
-      "zombie_id": "pvz.base:zombies:balloon",
-      "count": 1,
-      "lane": 5
-    },
-    {
       "tick": 20,
-      "zombie_id": "pvz.base:zombies:digger",
-      "count": 2,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
       "lane": 2
     },
     {
       "tick": 25,
-      "zombie_id": "pvz.base:zombies:jack_in_box",
+      "zombie_id": "pvz.base:zombies:balloon",
       "count": 2,
       "lane": 5
     },
     {
       "tick": 30,
-      "zombie_id": "pvz.base:zombies:basic",
-      "count": 3,
+      "zombie_id": "pvz.base:zombies:digger",
+      "count": 2,
       "lane": 2
-    },
-    {
-      "tick": 35,
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 1,
-      "lane": 4,
-      "flags": [
-        "flag_wave"
-      ]
-    },
-    {
-      "tick": 35,
-      "zombie_id": "pvz.base:zombies:jack_in_box",
-      "count": 1,
-      "lane": 2,
-      "flags": [
-        "final_push"
-      ]
     }
   ],
   "unlock_rules": [
@@ -73,22 +55,7 @@
     {
       "tick": 3,
       "event": "music_cue",
-      "cue": "adventure_fog"
-    },
-    {
-      "tick": 8,
-      "event": "fog_roll_in",
-      "density": "medium"
-    },
-    {
-      "tick": 35,
-      "event": "huge_wave",
-      "message": "A huge wave of zombies is approaching!"
-    },
-    {
-      "tick": 35,
-      "event": "final_wave",
-      "message": "Final wave!"
+      "cue": "adventure_night_pool"
     }
   ],
   "reward": {
@@ -96,13 +63,16 @@
     "target_id": "pvz.base:plants:coffee_bean"
   },
   "special_type": "minigame",
-  "flags_count": 1,
+  "flags_count": 0,
   "zombie_pool": [
     "pvz.base:zombies:basic",
     "pvz.base:zombies:conehead",
     "pvz.base:zombies:balloon",
     "pvz.base:zombies:digger",
-    "pvz.base:zombies:jack_in_box"
+    "pvz.base:zombies:jack_in_box",
+    "pvz.base:zombies:zomboni",
+    "pvz.base:zombies:bobsled"
   ],
-  "conveyor_belt": false
+  "conveyor_belt": false,
+  "area_override": "night_pool_minigame"
 }

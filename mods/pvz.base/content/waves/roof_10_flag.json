@@ -3,26 +3,6 @@
   "tick": 45,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 2,
-      "lane": 1
-    },
-    {
-      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
-      "count": 1,
-      "lane": 1
-    },
-    {
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 2,
-      "lane": 2
-    },
-    {
-      "zombie_id": "pvz.base:zombies:zombotany_jalapeno",
-      "count": 1,
-      "lane": 2
-    },
-    {
       "zombie_id": "pvz.base:zombies:doctor_zomboss",
       "count": 1,
       "lane": 3

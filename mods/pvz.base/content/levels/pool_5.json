@@ -41,24 +41,6 @@
       "zombie_id": "pvz.base:zombies:zombotany_wallnut",
       "count": 2,
       "lane": 2
-    },
-    {
-      "tick": 35,
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 1,
-      "lane": 4,
-      "flags": [
-        "flag_wave"
-      ]
-    },
-    {
-      "tick": 35,
-      "zombie_id": "pvz.base:zombies:zombotany_squash",
-      "count": 1,
-      "lane": 2,
-      "flags": [
-        "final_push"
-      ]
     }
   ],
   "unlock_rules": [
@@ -74,16 +56,6 @@
       "tick": 3,
       "event": "music_cue",
       "cue": "adventure_pool"
-    },
-    {
-      "tick": 35,
-      "event": "huge_wave",
-      "message": "A huge wave of zombies is approaching!"
-    },
-    {
-      "tick": 35,
-      "event": "final_wave",
-      "message": "Final wave!"
     }
   ],
   "reward": {
@@ -91,7 +63,7 @@
     "target_id": "pvz.base:plants:plantern"
   },
   "special_type": "minigame",
-  "flags_count": 1,
+  "flags_count": 0,
   "zombie_pool": [
     "pvz.base:zombies:zombotany_peashooter",
     "pvz.base:zombies:zombotany_wallnut",

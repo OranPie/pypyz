@@ -1,15 +1,10 @@
 {
   "id": "night_5_flag",
-  "tick": 35,
+  "tick": 30,
   "entries": [
     {
-      "zombie_id": "pvz.base:zombies:buckethead",
-      "count": 1,
-      "lane": 1
-    },
-    {
-      "zombie_id": "pvz.base:zombies:flag",
-      "count": 1,
+      "zombie_id": "pvz.base:zombies:conehead",
+      "count": 3,
       "lane": 1
     }
   ]

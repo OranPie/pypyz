@@ -11,6 +11,7 @@
       "type": "string",
       "enum": ["tutorial", "standard", "minigame", "conveyor", "boss"]
     },
+    "area_override": {"type": "string"},
     "conveyor_belt": {"type": "boolean"},
     "flags_count": {"type": "integer"},
     "zombie_pool": {"type": "array", "items": {"type": "string"}},
