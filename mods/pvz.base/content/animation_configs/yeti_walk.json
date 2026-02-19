@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0f/PvZH_Beastly_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3c/Full_HD_Zombie_Yeti.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/11/Treasure_Yeti_BfN.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b4/Santa_Yeti_Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/Yeti_Zombie_GW2_Boss_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/56/Zombie_Yeti1.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/88/Zombie_YetiH.png",
       "duration_ms": 100
     }
   ],

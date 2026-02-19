@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/18/Gold_Magnet1.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 2,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2f/Magnet_Plant_Shroom_packet.png",
       "duration_ms": 83
     },
     {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b5/Magnet-shroom_Upgrade_2.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/56/Magnet-shroomASOld.png",
+      "duration_ms": 83
+    },
+    {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/35/Magnet_PlantA.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/af/Magnet-shroomAS.png",
       "duration_ms": 83
     }
   ],

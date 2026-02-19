@@ -11,28 +11,19 @@
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/39/Cob_Cannon1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/6a/Bungee-Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5f/Placeholder.jpg",
-      "duration_ms": 100
-    },
-    {
-      "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/63/The_Complete_Zombie2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e2/Bungeezonbi.png",
       "duration_ms": 100
     }
   ],
   "sound_events": [
     {
-      "event": "attack",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
-    },
-    {
       "event": "step",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/05/Bungee_scream3.ogg"
     }
   ]
 }

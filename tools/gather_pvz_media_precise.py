@@ -28,6 +28,7 @@ DIRECT_SOUND_RE = re.compile(
     r"https://static\.wikia\.nocookie\.net/[^\s\"<>]+?\.(?:ogg|mp3|wav)",
     re.IGNORECASE,
 )
+TOKEN_RE = re.compile(r"[a-z0-9]+")
 
 
 @dataclass(frozen=True)
@@ -80,11 +81,12 @@ def _candidate_page_urls(target: Target) -> list[str]:
         "gloom_shroom": "Gloom-shroom",
         "wallnut_bowling": "Wall-nut_Bowling",
         "basic": "Zombie",
-        "conehead_ducky": "Conehead_Ducky_Tube_Zombie",
-        "buckethead_ducky": "Buckethead_Ducky_Tube_Zombie",
+        # PvZ1 ducky variants usually live under parent zombie pages.
+        "conehead_ducky": "Conehead_Zombie_(PvZ)",
+        "buckethead_ducky": "Buckethead_Zombie_(PvZ)",
         "zombotany_peashooter": "Peashooter_Zombie",
         "zombotany_wallnut": "Wall-nut_Zombie",
-        "zombotany_jalapeno": "Jalapeño_Zombie",
+        "zombotany_jalapeno": "Jalapeno_Zombie",
         "zombotany_tallnut": "Tall-nut_Zombie",
         "zombotany_squash": "Squash_Zombie",
     }
@@ -94,6 +96,8 @@ def _candidate_page_urls(target: Target) -> list[str]:
     if local_id in custom:
         slugs.append(custom[local_id])
     slugs.extend([local_id, _slug_from_id(local_id)])
+    if target.category == "zombies":
+        slugs.extend([f"{slug}_(PvZ)" for slug in slugs])
 
     uniq: list[str] = []
     for slug in slugs:
@@ -143,6 +147,54 @@ def _resolve_sound_media_urls(file_pages: list[str]) -> tuple[dict[str, list[str
             continue
 
     return resolved, all_direct
+
+
+def _target_tokens(target_id: str, name: str) -> set[str]:
+    local_id = target_id.rsplit(":", 1)[-1].lower()
+    name_tokens = TOKEN_RE.findall(name.lower())
+    id_tokens = local_id.replace("-", "_").split("_")
+    tokens = {token for token in (*name_tokens, *id_tokens) if len(token) >= 3}
+    # "jalapeno" should also match accented variants in scraped filenames.
+    if "jalapeno" in tokens:
+        tokens.add("jalape")
+    return tokens
+
+
+def _strong_target_tokens(target_id: str) -> set[str]:
+    local_id = target_id.rsplit(":", 1)[-1].lower()
+    strong = set(local_id.replace("-", "_").split("_"))
+    strong -= {"zombie", "plant", "tube", "team"}
+    return {token for token in strong if len(token) >= 4}
+
+
+def _is_generic_texture(url: str) -> bool:
+    text = url.lower()
+    generic_hints = (
+        "site-logo",
+        "placeholder",
+        "disambig",
+        "icon",
+        "logo",
+        "wordmark",
+        "navigation",
+    )
+    return any(hint in text for hint in generic_hints)
+
+
+def _score_texture(url: str, tokens: set[str]) -> int:
+    base = url.lower().rsplit("/", 1)[-1]
+    score = 0
+    if _is_generic_texture(url):
+        score -= 25
+    if "pvz" in base:
+        score += 1
+    for token in tokens:
+        if token in base:
+            score += 6
+    noisy_terms = ("card", "badge", "avatar", "wide", "header", "banner")
+    if any(term in base for term in noisy_terms):
+        score -= 3
+    return score
 
 
 def gather_precise() -> dict:
@@ -237,7 +289,43 @@ def build_mod_files(payload: dict) -> None:
 
     def pick_frames(target_row: dict, limit: int = 4) -> list[str]:
         links = target_row.get("texture_links", [])
-        return links[:limit]
+        if not links:
+            return []
+        target_id = target_row.get("target_id", "")
+        tokens = _target_tokens(target_id, target_row.get("name", ""))
+        strong_tokens = _strong_target_tokens(target_id)
+
+        def strong_match(url: str) -> bool:
+            base = url.lower().rsplit("/", 1)[-1]
+            return any(token in base for token in strong_tokens)
+
+        preferred_links = [url for url in links if strong_match(url)] or links
+        ranked = sorted(
+            preferred_links,
+            key=lambda url: (_score_texture(url, tokens), len(url)),
+            reverse=True,
+        )
+        cleaned = [url for url in ranked if not _is_generic_texture(url)]
+        if len(cleaned) < limit:
+            cleaned = ranked
+        return cleaned[:limit]
+
+    def sound_urls_for_target(target_row: dict) -> list[str]:
+        direct: list[str] = []
+        resolved_map = payload.get("resolved_sound_map", {})
+        for file_page in target_row.get("sound_file_pages", []):
+            direct.extend(resolved_map.get(file_page, []))
+        if not direct:
+            return []
+        # Stable de-dup preserving order.
+        seen: set[str] = set()
+        result: list[str] = []
+        for sound in direct:
+            if sound in seen:
+                continue
+            seen.add(sound)
+            result.append(sound)
+        return result
 
     for row in payload.get("targets", []):
         target_id = row.get("target_id", "")
@@ -262,17 +350,20 @@ def build_mod_files(payload: dict) -> None:
         ]
 
         sound_events: list[dict] = []
-        if category == "zombies" and payload.get("direct_sound_urls"):
-            for sound in payload["direct_sound_urls"]:
+        if category == "zombies":
+            candidate_sounds = sound_urls_for_target(row)
+            if not candidate_sounds:
+                candidate_sounds = payload.get("direct_sound_urls", [])
+            for sound in candidate_sounds:
                 name = sound.lower()
                 if "groan" in name or "zombiebite" in name:
                     event = "step" if "groan" in name else "attack"
                     sound_events.append({"event": event, "sound_url": sound})
-            if not sound_events:
+            if not sound_events and candidate_sounds:
                 sound_events = [
                     {
                         "event": "step",
-                        "sound_url": payload["direct_sound_urls"][0],
+                        "sound_url": candidate_sounds[0],
                     }
                 ]
 

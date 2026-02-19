@@ -1,17 +1,17 @@
 {
-  "id": "zombotany_tallnut_walk",
-  "target_id": "pvz.base:zombies:zombotany_tallnut",
+  "id": "conehead_ducky_walk",
+  "target_id": "pvz.base:zombies:conehead_ducky",
   "fps": 10,
   "loop": true,
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/26/HD_Tallnut_Zombie.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c2/Conehead_Zombie1.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/66/Tallnutseedsel.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f7/Conehead-Zombie.png",
       "duration_ms": 100
     }
   ],

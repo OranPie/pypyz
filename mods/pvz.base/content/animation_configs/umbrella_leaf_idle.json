@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/05/Umbrella_LeafH.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 2,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/19/HD_Umbrella_Leaf_.png",
       "duration_ms": 83
     },
     {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/d8/Umbrella-leafIRL.jpg",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/56/Umbrella_LeafAS.png",
+      "duration_ms": 83
+    },
+    {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1d/Umbrella_Leaf3.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/05/Umbrella_LeafH.png",
       "duration_ms": 83
     }
   ],

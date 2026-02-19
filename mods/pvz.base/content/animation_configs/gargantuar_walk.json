@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/The_SmashH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/60/Encourager_GargantuarGWE.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0f/PvZH_Beastly_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/ef/Smashing_GargantuarH.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1e/Gargantuar5.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a0/Gargantuar_ZombieA.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f7/Giga-gargantuar1.png",
       "duration_ms": 100
     }
   ],

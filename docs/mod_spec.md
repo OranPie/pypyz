@@ -79,3 +79,8 @@ This v1 schema pack covers:
 - Meta/progression (`shop`, `unlock_rules`, `achievements`, `economy`)
 - UX content (`almanac`, `ui_screens`, `audio_events`, `localization`)
 - External media index + animation recognition (`media_resources`, `animation_configs`)
+
+## Adventure level metadata notes
+- `levels/*.json` may include `scripted_events` for timeline cues (music, huge wave, boss phases).
+- `levels/*.json` may include `reward` metadata for stage clear payouts/cards/trophies.
+- `roof_10` is expected to carry boss metadata via `doctor_zomboss` wave + scripted events.

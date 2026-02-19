@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/85/Doom-shroomGW2.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b4/Doom-shroom-hd.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/37/Doom-shroomAS.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/ce/Doom-ShroomBfN.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/4f/Doom-ShroomH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/37/Doom-shroomAS.png",
       "duration_ms": 83
     }
   ],

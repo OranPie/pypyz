@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/08/Tudigong_ZombieGWE.png",
-      "duration_ms": 100
-    },
-    {
-      "frame": 1,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1c/DiggerZombieWagon2009HD.png",
       "duration_ms": 100
     },
     {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/77/Digger_Miner_Zombie_HD.png",
+      "duration_ms": 100
+    },
+    {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/8e/Digger_Zombie2C.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/77/Digger_Miner_Zombie_HD.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/dc/Digger_Zombie1.png",
       "duration_ms": 100
     }
   ],

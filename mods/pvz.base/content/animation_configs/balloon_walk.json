@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/68/Zombie_balloon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/6e/BalloonZombieHD.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/6e/BalloonZombieHD.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/ba/Balloon_Zombie2.png",
       "duration_ms": 100
     }
   ],

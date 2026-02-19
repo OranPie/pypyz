@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e0/Buckethead_ZombieGW2.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/8a/Buckethead_ZombieA.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2f/Beggar_ZombieGWE.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c7/Buckethead_Zombie1.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/44/BrainPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e8/Buckethead_Zombie2.png",
       "duration_ms": 100
     }
   ],

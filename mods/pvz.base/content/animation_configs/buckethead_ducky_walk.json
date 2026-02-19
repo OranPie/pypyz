@@ -1,22 +1,22 @@
 {
-  "id": "football_walk",
-  "target_id": "pvz.base:zombies:football",
+  "id": "buckethead_ducky_walk",
+  "target_id": "pvz.base:zombies:buckethead_ducky",
   "fps": 10,
   "loop": true,
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e8/Giga-Football_Zombie1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/ff/BucketheadZombieTrailer.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/85/Football_Zombie1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c7/Buckethead_Zombie1.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/58/FootballZombie.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b3/Buckethead-Zombie.png",
       "duration_ms": 100
     }
   ],

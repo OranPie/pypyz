@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5d/GarlicBeta.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/21/Garlic2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/7e/GarlicAS.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c1/Garlic21.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2f/GarlicH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/21/Garlic2.png",
       "duration_ms": 83
     }
   ],

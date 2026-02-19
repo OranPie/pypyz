@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 1,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/11/HD_Imitater.png",
       "duration_ms": 83
     },
     {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/8a/Imitater1.png",
+      "duration_ms": 83
+    },
+    {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/ce/ImitaterH.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/74/PvZH_Kabloom_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f2/Imitater2.png",
       "duration_ms": 83
     }
   ],

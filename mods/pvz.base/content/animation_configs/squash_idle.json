@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/01/Squash3.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/94/Butternut_Squash3.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/80/Spooky_SquashHD.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/Squash1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c9/Winter_SquashH.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/15/PvZH_Solar_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/de/ChayoteSquash2.jpg",
       "duration_ms": 83
     }
   ],

@@ -6,7 +6,7 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/88/Snow_Pea_boosted_by_Torchwood.png",
       "duration_ms": 83
     },
     {
@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e3/HD_Snow_Pea1.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/26/Ice_PeashooterGW1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f5/Snow_PeaAS.png",
       "duration_ms": 83
     }
   ],

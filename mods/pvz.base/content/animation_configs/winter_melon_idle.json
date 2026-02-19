@@ -11,17 +11,17 @@
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/92/HD_Winter_Melon.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/24/Winter_Melon2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a1/Winter_MelonAS.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/24/Winter_Melon2.png",
       "duration_ms": 83
     }
   ],

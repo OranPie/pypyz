@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/06/Purple-sporedPuffball.jpg",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/ff/Puffshroom2009HD.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/84/Puff-shroomAS.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/22/Puff-shroom2.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/22/Puff-shroom2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5f/Puff-shroomA.png",
       "duration_ms": 83
     }
   ],

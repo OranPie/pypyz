@@ -8,6 +8,7 @@
     "page_sources": {"type": "array", "items": {"type": "string"}},
     "textures": {"type": "array", "items": {"type": "string"}},
     "sounds": {"type": "array", "items": {"type": "string"}},
-    "notes": {"type": "string"}
+    "notes": {"type": "string"},
+    "raw_snapshot": {"type": "string"}
   }
 }

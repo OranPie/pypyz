@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/27/Bellis_perennis_001.JPG",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/df/Marigolds_zen_garden.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2f/MarigoldBfN.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b9/Marigold_Loading.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/4a/Marigold_2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2f/MarigoldBfN.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/73/Heal_FlowerGW1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/4a/Marigold_2.png",
       "duration_ms": 83
     }
   ],

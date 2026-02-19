@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1e/Three-Headed_ChomperH.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/15/PvZH_Solar_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/cb/Super_ChomperSE.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/16/Chomper2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/50/Chomper-hd.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1e/Three-Headed_ChomperH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/6f/ChomperBfN.png",
       "duration_ms": 83
     }
   ],

@@ -29,7 +29,55 @@
       "zombie_id": "pvz.base:zombies:bungee",
       "count": 4,
       "lane": 4
+    },
+    {
+      "tick": 29,
+      "zombie_id": "pvz.base:zombies:doctor_zomboss",
+      "count": 1,
+      "lane": 3,
+      "flags": [
+        "boss",
+        "finale"
+      ]
     }
   ],
-  "unlock_rules": []
+  "unlock_rules": [],
+  "scripted_events": [
+    {
+      "tick": 3,
+      "event": "music_cue",
+      "cue": "adventure_roof"
+    },
+    {
+      "tick": 17,
+      "event": "huge_wave",
+      "message": "A huge wave of zombies is approaching!"
+    },
+    {
+      "tick": 23,
+      "event": "final_wave",
+      "message": "Final wave!"
+    },
+    {
+      "tick": 29,
+      "event": "boss_spawn",
+      "target_id": "pvz.base:zombies:doctor_zomboss",
+      "message": "Dr. Zomboss enters the battle!"
+    },
+    {
+      "tick": 33,
+      "event": "boss_phase_shift",
+      "phase": "rage"
+    },
+    {
+      "tick": 40,
+      "event": "boss_defeated",
+      "message": "The rooftop is secured!"
+    }
+  ],
+  "reward": {
+    "type": "trophy",
+    "name": "Golden Sunflower Trophy",
+    "coins": 1000
+  }
 }

@@ -6,33 +6,29 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0d/Cherry_Bomb1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a0/Zomboni_rear_Group-Gloom.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/Squash1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f1/Zombonis_rear_strucutre.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/16/Zomboni1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/30/Zomboni_Group-Gloom2.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2d/Zomboni_65.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/fe/Zomboni_Flat_Gloom_2.png",
       "duration_ms": 100
     }
   ],
   "sound_events": [
     {
-      "event": "attack",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
-    },
-    {
       "event": "step",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Explosion.ogg"
     }
   ]
 }

@@ -6,7 +6,7 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/09/PvZH_Strikethrough_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/6a/Fume-shroom_AS_Beta_Design.png",
       "duration_ms": 83
     },
     {
@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/4f/Fume-shroomGW1.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/15/PvZH_Solar_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/7e/Fume-shroomGW2.png",
       "duration_ms": 83
     }
   ],

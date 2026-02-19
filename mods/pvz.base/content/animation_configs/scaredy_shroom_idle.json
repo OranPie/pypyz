@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/ShamrockA.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/37/Scaredy-shroomBeta.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/13/Scaredy-shroom2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/92/Scaredy-shroomGW1.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1b/ShamrockstarA.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/ad/Scaredy-shroomGW2.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Scaredy-shroom1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c8/Scaredy-shroomAS.png",
       "duration_ms": 83
     }
   ],

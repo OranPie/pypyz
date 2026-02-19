@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/PvZH_Crazy_Icon.png",
-      "duration_ms": 100
-    },
-    {
-      "frame": 1,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Newspaper_ZombieGW2.png",
       "duration_ms": 100
     },
     {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/33/Newspaper_ZombieH.png",
+      "duration_ms": 100
+    },
+    {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3c/Newspaper_Zombie2.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/33/Newspaper_ZombieH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/eb/Newspaper_Zombie1.png",
       "duration_ms": 100
     }
   ],

@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0d/Flag_Zombie1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/dd/Flagger_ZombieGWE.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Flag_ZombieH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f3/Zombie_flagpole.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/69/Flag_ZombieGW2.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/44/BrainPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0d/Flag_Zombie1.png",
       "duration_ms": 100
     }
   ],

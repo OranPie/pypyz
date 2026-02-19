@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/6b/Torchwood_Upgrade_1.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1c/HD_Torchwood.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b6/Giga_TorchwoodGW2.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2a/TorchwoodAS.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/39/Torchwoodconcept.jpg",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1c/HD_Torchwood.png",
       "duration_ms": 83
     }
   ],

@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5b/1024px-Clitocybe-odora.jpg",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c4/Ice-shroomAS.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/77/20_Below_Zero.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/77/Ice-shroom2.png",
       "duration_ms": 83
     }
   ],

@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Squashzombie.jpg",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/fc/HD_Ducky_Tube_Squash_Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/03/Squash_zombie.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2e/DS_Squash_Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0c/Sqseed.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/77/HD_Squash_Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1a/Squash_burnt.JPG",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e8/Squash_Zombie1.png",
       "duration_ms": 100
     }
   ],

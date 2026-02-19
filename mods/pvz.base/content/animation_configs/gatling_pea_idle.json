@@ -6,12 +6,12 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/31/Gatling_Pea_Zombie1.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/Pea_GatlingGW2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/40/Gatling_Pea_Zombie2.png",
       "duration_ms": 83
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/Gatling_Pea2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/Pea_GatlingGW2.png",
       "duration_ms": 83
     }
   ],

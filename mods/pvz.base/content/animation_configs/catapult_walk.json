@@ -6,33 +6,24 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/02/Catapult-Zombie.png",
-      "duration_ms": 100
-    },
-    {
-      "frame": 1,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Catapult_ZombieGWE.png",
       "duration_ms": 100
     },
     {
-      "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5f/Placeholder.jpg",
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b5/Catapult_Zombie1.png",
       "duration_ms": 100
     },
     {
-      "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/63/The_Complete_Zombie2.png",
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/02/Catapult-Zombie.png",
       "duration_ms": 100
     }
   ],
   "sound_events": [
     {
-      "event": "attack",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
-    },
-    {
       "event": "step",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/2/21/Basketball.ogg"
     }
   ]
 }

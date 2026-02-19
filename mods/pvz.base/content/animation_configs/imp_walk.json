@@ -11,17 +11,17 @@
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1c/Yeti_ImpGW1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/d8/HD_Imp_Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f6/Future_ImpGW2.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/23/Imp1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1c/Yeti_ImpGW1.png",
       "duration_ms": 100
     }
   ],

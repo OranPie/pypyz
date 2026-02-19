@@ -38,5 +38,26 @@
   "pool_lanes": [
     3,
     4
-  ]
+  ],
+  "scripted_events": [
+    {
+      "tick": 3,
+      "event": "music_cue",
+      "cue": "adventure_pool"
+    },
+    {
+      "tick": 17,
+      "event": "huge_wave",
+      "message": "A huge wave of zombies is approaching!"
+    },
+    {
+      "tick": 23,
+      "event": "final_wave",
+      "message": "Final wave!"
+    }
+  ],
+  "reward": {
+    "type": "plant_card",
+    "target_id": "pvz.base:plants:sea_shroom"
+  }
 }

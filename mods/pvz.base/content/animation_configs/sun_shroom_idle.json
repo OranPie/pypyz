@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/24/Sunnier-ShroomH.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/15/PvZH_Solar_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/98/HD_Sun_Shroom.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/72/Sun-shroomAS.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/24/Sunnier-ShroomH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a6/Sun-shroom1.png",
       "duration_ms": 83
     }
   ],

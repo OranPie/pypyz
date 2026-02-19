@@ -6,12 +6,12 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Spikerock2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3b/Spikerock_Upgrade_2.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3b/Spikerock_Upgrade_2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f4/HD_Spikerock.png",
       "duration_ms": 83
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/9b/Spikerock1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/Spikerock2.png",
       "duration_ms": 83
     }
   ],

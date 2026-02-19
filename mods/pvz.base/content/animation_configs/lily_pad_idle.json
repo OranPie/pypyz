@@ -6,7 +6,7 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3b/Lily_PadAS.png",
       "duration_ms": 83
     },
     {
@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/25/Lilly_pad_pond_flower_stock_by_Enchantedgal_Stock.jpg",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/be/Lily_Pad3.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/bf/Lily_Pad1.png",
       "duration_ms": 83
     }
   ],

@@ -6,7 +6,7 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/54/Zombie1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/89/CommonerZombieAlmanac.png",
       "duration_ms": 100
     },
     {
@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/89/CommonerZombieAlmanac.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c9/Plants_vs._Zombies.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c9/Plants_vs._Zombies.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/cb/Commoner_ZombieGWE.png",
       "duration_ms": 100
     }
   ],

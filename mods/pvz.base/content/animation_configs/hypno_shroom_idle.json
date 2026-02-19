@@ -11,17 +11,17 @@
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 2,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/76/Hypno-shroom-hd.png",
       "duration_ms": 83
     },
     {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/ae/Hypno-shroomGW2.png",
+      "duration_ms": 83
+    },
+    {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/99/Hypno-shroom1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c1/Hypno-shroomAS.png",
       "duration_ms": 83
     }
   ],

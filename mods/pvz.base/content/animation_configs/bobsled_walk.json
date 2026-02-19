@@ -6,7 +6,7 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/09/IMG_1650.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b1/Zombie_Bobsled_Team.png",
       "duration_ms": 100
     },
     {
@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/Bobsled.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/18/Bobsled4.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/18/Bobsled4.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/67/Bobsled3.png",
       "duration_ms": 100
     }
   ],

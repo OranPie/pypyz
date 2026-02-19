@@ -6,7 +6,7 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0f/PvZH_Beastly_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/ba/Snorkel_ZombieGWE.png",
       "duration_ms": 100
     },
     {
@@ -16,12 +16,12 @@
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/7d/Snorkel_Zombie1.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/44/BrainPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b3/Snorkel_Zombie2.png",
       "duration_ms": 100
     }
   ],

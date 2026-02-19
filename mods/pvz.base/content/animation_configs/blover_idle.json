@@ -11,17 +11,17 @@
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a1/BloverAS.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b6/HD_Blover.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b2/Blover2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a1/BloverAS.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b6/HD_Blover.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b2/Blover2.png",
       "duration_ms": 83
     }
   ],

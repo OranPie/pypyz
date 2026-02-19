@@ -11,17 +11,17 @@
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/70/Flower_PotAS.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 2,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/9e/FlowerPot_irl.jpg",
       "duration_ms": 83
     },
     {
-      "frame": 3,
+      "frame": 2,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b1/Flower_PotGWE.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 3,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f3/HD_Flower_Pot.png",
       "duration_ms": 83
     }
   ],

@@ -6,22 +6,7 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/04/HD_Wall-nut_Zombie.png",
-      "duration_ms": 100
-    },
-    {
-      "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0a/Tangle_Kelp1.png",
-      "duration_ms": 100
-    },
-    {
-      "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1e/WallPeas.png",
-      "duration_ms": 100
-    },
-    {
-      "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2e/DS_Wall-nut_Zombie.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/60/Wallnutzombie.PNG",
       "duration_ms": 100
     }
   ],

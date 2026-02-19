@@ -6,12 +6,12 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/08/Conehead_Zombie3.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/22/Conehead_ZombieGW2.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/12/ConeheadH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/08/Conehead_Zombie3.png",
       "duration_ms": 100
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a2/Conehead_ZombieA.png",
       "duration_ms": 100
     }
   ],

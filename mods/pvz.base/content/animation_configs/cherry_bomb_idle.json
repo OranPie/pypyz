@@ -6,12 +6,12 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0d/Cherry_Bomb1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/79/Cherry_BombAS.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0d/Cherry_Bomb1.png",
       "duration_ms": 83
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/Small_Cherry2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2d/Cherry_BombO.png",
       "duration_ms": 83
     }
   ],

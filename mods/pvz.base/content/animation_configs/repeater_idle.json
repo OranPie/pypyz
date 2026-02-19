@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/d4/PvZ2_Repeaters.jpg",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/16/Pea_RepeaterGW1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/bd/Reverse_Repeater1.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/16/Pea_RepeaterGW1.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/25/HD_Repeater.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/d0/RepeaterTencent.png",
       "duration_ms": 83
     }
   ],

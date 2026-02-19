@@ -34,5 +34,26 @@
   "unlock_rules": [
     "pvz.base:unlock_rules:unlock_pool_1",
     "pvz.base:unlock_rules:unlock_jalapeno"
-  ]
+  ],
+  "scripted_events": [
+    {
+      "tick": 3,
+      "event": "music_cue",
+      "cue": "adventure_night"
+    },
+    {
+      "tick": 17,
+      "event": "huge_wave",
+      "message": "A huge wave of zombies is approaching!"
+    },
+    {
+      "tick": 23,
+      "event": "final_wave",
+      "message": "Final wave!"
+    }
+  ],
+  "reward": {
+    "type": "plant_card",
+    "target_id": "pvz.base:plants:jalapeno"
+  }
 }

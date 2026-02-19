@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/14/Jalapeno_Rare_Gacha_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e9/Immature_jalapeno_capsicum_annuum_var_annuum.jpg",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/17/Jalape\u00f1o3.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/af/Jalapeno_Zombie1.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/42/JalapenoAS.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/42/JalapenoAS.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/7d/Jalapeno2.png",
       "duration_ms": 83
     }
   ],

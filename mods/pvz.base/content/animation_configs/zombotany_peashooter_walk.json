@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0d/DuckyTubePeashooterZombie.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/fe/HD_Ducky_Tube_Peashooter_Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/30/Three_peas_burnt.JPG",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/f5/Buttered_Peashooter_Zombie.jpg",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/34/DS_Peashooter_Zombie.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0d/DuckyTubePeashooterZombie.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3d/Peashooter_Zombie3.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/34/DS_Peashooter_Zombie.png",
       "duration_ms": 100
     }
   ],

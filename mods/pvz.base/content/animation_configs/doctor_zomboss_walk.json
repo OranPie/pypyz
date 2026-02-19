@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0c/Dr._Zomboss3.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/79/Dr._ZombossGW1.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/19/Dr._Zomboss2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0c/Dr._Zomboss3.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Dr._Zomboss1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/19/Dr._Zomboss2.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/60/Dr._Zomboss\u2018s_icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Dr._Zomboss1.png",
       "duration_ms": 100
     }
   ],

@@ -11,17 +11,17 @@
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/22/PeashooterH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/53/Peashooterzombie.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/3c/PeashooterBfN.png",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/32/PeashooterA.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/e/e2/PeashooterGW1.png",
       "duration_ms": 83
     }
   ],

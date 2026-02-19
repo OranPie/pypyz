@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/17/HDplus_screendoor.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/c/c4/Screen_Door_ZombieGW2.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/63/Screen_Door_Zombie1.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/44/BrainPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/6/6c/Screen_Door_Zombie3.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/56/Trash_Can_Zombie1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/fa/Screen_Door_ZombieH.png",
       "duration_ms": 100
     }
   ],

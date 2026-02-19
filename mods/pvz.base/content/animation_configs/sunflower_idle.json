@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/06/SunflowerA.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/25/Sunflower_Zombie1.png",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/d/d2/Sunflower2009HD.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/15/PvZH_Solar_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/99/Wildsunflower.jpg",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/21/PvZ_BfN_Support_Class_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/45/SunflowerGW1.png",
       "duration_ms": 83
     }
   ],

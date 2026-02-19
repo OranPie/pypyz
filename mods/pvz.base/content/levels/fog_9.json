@@ -38,5 +38,31 @@
   "pool_lanes": [
     3,
     4
-  ]
+  ],
+  "scripted_events": [
+    {
+      "tick": 2,
+      "event": "music_cue",
+      "cue": "adventure_fog"
+    },
+    {
+      "tick": 8,
+      "event": "fog_roll_in",
+      "density": "medium"
+    },
+    {
+      "tick": 16,
+      "event": "huge_wave",
+      "message": "A huge wave of zombies is approaching!"
+    },
+    {
+      "tick": 22,
+      "event": "final_wave",
+      "message": "Final wave!"
+    }
+  ],
+  "reward": {
+    "type": "plant_card",
+    "target_id": "pvz.base:plants:melon_pult"
+  }
 }

@@ -6,33 +6,29 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/01/Seahorsepogoz.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/ac/Seahorse_Pogo_ZombieEE.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/Squash1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/82/Pogo_Zombie1.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Tall-nut1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/7/74/Pogo-Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/3/34/Trophy2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/01/Seahorsepogoz.png",
       "duration_ms": 100
     }
   ],
   "sound_events": [
     {
-      "event": "attack",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/00/ZombieBite.ogg"
-    },
-    {
       "event": "step",
-      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/5/5e/Groan3.ogg"
+      "sound_url": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0b/Pogo_zombie.ogg"
     }
   ]
 }

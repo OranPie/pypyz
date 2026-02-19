@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0c/Laser_CattailH.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
-      "duration_ms": 83
-    },
-    {
-      "frame": 2,
       "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1d/PvZ_Heroes_Cattail_Tutorial_Bio.png",
       "duration_ms": 83
     },
     {
+      "frame": 1,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0c/Laser_CattailH.png",
+      "duration_ms": 83
+    },
+    {
+      "frame": 2,
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/54/Cattail2009HD.png",
+      "duration_ms": 83
+    },
+    {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/1f/Lawn_Mower.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/25/Cattail(real.jpg",
       "duration_ms": 83
     }
   ],

@@ -20,6 +20,7 @@ python3 -m tools.validate_mod mods/pvz.base --schemas schemas
 python3 -m tools.resolve_load_order mods --schemas schemas
 python3 -m tools.lint_patches mods --schemas schemas
 python3 -m tools.dump_registry mods --schemas schemas
+python3 tools/compare_pvz1_content.py
 ```
 
 See `docs/mod_spec.md` for the full v1 folder format and schema surface.

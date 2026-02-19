@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/PvZH_Crazy_Icon.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/87/Backup_DancerNew3.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b6/Backup_DancerOld.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/44/BrainPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/b7/Backup_DancerGW1.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/47/Disco_Jetpack_Zombie2.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/b/bb/Backup_DancerH.png",
       "duration_ms": 100
     }
   ],

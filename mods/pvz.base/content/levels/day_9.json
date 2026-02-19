@@ -34,5 +34,26 @@
   "unlock_rules": [
     "pvz.base:unlock_rules:unlock_day_10",
     "pvz.base:unlock_rules:unlock_sun_shroom"
-  ]
+  ],
+  "scripted_events": [
+    {
+      "tick": 2,
+      "event": "music_cue",
+      "cue": "adventure_day"
+    },
+    {
+      "tick": 16,
+      "event": "huge_wave",
+      "message": "A huge wave of zombies is approaching!"
+    },
+    {
+      "tick": 22,
+      "event": "final_wave",
+      "message": "Final wave!"
+    }
+  ],
+  "reward": {
+    "type": "plant_card",
+    "target_id": "pvz.base:plants:sun_shroom"
+  }
 }

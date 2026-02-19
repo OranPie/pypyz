@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/10/Squash1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/f/fe/Pole_Vaulting_Zombie1.png",
       "duration_ms": 100
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/15/PoleZombieAlmanac.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/ab/Pole-Vaulting-Zombie.png",
       "duration_ms": 100
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Tall-nut1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/1/15/PoleZombieAlmanac.png",
       "duration_ms": 100
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/Bone.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/5/53/Pole_ZombieGWE.png",
       "duration_ms": 100
     }
   ],

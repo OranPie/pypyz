@@ -6,22 +6,22 @@
   "frames": [
     {
       "frame": 0,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/0/0e/SunPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/a/a9/Tall-nuts_PvZA.jpg",
       "duration_ms": 83
     },
     {
       "frame": 1,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/24/Vine-nutSE.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/9/9b/Tallnut_BattlementGW1.png",
       "duration_ms": 83
     },
     {
       "frame": 2,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/29/Tall-nut1.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/4/41/Tall-Nut_in_Heroes.jpeg",
       "duration_ms": 83
     },
     {
       "frame": 3,
-      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/2/2c/HeartPvZH.png",
+      "texture": "https://static.wikia.nocookie.net/plantsvszombies/images/8/8c/Tall-nut_Zombie1.png",
       "duration_ms": 83
     }
   ],

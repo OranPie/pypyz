@@ -23,6 +23,25 @@
         }
       }
     },
+    "scripted_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tick", "event"],
+        "properties": {
+          "tick": {"type": "integer"},
+          "event": {"type": "string"},
+          "message": {"type": "string"}
+        }
+      }
+    },
+    "reward": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {"type": "string"}
+      }
+    },
     "unlock_rules": {"type": "array", "items": {"type": "string"}
     }
   }
