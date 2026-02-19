@@ -1,7 +1,7 @@
 {
-  "id": "sunny_day",
-  "name": "Sunny Day",
-  "ruleset": "sunny_day",
+  "id": "heat_wave",
+  "name": "Heat Wave",
+  "ruleset": "heat_wave",
   "starting_loadout": [
     "pvz.base:plants:peashooter",
     "pvz.base:plants:sunflower",
@@ -10,6 +10,6 @@
   "seed": 1024,
   "difficulty": "hard",
   "rewards": [
-    "pvz.base:achievements:minigame_sunny_day_clear"
+    "pvz.base:achievements:minigame_heat_wave_clear"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "minigame_heat_wave_clear",
+  "title": "Heat Wave Clear",
+  "description": "Clear mini-game: Heat Wave.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "heat_wave",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 640
+  }
+}

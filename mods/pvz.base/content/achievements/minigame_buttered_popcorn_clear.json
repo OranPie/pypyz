@@ -1,0 +1,15 @@
+{
+  "id": "minigame_buttered_popcorn_clear",
+  "title": "Buttered Popcorn Clear",
+  "description": "Clear mini-game: Buttered Popcorn.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "buttered_popcorn",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 630
+  }
+}

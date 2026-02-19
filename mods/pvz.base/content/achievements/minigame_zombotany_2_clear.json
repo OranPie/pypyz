@@ -1,0 +1,15 @@
+{
+  "id": "minigame_zombotany_2_clear",
+  "title": "ZomBotany 2 Clear",
+  "description": "Clear mini-game: ZomBotany 2.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "zombotany_2",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 680
+  }
+}

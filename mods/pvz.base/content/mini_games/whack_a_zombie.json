@@ -1,6 +1,6 @@
 {
   "id": "whack_a_zombie",
-  "name": "Whack A Zombie",
+  "name": "Whack a Zombie",
   "ruleset": "whack_a_zombie",
   "starting_loadout": [
     "pvz.base:plants:peashooter",

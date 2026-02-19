@@ -1,0 +1,15 @@
+{
+  "id": "minigame_heavy_weapon_clear",
+  "title": "Heavy Weapon Clear",
+  "description": "Clear mini-game: Heavy Weapon.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "heavy_weapon",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 650
+  }
+}

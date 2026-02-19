@@ -1,7 +1,7 @@
 {
   "id": "minigame_invisighoul_clear",
-  "title": "Invisighoul Clear",
-  "description": "Clear mini-game: Invisighoul.",
+  "title": "Invisi-ghoul Clear",
+  "description": "Clear mini-game: Invisi-ghoul.",
   "conditions": [
     {
       "metric": "minigame_wins",

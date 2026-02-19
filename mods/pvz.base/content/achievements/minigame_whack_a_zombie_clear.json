@@ -1,7 +1,7 @@
 {
   "id": "minigame_whack_a_zombie_clear",
-  "title": "Whack A Zombie Clear",
-  "description": "Clear mini-game: Whack A Zombie.",
+  "title": "Whack a Zombie Clear",
+  "description": "Clear mini-game: Whack a Zombie.",
   "conditions": [
     {
       "metric": "minigame_wins",

@@ -1,7 +1,7 @@
 {
-  "id": "little_trouble",
-  "name": "Little Trouble",
-  "ruleset": "little_trouble",
+  "id": "big_trouble_little_zombie",
+  "name": "Big Trouble Little Zombie",
+  "ruleset": "big_trouble_little_zombie",
   "starting_loadout": [
     "pvz.base:plants:peashooter",
     "pvz.base:plants:sunflower",
@@ -10,6 +10,6 @@
   "seed": 1009,
   "difficulty": "normal",
   "rewards": [
-    "pvz.base:achievements:minigame_little_trouble_clear"
+    "pvz.base:achievements:minigame_big_trouble_little_zombie_clear"
   ]
 }

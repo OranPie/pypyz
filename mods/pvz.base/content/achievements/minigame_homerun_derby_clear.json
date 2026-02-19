@@ -1,0 +1,15 @@
+{
+  "id": "minigame_homerun_derby_clear",
+  "title": "Homerun Derby Clear",
+  "description": "Clear mini-game: Homerun Derby.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "homerun_derby",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 620
+  }
+}

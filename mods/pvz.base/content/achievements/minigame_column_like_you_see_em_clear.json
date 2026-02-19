@@ -1,7 +1,7 @@
 {
   "id": "minigame_column_like_you_see_em_clear",
-  "title": "Column Like You See Em Clear",
-  "description": "Clear mini-game: Column Like You See Em.",
+  "title": "Column Like You See 'Em Clear",
+  "description": "Clear mini-game: Column Like You See 'Em.",
   "conditions": [
     {
       "metric": "minigame_wins",

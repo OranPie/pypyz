@@ -1,15 +1,15 @@
 {
-  "id": "air_raid",
-  "name": "Air Raid",
-  "ruleset": "air_raid",
+  "id": "bomb_all_together",
+  "name": "BOMB All Together!",
+  "ruleset": "bomb_all_together",
   "starting_loadout": [
     "pvz.base:plants:peashooter",
     "pvz.base:plants:sunflower",
     "pvz.base:plants:wallnut"
   ],
-  "seed": 1020,
+  "seed": 1021,
   "difficulty": "hard",
   "rewards": [
-    "pvz.base:achievements:minigame_air_raid_clear"
+    "pvz.base:achievements:minigame_bomb_all_together_clear"
   ]
 }

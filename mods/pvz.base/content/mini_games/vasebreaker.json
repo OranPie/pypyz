@@ -1,15 +1,15 @@
 {
-  "id": "high_gravity",
-  "name": "High Gravity",
-  "ruleset": "high_gravity",
+  "id": "vasebreaker",
+  "name": "Vasebreaker",
+  "ruleset": "vasebreaker",
   "starting_loadout": [
     "pvz.base:plants:peashooter",
     "pvz.base:plants:sunflower",
     "pvz.base:plants:wallnut"
   ],
-  "seed": 1022,
+  "seed": 1027,
   "difficulty": "hard",
   "rewards": [
-    "pvz.base:achievements:minigame_high_gravity_clear"
+    "pvz.base:achievements:minigame_vasebreaker_clear"
   ]
 }

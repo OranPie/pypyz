@@ -1,7 +1,7 @@
 {
   "id": "minigame_dr_zomboss_revenge_clear",
-  "title": "Dr Zomboss Revenge Clear",
-  "description": "Clear mini-game: Dr Zomboss Revenge.",
+  "title": "Dr. Zomboss's Revenge Clear",
+  "description": "Clear mini-game: Dr. Zomboss's Revenge.",
   "conditions": [
     {
       "metric": "minigame_wins",

@@ -1,0 +1,15 @@
+{
+  "id": "minigame_bomb_all_together_clear",
+  "title": "BOMB All Together! Clear",
+  "description": "Clear mini-game: BOMB All Together!.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "bomb_all_together",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 610
+  }
+}

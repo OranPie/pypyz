@@ -1,7 +1,7 @@
 {
-  "id": "ice_lane_survival",
-  "name": "Ice Lane Survival",
-  "ruleset": "ice_lane_survival",
+  "id": "zombotany_2",
+  "name": "ZomBotany 2",
+  "ruleset": "zombotany_2",
   "starting_loadout": [
     "pvz.base:plants:peashooter",
     "pvz.base:plants:sunflower",
@@ -10,6 +10,6 @@
   "seed": 1028,
   "difficulty": "hard",
   "rewards": [
-    "pvz.base:achievements:minigame_ice_lane_survival_clear"
+    "pvz.base:achievements:minigame_zombotany_2_clear"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "minigame_wallnut_bowling_clear",
-  "title": "Wallnut Bowling Clear",
-  "description": "Clear mini-game: Wallnut Bowling.",
+  "title": "Wall-nut Bowling Clear",
+  "description": "Clear mini-game: Wall-nut Bowling.",
   "conditions": [
     {
       "metric": "minigame_wins",

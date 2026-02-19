@@ -1,0 +1,15 @@
+{
+  "id": "minigame_zombie_trap_clear",
+  "title": "Zombie Trap Clear",
+  "description": "Clear mini-game: Zombie Trap.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "zombie_trap",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 660
+  }
+}

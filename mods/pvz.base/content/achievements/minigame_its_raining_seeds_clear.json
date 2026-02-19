@@ -1,7 +1,7 @@
 {
   "id": "minigame_its_raining_seeds_clear",
-  "title": "Its Raining Seeds Clear",
-  "description": "Clear mini-game: Its Raining Seeds.",
+  "title": "It's Raining Seeds Clear",
+  "description": "Clear mini-game: It's Raining Seeds.",
   "conditions": [
     {
       "metric": "minigame_wins",

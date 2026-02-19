@@ -1,15 +1,15 @@
 {
-  "id": "can_you_dig_it",
-  "name": "Can You Dig It",
-  "ruleset": "can_you_dig_it",
+  "id": "zombie_trap",
+  "name": "Zombie Trap",
+  "ruleset": "zombie_trap",
   "starting_loadout": [
     "pvz.base:plants:peashooter",
     "pvz.base:plants:sunflower",
     "pvz.base:plants:wallnut"
   ],
-  "seed": 1021,
+  "seed": 1026,
   "difficulty": "hard",
   "rewards": [
-    "pvz.base:achievements:minigame_can_you_dig_it_clear"
+    "pvz.base:achievements:minigame_zombie_trap_clear"
   ]
 }

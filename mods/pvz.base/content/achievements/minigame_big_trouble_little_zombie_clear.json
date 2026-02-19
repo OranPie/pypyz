@@ -1,0 +1,15 @@
+{
+  "id": "minigame_big_trouble_little_zombie_clear",
+  "title": "Big Trouble Little Zombie Clear",
+  "description": "Clear mini-game: Big Trouble Little Zombie.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "big_trouble_little_zombie",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 490
+  }
+}

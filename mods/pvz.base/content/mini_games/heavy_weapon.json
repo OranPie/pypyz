@@ -1,15 +1,15 @@
 {
-  "id": "dead_zeppelin",
-  "name": "Dead Zeppelin",
-  "ruleset": "dead_zeppelin",
+  "id": "heavy_weapon",
+  "name": "Heavy Weapon",
+  "ruleset": "heavy_weapon",
   "starting_loadout": [
     "pvz.base:plants:peashooter",
     "pvz.base:plants:sunflower",
     "pvz.base:plants:wallnut"
   ],
-  "seed": 1026,
+  "seed": 1025,
   "difficulty": "hard",
   "rewards": [
-    "pvz.base:achievements:minigame_dead_zeppelin_clear"
+    "pvz.base:achievements:minigame_heavy_weapon_clear"
   ]
 }

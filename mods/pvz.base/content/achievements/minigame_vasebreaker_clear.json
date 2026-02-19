@@ -1,0 +1,15 @@
+{
+  "id": "minigame_vasebreaker_clear",
+  "title": "Vasebreaker Clear",
+  "description": "Clear mini-game: Vasebreaker.",
+  "conditions": [
+    {
+      "metric": "minigame_wins",
+      "mode": "vasebreaker",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "coins": 670
+  }
+}
